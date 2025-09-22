@@ -501,5 +501,24 @@
       "teamButton": "Conheça Nossa Equipe",
       "historyButton": "Nossa História"
     }
+  },
+  "terms": {
+    "version": "Versão",
+    "title": "Termos de Serviço",
+    "subtitle": "Regras e diretrizes para uso da plataforma FitCoach"
+  },
+  "privacy": {
+    "badge": "LGPD & GDPR Compliant",
+    "title": "Política de Privacidade",
+    "subtitle": "Transparência total no tratamento dos seus dados pessoais"
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "subtitle": "Como usamos cookies para melhorar sua experiência."
+  },
+  "accessibility": {
+    "title": "Declaração de Acessibilidade",
+    "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
+    "compliance": "Conformidade: WCAG 2.1 Nível AA"
   }
 }

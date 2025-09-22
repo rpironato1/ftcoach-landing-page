@@ -4,8 +4,10 @@ import { Switch } from '@/components/ui/switch';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Shield, Lock, Eye, Database, Trash2, Download } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Privacy = () => {
+  const { t } = useTranslation();
   const [preferences, setPreferences] = useState({
     analytics: true,
     marketing: false,
@@ -29,10 +31,10 @@ const Privacy = () => {
               <Shield className="h-8 w-8 text-primary" />
             </div>
           </div>
-          <Badge variant="secondary" className="mb-4">LGPD & GDPR Compliant</Badge>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Política de Privacidade</h1>
+          <Badge variant="secondary" className="mb-4">{t('privacy.badge')}</Badge>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('privacy.title')}</h1>
           <p className="text-xl text-muted-foreground">
-            Transparência total no tratamento dos seus dados pessoais
+            {t('privacy.subtitle')}
           </p>
         </div>
 

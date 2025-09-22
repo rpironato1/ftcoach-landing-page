@@ -1,17 +1,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Check, Ear, Eye, MousePointerClick } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const Accessibility = () => (
-  <div className="min-h-screen py-20 bg-muted/20">
-    <div className="container mx-auto px-4 max-w-4xl">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Declaração de Acessibilidade</h1>
-        <p className="text-xl text-muted-foreground">
-          Nosso compromisso em tornar o FitCoach acessível para todos.
-        </p>
-        <Badge className="mt-4">Conformidade: WCAG 2.1 Nível AA</Badge>
-      </div>
+const Accessibility = () => {
+  const { t } = useTranslation();
+  
+  return (
+    <div className="min-h-screen py-20 bg-muted/20">
+      <div className="container mx-auto px-4 max-w-4xl">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('accessibility.title')}</h1>
+          <p className="text-xl text-muted-foreground">
+            {t('accessibility.subtitle')}
+          </p>
+          <Badge className="mt-4">{t('accessibility.compliance')}</Badge>
+        </div>
 
       <div className="prose prose-lg max-w-none dark:prose-invert">
         <p className="lead">
@@ -74,6 +78,7 @@ const Accessibility = () => (
       </div>
     </div>
   </div>
-);
+  );
+};
 
 export default Accessibility;

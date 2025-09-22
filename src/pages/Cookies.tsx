@@ -1,15 +1,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check, Settings, Shield } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const Cookies = () => (
-  <div className="min-h-screen py-20 bg-muted/20">
-    <div className="container mx-auto px-4 max-w-4xl">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Política de Cookies</h1>
-        <p className="text-xl text-muted-foreground">
-          Como usamos cookies para melhorar sua experiência.
-        </p>
-      </div>
+const Cookies = () => {
+  const { t } = useTranslation();
+  
+  return (
+    <div className="min-h-screen py-20 bg-muted/20">
+      <div className="container mx-auto px-4 max-w-4xl">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('cookies.title')}</h1>
+          <p className="text-xl text-muted-foreground">
+            {t('cookies.subtitle')}
+          </p>
+        </div>
 
       <div className="prose prose-lg max-w-none dark:prose-invert">
         <p className="lead">
@@ -74,6 +78,7 @@ const Cookies = () => (
       </div>
     </div>
   </div>
-);
+  );
+};
 
 export default Cookies;
