@@ -20,10 +20,17 @@
     "support": "Support"
   },
   "hero": {
+    "badge": "Fitness Revolution",
     "title": "Transform your fitness journey with AI",
     "subtitle": "Personalized workouts, intelligent nutrition and real results with FitCoach",
     "cta": "Start Now",
-    "ctaSecondary": "See Plans"
+    "ctaSecondary": "See Demo",
+    "stats": {
+      "transformations": "Transformations",
+      "satisfaction": "Satisfaction",
+      "rating": "Rating",
+      "support": "Support"
+    }
   },
   "plans": {
     "title": "Choose your ideal plan",
@@ -956,6 +963,48 @@
       "email": "support@fitcoach.com",
       "chat": "Live Chat",
       "scheduleButton": "Talk to Specialist"
+    }
+  },
+  "home": {
+    "benefits": {
+      "title": "Why choose FitCoach?",
+      "subtitle": "Discover the differentials that make FitCoach the best choice for your transformation",
+      "personalization": {
+        "title": "Total Personalization",
+        "description": "Advanced AI that creates unique workouts based on your profile, goals and real-time progress."
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "98% of users achieve their goals in the first 3 months with our scientific method."
+      },
+      "efficiency": {
+        "title": "Maximum Efficiency",
+        "description": "Optimized workouts that adapt to your routine and maximize results in less time."
+      }
+    },
+    "testimonials": {
+      "title": "What our users say",
+      "subtitle": "Thousands of people have already transformed their lives with FitCoach",
+      "mariana": {
+        "name": "Mariana Santos",
+        "role": "Marketing Executive",
+        "text": "In 6 months, I lost 33lbs and gained a quality of life I didn't imagine was possible. FitCoach's AI understands exactly what I need."
+      },
+      "carlos": {
+        "name": "Carlos Eduardo",
+        "role": "Software Developer",
+        "text": "As someone who spends all day at the computer, I found workouts that fit my routine. I've never felt so strong and energetic."
+      },
+      "ana": {
+        "name": "Ana Paula",
+        "role": "Pediatric Doctor",
+        "text": "The scientific precision of the workouts impresses me. As a doctor, I can attest: it's the future of personalized fitness."
+      }
+    },
+    "cta": {
+      "title": "Ready for your transformation?",
+      "subtitle": "Join thousands of people who have already changed their lives",
+      "button": "Start Now"
     }
   }
 }

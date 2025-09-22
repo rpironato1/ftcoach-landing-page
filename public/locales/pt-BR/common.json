@@ -20,10 +20,17 @@
     "support": "Suporte"
   },
   "hero": {
+    "badge": "Revolução do Fitness",
     "title": "Transforme sua jornada fitness com IA",
     "subtitle": "Treinos personalizados, nutrição inteligente e resultados reais com FitCoach",
     "cta": "Comece Agora",
-    "ctaSecondary": "Ver Planos"
+    "ctaSecondary": "Ver Demonstração",
+    "stats": {
+      "transformations": "Transformações",
+      "satisfaction": "Satisfação",
+      "rating": "Avaliação",
+      "support": "Suporte"
+    }
   },
   "plans": {
     "title": "Escolha seu plano ideal",
@@ -956,6 +963,48 @@
       "email": "suporte@fitcouch.com.br",
       "chat": "Chat ao Vivo",
       "scheduleButton": "Falar com Especialista"
+    }
+  },
+  "home": {
+    "benefits": {
+      "title": "Por que escolher o FitCoach?",
+      "subtitle": "Descubra os diferenciais que fazem do FitCoach a melhor escolha para sua transformação",
+      "personalization": {
+        "title": "Personalização Total",
+        "description": "IA avançada que cria treinos únicos baseados no seu perfil, objetivos e progresso em tempo real."
+      },
+      "results": {
+        "title": "Resultados Comprovados",
+        "description": "98% dos usuários alcançam seus objetivos nos primeiros 3 meses com nosso método científico."
+      },
+      "efficiency": {
+        "title": "Máxima Eficiência",
+        "description": "Treinos otimizados que se adaptam à sua rotina e maximizam resultados em menos tempo."
+      }
+    },
+    "testimonials": {
+      "title": "O que nossos usuários dizem",
+      "subtitle": "Milhares de pessoas já transformaram suas vidas com o FitCoach",
+      "mariana": {
+        "name": "Mariana Santos",
+        "role": "Executiva de Marketing",
+        "text": "Em 6 meses, perdi 15kg e ganhei uma qualidade de vida que eu não imaginava ser possível. A IA da FitCoach entende exatamente o que eu preciso."
+      },
+      "carlos": {
+        "name": "Carlos Eduardo",
+        "role": "Desenvolvedor de Software",
+        "text": "Como alguém que passa o dia todo no computador, achei treinos que cabem na minha rotina. Nunca me senti tão forte e disposto."
+      },
+      "ana": {
+        "name": "Ana Paula",
+        "role": "Médica Pediatra",
+        "text": "A precisão científica dos treinos me impressiona. Como médica, posso atestar: é o futuro do fitness personalizado."
+      }
+    },
+    "cta": {
+      "title": "Pronto para sua transformação?",
+      "subtitle": "Junte-se a milhares de pessoas que já mudaram de vida",
+      "button": "Começar Agora"
     }
   }
 }
