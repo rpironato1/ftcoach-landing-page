@@ -4,17 +4,20 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Entre em Contato
+            {t('contact.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Estamos aqui para ajudar. Envie sua mensagem e retornaremos em breve.
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -22,29 +25,29 @@ const Contact = () => {
           {/* Contact Form */}
           <Card>
             <CardHeader>
-              <CardTitle>Envie sua Mensagem</CardTitle>
-              <CardDescription>Preencha o formulário abaixo.</CardDescription>
+              <CardTitle>{t('contact.form.title')}</CardTitle>
+              <CardDescription>{t('contact.form.description')}</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="space-y-4">
                 <div className="grid sm:grid-cols-2 gap-4">
-                  <Input placeholder="Nome" />
-                  <Input placeholder="Sobrenome" />
+                  <Input placeholder={t('contact.form.firstName')} />
+                  <Input placeholder={t('contact.form.lastName')} />
                 </div>
-                <Input type="email" placeholder="Email" />
+                <Input type="email" placeholder={t('contact.form.email')} />
                 <Select>
                   <SelectTrigger>
-                    <SelectValue placeholder="Selecione o Assunto" />
+                    <SelectValue placeholder={t('contact.form.subjectPlaceholder')} />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="support">Suporte Técnico</SelectItem>
-                    <SelectItem value="billing">Financeiro</SelectItem>
-                    <SelectItem value="partnership">Parcerias</SelectItem>
-                    <SelectItem value="other">Outro</SelectItem>
+                    <SelectItem value="support">{t('contact.form.subjects.support')}</SelectItem>
+                    <SelectItem value="billing">{t('contact.form.subjects.billing')}</SelectItem>
+                    <SelectItem value="partnership">{t('contact.form.subjects.partnership')}</SelectItem>
+                    <SelectItem value="other">{t('contact.form.subjects.other')}</SelectItem>
                   </SelectContent>
                 </Select>
-                <Textarea placeholder="Sua mensagem" rows={5} />
-                <Button type="submit" className="w-full">Enviar</Button>
+                <Textarea placeholder={t('contact.form.messagePlaceholder')} rows={5} />
+                <Button type="submit" className="w-full">{t('contact.form.submit')}</Button>
               </form>
             </CardContent>
           </Card>
@@ -53,28 +56,28 @@ const Contact = () => {
           <div className="space-y-8">
             <Card>
               <CardHeader>
-                <CardTitle>Informações de Contato</CardTitle>
+                <CardTitle>{t('contact.info.title')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Mail className="h-6 w-6 text-primary" />
                   <div>
-                    <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">contato@fitcoach.com.br</p>
+                    <p className="font-semibold">{t('contact.info.email.label')}</p>
+                    <p className="text-muted-foreground">{t('contact.info.email.value')}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="h-6 w-6 text-primary" />
                   <div>
-                    <p className="font-semibold">Telefone</p>
-                    <p className="text-muted-foreground">+55 (11) 99999-9999</p>
+                    <p className="font-semibold">{t('contact.info.phone.label')}</p>
+                    <p className="text-muted-foreground">{t('contact.info.phone.value')}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="h-6 w-6 text-primary" />
                   <div>
-                    <p className="font-semibold">Endereço</p>
-                    <p className="text-muted-foreground">São Paulo, Brasil</p>
+                    <p className="font-semibold">{t('contact.info.address.label')}</p>
+                    <p className="text-muted-foreground">{t('contact.info.address.value')}</p>
                   </div>
                 </div>
               </CardContent>

@@ -13,54 +13,56 @@ import {
   Phone
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useTranslation } from 'react-i18next';
 
 const FAQ = () => {
+  const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedItems, setExpandedItems] = useState<number[]>([1]);
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const categories = [
-    { id: 'all', name: 'Todas' },
-    { id: 'getting-started', name: 'Primeiros Passos' },
-    { id: 'account', name: 'Conta' },
-    { id: 'workouts', name: 'Treinos' },
-    { id: 'billing', name: 'Pagamento' }
+    { id: 'all', name: t('faq.categories.all') },
+    { id: 'getting-started', name: t('faq.categories.gettingStarted') },
+    { id: 'account', name: t('faq.categories.account') },
+    { id: 'workouts', name: t('faq.categories.workouts') },
+    { id: 'billing', name: t('faq.categories.billing') }
   ];
 
   const faqItems = [
     {
       id: 1,
       category: 'getting-started',
-      question: 'Como começar a usar o FitCoach?',
-      answer: 'Baixe o aplicativo, crie sua conta com informações básicas como idade, peso, altura e objetivos. Nossa IA criará um plano personalizado em segundos. Você pode começar com nosso teste gratuito de 7 dias.',
+      question: t('faq.items.1.question'),
+      answer: t('faq.items.1.answer'),
       popular: true
     },
     {
       id: 2,
       category: 'workouts',
-      question: 'Como a IA personaliza meus treinos?',
-      answer: 'Nossa IA analisa seus dados biométricos, histórico de treinos, preferências, limitações físicas e progresso em tempo real. Cada sessão é adaptada baseada em sua performance e feedback.',
+      question: t('faq.items.2.question'),
+      answer: t('faq.items.2.answer'),
       popular: true
     },
     {
       id: 5,
       category: 'account',
-      question: 'Como faço para cancelar minha assinatura?',
-      answer: 'Você pode cancelar a qualquer momento nas configurações da sua conta. O acesso continua até o final do período pago. Não cobramos taxas de cancelamento e o processo é 100% online.',
+      question: t('faq.items.5.question'),
+      answer: t('faq.items.5.answer'),
       popular: true
     },
     {
       id: 12,
       category: 'billing',
-      question: 'Existe período de garantia?',
-      answer: 'Sim! Oferecemos 7 dias grátis para testar todos os recursos. Se não ficar satisfeito, cancele antes do período trial e não será cobrado.',
+      question: t('faq.items.12.question'),
+      answer: t('faq.items.12.answer'),
       popular: true
     },
     {
       id: 3,
       category: 'getting-started',
-      question: 'Preciso de equipamentos para treinar?',
-      answer: 'Não necessariamente! Oferecemos treinos com e sem equipamentos. Você pode escolher treinos apenas com peso corporal ou adicionar equipamentos que tenha disponível. A IA adapta os exercícios conforme seus recursos.',
+      question: t('faq.items.3.question'),
+      answer: t('faq.items.3.answer'),
       popular: false
     },
   ];
@@ -85,10 +87,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Perguntas Frequentes
+            {t('faq.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Encontre respostas para as dúvidas mais comuns sobre o FitCoach
+            {t('faq.subtitle')}
           </p>
         </div>
 
@@ -96,7 +98,7 @@ const FAQ = () => {
           <div className="relative mb-6">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input
-              placeholder="Buscar perguntas..."
+              placeholder={t('faq.searchPlaceholder')}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="pl-10"
@@ -142,18 +144,18 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto mt-16 text-center">
           <Card className="border-0 bg-muted/50 p-8">
             <HelpCircle className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Ainda tem dúvidas?</h3>
+            <h3 className="text-2xl font-bold mb-2">{t('faq.cta.title')}</h3>
             <p className="text-muted-foreground mb-6">
-              Nossa equipe de suporte está aqui para ajudar você.
+              {t('faq.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button>
                 <MessageCircle className="h-4 w-4 mr-2" />
-                Chat ao Vivo
+                {t('faq.cta.liveChat')}
               </Button>
               <Button variant="outline">
                 <Mail className="h-4 w-4 mr-2" />
-                Enviar Email
+                {t('faq.cta.sendEmail')}
               </Button>
             </div>
           </Card>

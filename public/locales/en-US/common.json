@@ -416,5 +416,90 @@
         "description": "Direct support"
       }
     }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help. Send us your message and we'll get back to you soon.",
+    "form": {
+      "title": "Send Your Message",
+      "description": "Fill out the form below.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subjectPlaceholder": "Select Subject",
+      "subjects": {
+        "support": "Technical Support",
+        "billing": "Billing",
+        "partnership": "Partnerships",
+        "other": "Other"
+      },
+      "messagePlaceholder": "Your message",
+      "submit": "Send"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "label": "Email",
+        "value": "contact@fitcoach.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+1 (555) 123-4567"
+      },
+      "address": {
+        "label": "Address",
+        "value": "New York, USA"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to the most common questions about FitCoach",
+    "searchPlaceholder": "Search questions...",
+    "categories": {
+      "all": "All",
+      "gettingStarted": "Getting Started",
+      "account": "Account",
+      "workouts": "Workouts",
+      "billing": "Billing"
+    },
+    "items": {
+      "1": {
+        "question": "How do I start using FitCoach?",
+        "answer": "Download the app, create your account with basic information like age, weight, height and goals. Our AI will create a personalized plan in seconds. You can start with our 7-day free trial."
+      },
+      "2": {
+        "question": "How does AI personalize my workouts?",
+        "answer": "Our AI analyzes your biometric data, workout history, preferences, physical limitations and progress in real time. Each session is adapted based on your performance and feedback."
+      },
+      "3": {
+        "question": "Do I need equipment to train?",
+        "answer": "Not necessarily! We offer workouts with and without equipment. You can choose bodyweight-only workouts or add equipment that you have available. AI adapts exercises according to your resources."
+      },
+      "5": {
+        "question": "How do I cancel my subscription?",
+        "answer": "You can cancel anytime in your account settings. Access continues until the end of the paid period. We don't charge cancellation fees and the process is 100% online."
+      },
+      "12": {
+        "question": "Is there a guarantee period?",
+        "answer": "Yes! We offer 7 days free to test all features. If you're not satisfied, cancel before the trial period and you won't be charged."
+      }
+    },
+    "cta": {
+      "title": "Still have questions?",
+      "subtitle": "Our support team is here to help you.",
+      "liveChat": "Live Chat",
+      "sendEmail": "Send Email"
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "hero": {
+      "title": "Transforming Lives Through",
+      "titleHighlight": "Technology",
+      "subtitle": "We are Latin America's largest AI-powered fitness platform, with the mission of democratizing access to personalized workouts and intelligent nutrition.",
+      "teamButton": "Meet Our Team",
+      "historyButton": "Our Story"
+    }
   }
 }

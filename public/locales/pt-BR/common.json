@@ -416,5 +416,90 @@
         "description": "Suporte direto"
       }
     }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Estamos aqui para ajudar. Envie sua mensagem e retornaremos em breve.",
+    "form": {
+      "title": "Envie sua Mensagem",
+      "description": "Preencha o formulário abaixo.",
+      "firstName": "Nome",
+      "lastName": "Sobrenome", 
+      "email": "Email",
+      "subjectPlaceholder": "Selecione o Assunto",
+      "subjects": {
+        "support": "Suporte Técnico",
+        "billing": "Financeiro",
+        "partnership": "Parcerias",
+        "other": "Outro"
+      },
+      "messagePlaceholder": "Sua mensagem",
+      "submit": "Enviar"
+    },
+    "info": {
+      "title": "Informações de Contato",
+      "email": {
+        "label": "Email",
+        "value": "contato@fitcoach.com.br"
+      },
+      "phone": {
+        "label": "Telefone",
+        "value": "+55 (11) 99999-9999"
+      },
+      "address": {
+        "label": "Endereço",
+        "value": "São Paulo, Brasil"
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Encontre respostas para as dúvidas mais comuns sobre o FitCoach",
+    "searchPlaceholder": "Buscar perguntas...",
+    "categories": {
+      "all": "Todas",
+      "gettingStarted": "Primeiros Passos",
+      "account": "Conta",
+      "workouts": "Treinos",
+      "billing": "Pagamento"
+    },
+    "items": {
+      "1": {
+        "question": "Como começar a usar o FitCoach?",
+        "answer": "Baixe o aplicativo, crie sua conta com informações básicas como idade, peso, altura e objetivos. Nossa IA criará um plano personalizado em segundos. Você pode começar com nosso teste gratuito de 7 dias."
+      },
+      "2": {
+        "question": "Como a IA personaliza meus treinos?",
+        "answer": "Nossa IA analisa seus dados biométricos, histórico de treinos, preferências, limitações físicas e progresso em tempo real. Cada sessão é adaptada baseada em sua performance e feedback."
+      },
+      "3": {
+        "question": "Preciso de equipamentos para treinar?",
+        "answer": "Não necessariamente! Oferecemos treinos com e sem equipamentos. Você pode escolher treinos apenas com peso corporal ou adicionar equipamentos que tenha disponível. A IA adapta os exercícios conforme seus recursos."
+      },
+      "5": {
+        "question": "Como faço para cancelar minha assinatura?",
+        "answer": "Você pode cancelar a qualquer momento nas configurações da sua conta. O acesso continua até o final do período pago. Não cobramos taxas de cancelamento e o processo é 100% online."
+      },
+      "12": {
+        "question": "Existe período de garantia?",
+        "answer": "Sim! Oferecemos 7 dias grátis para testar todos os recursos. Se não ficar satisfeito, cancele antes do período trial e não será cobrado."
+      }
+    },
+    "cta": {
+      "title": "Ainda tem dúvidas?",
+      "subtitle": "Nossa equipe de suporte está aqui para ajudar você.",
+      "liveChat": "Chat ao Vivo",
+      "sendEmail": "Enviar Email"
+    }
+  },
+  "about": {
+    "badge": "Sobre Nós",
+    "hero": {
+      "title": "Transformando Vidas Através da",
+      "titleHighlight": "Tecnologia",
+      "subtitle": "Somos a maior plataforma de fitness com IA da América Latina, com a missão de democratizar o acesso a treinos personalizados e nutrição inteligente.",
+      "teamButton": "Conheça Nossa Equipe",
+      "historyButton": "Nossa História"
+    }
   }
 }
