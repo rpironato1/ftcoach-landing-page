@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "investors": "Investors",
+    "press": "Press",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "help": "Help",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "refund": "Refund",
+    "cookies": "Cookies",
+    "accessibility": "Accessibility",
+    "ai": "AI FocusTraining"
+  },
+  "hero": {
+    "title": "Transform your fitness journey with AI",
+    "subtitle": "Personalized workouts, intelligent nutrition and real results with FitCoach",
+    "cta": "Start Now",
+    "ctaSecondary": "See Plans"
+  },
+  "plans": {
+    "title": "Choose your ideal plan",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save",
+    "popular": "Most Popular",
+    "features": "Features included",
+    "select": "Select Plan"
+  },
+  "footer": {
+    "product": "Product",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "rights": "All rights reserved"
+  }
+}

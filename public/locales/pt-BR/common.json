@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "team": "Quem Somos",
+    "investors": "Investidores",
+    "press": "Imprensa",
+    "faq": "FAQ",
+    "contact": "Contato",
+    "help": "Ajuda",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "refund": "Reembolso",
+    "cookies": "Cookies",
+    "accessibility": "Acessibilidade",
+    "ai": "IA FocusTraining"
+  },
+  "hero": {
+    "title": "Transforme sua jornada fitness com IA",
+    "subtitle": "Treinos personalizados, nutrição inteligente e resultados reais com FitCoach",
+    "cta": "Comece Agora",
+    "ctaSecondary": "Ver Planos"
+  },
+  "plans": {
+    "title": "Escolha seu plano ideal",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "save": "Economize",
+    "popular": "Mais Popular",
+    "features": "Recursos incluídos",
+    "select": "Selecionar Plano"
+  },
+  "footer": {
+    "product": "Produto",
+    "company": "Empresa",
+    "support": "Suporte",
+    "legal": "Legal",
+    "rights": "Todos os direitos reservados"
+  }
+}
