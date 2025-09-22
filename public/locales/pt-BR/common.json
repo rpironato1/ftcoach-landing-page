@@ -561,6 +561,76 @@
       "button": "Comece Agora"
     }
   },
+  "team": {
+    "title": "Conheça Nossa Equipe",
+    "subtitle": "Profissionais apaixonados que estão transformando o futuro do fitness",
+    "leadership": {
+      "title": "Liderança",
+      "subtitle": "A visão e estratégia por trás da FitCoach"
+    },
+    "advisors": {
+      "title": "Conselheiros",
+      "subtitle": "Especialistas que nos guiam para o futuro"
+    },
+    "members": {
+      "ricardo": {
+        "name": "Dr. Ricardo Silva",
+        "role": "CEO & Fundador",
+        "bio": "PhD em Inteligência Artificial pela MIT, com 15 anos de experiência em machine learning aplicado à saúde. Fundador da FitCoach com a missão de democratizar o acesso a treinos personalizados.",
+        "achievements": ["PhD MIT", "50+ patentes", "Autor best-seller"]
+      },
+      "ana": {
+        "name": "Dra. Ana Costa",
+        "role": "Chief Medical Officer",
+        "bio": "Médica especialista em medicina esportiva e nutrição clínica. Responsável por garantir que todos os protocolos sejam seguros e eficazes.",
+        "achievements": ["CRM-SP", "PhD Nutrição", "Autora de 100+ artigos"]
+      },
+      "carlos": {
+        "name": "Carlos Oliveira",
+        "role": "CTO",
+        "bio": "Engenheiro de software com especialização em sistemas distribuídos e IA. Lidera o desenvolvimento da plataforma e algoritmos de personalização.",
+        "achievements": ["Eng. Poli-USP", "Ex-Google", "Y Combinator"]
+      },
+      "mariana": {
+        "name": "Mariana Santos",
+        "role": "Head de Produto",
+        "bio": "Product Manager com MBA em Marketing Digital. Responsável pela experiência do usuário e estratégia de produto.",
+        "achievements": ["MBA FGV", "Ex-Nubank", "Product Awards"]
+      },
+      "pedro": {
+        "name": "Pedro Lima",
+        "role": "Head de Dados",
+        "bio": "Cientista de dados com PhD em Estatística. Desenvolve os algoritmos de machine learning que poweram a personalização.",
+        "achievements": ["PhD Estatística", "Kaggle Master", "50+ modelos"]
+      },
+      "juliana": {
+        "name": "Juliana Ferreira",
+        "role": "Head de Marketing",
+        "bio": "Marketing especialista em growth hacking e branding. Responsável pela estratégia de crescimento e comunicação da marca.",
+        "achievements": ["Ex-99", "Google Certified", "Growth Awards"]
+      }
+    },
+    "advisorList": {
+      "roberto": {
+        "name": "Dr. Roberto Almeida",
+        "role": "Advisor Médico",
+        "company": "Hospital Sírio-Libanês",
+        "expertise": "Medicina Esportiva"
+      },
+      "patricia": {
+        "name": "Patricia Mendes",
+        "role": "Advisor de Negócios",
+        "company": "Sequoia Capital",
+        "expertise": "Scale-ups"
+      },
+      "fernando": {
+        "name": "Fernando Gomes",
+        "role": "Advisor Técnico",
+        "company": "Ex-Uber",
+        "expertise": "Engenharia de Software"
+      }
+    }
+  },
   "terms": {
     "version": "Versão",
     "title": "Termos de Serviço",
