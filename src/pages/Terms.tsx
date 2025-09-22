@@ -9,11 +9,7 @@ const Terms = () => {
   const { t } = useTranslation();
   const [selectedVersion, setSelectedVersion] = useState('2.1');
 
-  const versions = [
-    { version: '2.1', date: '2024-07-25', changes: ['Nova política de reembolso', 'Atualização de limites de uso'] },
-    { version: '2.0', date: '2024-01-15', changes: ['Integração de serviços de IA', 'Termos corporativos'] },
-    { version: '1.2', date: '2023-06-10', changes: ['Ajustes de responsabilidade', 'Política de cancelamento'] },
-  ];
+  const versions = t('terms.versions', { returnObjects: true }) as { version: string, date: string, changes: string[] }[];
 
   return (
     <div className="min-h-screen py-20 bg-gradient-to-b from-background to-muted/20">
@@ -37,10 +33,10 @@ const Terms = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Calendar className="h-5 w-5" />
-              Histórico de Versões
+              {t('terms.history.title')}
             </CardTitle>
             <CardDescription>
-              Selecione uma versão para visualizar os termos específicos
+              {t('terms.history.description')}
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -53,7 +49,7 @@ const Terms = () => {
                   onClick={() => setSelectedVersion(ver.version)}
                 >
                   v{ver.version}
-                  {ver.version === '2.1' && <Badge variant="secondary" className="ml-2">Atual</Badge>}
+                  {ver.version === '2.1' && <Badge variant="secondary" className="ml-2">{t('terms.history.current')}</Badge>}
                 </Button>
               ))}
             </div>
@@ -61,7 +57,7 @@ const Terms = () => {
             {/* Changelog */}
             {selectedVersion && (
               <div className="mt-4 p-4 bg-muted/50 rounded-lg">
-                <h4 className="font-semibold mb-2">Mudanças na versão {selectedVersion}:</h4>
+                <h4 className="font-semibold mb-2">{t('terms.history.changesTitle', { version: selectedVersion })}</h4>
                 <ul className="space-y-1">
                   {versions.find(v => v.version === selectedVersion)?.changes.map((change, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm">
@@ -81,72 +77,43 @@ const Terms = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-red-600">
                 <AlertCircle className="h-5 w-5" />
-                Aviso Importante
+                {t('terms.importantNotice.title')}
               </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm">
-                Ao usar nossos serviços, você concorda com estes termos. Leia-os cuidadosamente. 
-                Eles contém disposições importantes sobre seus direitos e obrigações.
+                {t('terms.importantNotice.content')}
               </p>
             </CardContent>
           </Card>
 
-          <h2>1. Aceitação dos Termos</h2>
-          <p>
-            Ao acessar ou usar a FitCoach, você concorda em ficar vinculado a estes 
-            Termos de Serviço e a nossa Política de Privacidade. Se você não concordar 
-            com qualquer parte dos termos, não poderá acessar o serviço.
-          </p>
+          <h2>{t('terms.sections.s1.title')}</h2>
+          <p>{t('terms.sections.s1.content')}</p>
 
-          <h2>2. Conta do Usuário</h2>
-          <p>
-            Você é responsável por manter a confidencialidade de sua conta e senha. 
-            Concorda em aceitar a responsabilidade por todas as atividades que ocorrem 
-            sob sua conta ou senha.
-          </p>
+          <h2>{t('terms.sections.s2.title')}</h2>
+          <p>{t('terms.sections.s2.content')}</p>
 
-          <h2>3. Serviços de Assinatura</h2>
-          <p>
-            Algumas partes do Serviço são cobradas por assinatura. Você será cobrado 
-            antecipadamente em base recorrente. Todos os pagamentos são não reembolsáveis.
-          </p>
+          <h2>{t('terms.sections.s3.title')}</h2>
+          <p>{t('terms.sections.s3.content')}</p>
 
-          <h2>4. Conteúdo do Usuário</h2>
-          <p>
-            Nosso Serviço permite que você poste, vincule, armazene, compartilhe e 
-            disponibilize de outra forma certas informações, textos, gráficos, vídeos 
-            ou outros materiais. Você é responsável pelo conteúdo que postar.
-          </p>
+          <h2>{t('terms.sections.s4.title')}</h2>
+          <p>{t('terms.sections.s4.content')}</p>
 
-          <h2>5. Propriedade Intelectual</h2>
-          <p>
-            O Serviço e seu conteúdo original, recursos e funcionalidade são e 
-            permanecerão propriedade exclusiva da FitCoach e de seus licenciadores.
-          </p>
+          <h2>{t('terms.sections.s5.title')}</h2>
+          <p>{t('terms.sections.s5.content')}</p>
 
-          <h2>6. Limitação de Responsabilidade</h2>
-          <p>
-            Em nenhum caso a FitCoach, nem seus diretores, funcionários, parceiros, 
-            agentes, fornecedores ou afiliados, serão responsáveis por quaisquer 
-            danos indiretos, incidentais, especiais, consequenciais ou punitivos.
-          </p>
+          <h2>{t('terms.sections.s6.title')}</h2>
+          <p>{t('terms.sections.s6.content')}</p>
 
-          <h2>7. Lei Aplicável</h2>
-          <p>
-            Estes Termos serão regidos e interpretados de acordo com as leis do Brasil, 
-            sem considerar sua disposição sobre conflito de leis.
-          </p>
+          <h2>{t('terms.sections.s7.title')}</h2>
+          <p>{t('terms.sections.s7.content')}</p>
 
-          <h2>8. Alterações</h2>
-          <p>
-            Reservamo-nos o direito, a nosso exclusivo critério, de modificar ou 
-            substituir estes Termos a qualquer momento.
-          </p>
+          <h2>{t('terms.sections.s8.title')}</h2>
+          <p>{t('terms.sections.s8.content')}</p>
 
           <div className="border-t mt-8 pt-6">
             <p className="text-sm text-muted-foreground">
-              Para questões sobre estes Termos de Serviço, entre em contato conosco em legal@fitcoach.com.br
+              {t('terms.contact')}
             </p>
           </div>
         </div>
