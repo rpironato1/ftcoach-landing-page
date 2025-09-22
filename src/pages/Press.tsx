@@ -9,39 +9,41 @@ import {
   FileText,
   Mail
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Press = () => {
+  const { t } = useTranslation();
   const pressReleases = [
     {
       id: 1,
-      title: "FitCoach Levanta R$ 100M em Série C e Se Torna Unicórnio Brasileiro",
+      title: t('press.releases.items.unicorn.title'),
       date: "2024-01-15",
-      category: "Finanças",
-      summary: "Rodada liderada pela Tiger Global vai acelerar expansão internacional e desenvolvimento de novas tecnologias.",
+      category: t('press.releases.categories.finance'),
+      summary: t('press.releases.items.unicorn.summary'),
       media: ["TechCrunch", "Bloomberg", "Exame"],
     },
     {
       id: 2,
-      title: "IA da FitCoach Revoluciona Personalização de Treinos com 98% de Precisão",
+      title: t('press.releases.items.ai.title'),
       date: "2024-01-10",
-      category: "Tecnologia",
-      summary: "Novo algoritmo de machine learning reduz tempo de análise em 70% e aumenta taxa de sucesso dos usuários.",
+      category: t('press.releases.categories.technology'),
+      summary: t('press.releases.items.ai.summary'),
       media: ["G1", "TechTudo", "Olhar Digital"],
     },
     {
       id: 3,
-      title: "FitCoach Alcança Marca de 500 Mil Transformações de Vida",
+      title: t('press.releases.items.milestone.title'),
       date: "2023-12-20",
-      category: "Negócios",
-      summary: "Plataforma brasileira se consolida como líder em fitness personalizado na América Latina.",
+      category: t('press.releases.categories.business'),
+      summary: t('press.releases.items.milestone.summary'),
       media: ["Estadão", "Folha", "Valor Econômico"],
     },
     {
       id: 4,
-      title: "Parceria com Nike Fortalece Posição da FitCoach no Mercado",
+      title: t('press.releases.items.partnership.title'),
       date: "2023-12-15",
-      category: "Parcerias",
-      summary: "Colaboração estratégica vai integrar produtos Nike ao ecossistema FitCoach.",
+      category: t('press.releases.categories.partnerships'),
+      summary: t('press.releases.items.partnership.summary'),
       media: ["Forbes", "Vogue", "GQ"],
     }
   ];
@@ -83,54 +85,54 @@ const Press = () => {
 
   const brandAssets = [
     {
-      name: "Logo Principal",
-      description: "Logo oficial FitCoach em alta resolução",
+      name: t('press.assets.items.logo.name'),
+      description: t('press.assets.items.logo.description'),
       formats: ["PNG", "SVG", "EPS"],
       size: "2.5 MB",
-      category: "Logos"
+      category: t('press.assets.categories.logos')
     },
     {
-      name: "Kit de Cores",
-      description: "Paleta oficial de cores e guidelines",
+      name: t('press.assets.items.colors.name'),
+      description: t('press.assets.items.colors.description'),
       formats: ["PDF", "AI"],
       size: "5.8 MB",
-      category: "Brand Guidelines"
+      category: t('press.assets.categories.brandGuidelines')
     },
     {
-      name: "Fotos da Equipe",
-      description: "Imagens oficiais da liderança executiva",
+      name: t('press.assets.items.team.name'),
+      description: t('press.assets.items.team.description'),
       formats: ["JPG", "PNG"],
       size: "15.2 MB",
-      category: "Fotos"
+      category: t('press.assets.categories.photos')
     },
     {
-      name: "Screenshots do App",
-      description: "Imagens do aplicativo em dispositivos",
+      name: t('press.assets.items.screenshots.name'),
+      description: t('press.assets.items.screenshots.description'),
       formats: ["PNG"],
       size: "8.3 MB",
-      category: "Product"
+      category: t('press.assets.categories.product')
     }
   ];
 
   const mediaKit = [
     {
-      title: "Fact Sheet",
-      description: "Dados rápidos sobre a empresa",
+      title: t('press.mediaKit.items.factSheet.title'),
+      description: t('press.mediaKit.items.factSheet.description'),
       icon: FileText
     },
     {
-      title: "Biografias Executivas",
-      description: "Perfis da liderança",
+      title: t('press.mediaKit.items.bios.title'),
+      description: t('press.mediaKit.items.bios.description'),
       icon: User
     },
     {
-      title: "História da Empresa",
-      description: "Nossa jornada e marcos",
+      title: t('press.mediaKit.items.history.title'),
+      description: t('press.mediaKit.items.history.description'),
       icon: Newspaper
     },
     {
-      title: "Imagens e Logos",
-      description: "Kit de mídia completo",
+      title: t('press.mediaKit.items.images.title'),
+      description: t('press.mediaKit.items.images.description'),
       icon: Download
     }
   ];
