@@ -91,11 +91,10 @@ const PersonalPlans = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 items-start">
-          {/* Planos Pagos */}
-          {plans.filter(p => !p.isFree && !p.isCustom).map((plan) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 items-stretch">
+          {plans.map((plan) => (
             <Card key={plan.id} className={cn(
-              "flex flex-col border-2 transition-all duration-300 hover:shadow-xl lg:col-span-2",
+              "flex flex-col border-2 transition-all duration-300 hover:shadow-xl",
               plan.popular ? "border-primary shadow-2xl relative ring-2 ring-primary/20" : "border-border"
             )}>
               {plan.popular && (
@@ -106,11 +105,19 @@ const PersonalPlans = () => {
               <CardHeader className="text-center">
                 <plan.icon className="h-8 w-8 mx-auto mb-4 text-primary" />
                 <CardTitle className="text-2xl">{plan.name}</CardTitle>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold">R${getPrice(plan)}</span>
-                  <span className="text-muted-foreground">/mês</span>
-                </div>
-                {isYearly && <p className="text-xs text-muted-foreground">cobrado anualmente</p>}
+                {plan.isCustom ? (
+                  <CardDescription>{plan.description}</CardDescription>
+                ) : plan.isFree ? (
+                  <div className="mt-4">
+                    <span className="text-4xl font-bold">{plan.priceText}</span>
+                  </div>
+                ) : (
+                  <div className="mt-4">
+                    <span className="text-4xl font-bold">R${getPrice(plan)}</span>
+                    <span className="text-muted-foreground">/mês</span>
+                    {isYearly && <p className="text-xs text-muted-foreground">cobrado anualmente</p>}
+                  </div>
+                )}
               </CardHeader>
               <CardContent className="flex flex-col flex-grow p-6">
                 <ul className="space-y-3 flex-grow mb-6">
@@ -121,33 +128,19 @@ const PersonalPlans = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full mt-auto" variant={plan.popular ? "default" : "outline"}>
-                  {t('plans.select')}
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-
-          {/* Plano Enterprise */}
-          {plans.filter(p => p.isCustom).map((plan) => (
-            <Card key={plan.id} className="flex flex-col border-2 border-border transition-all duration-300 hover:shadow-xl lg:col-span-2">
-              <CardHeader className="text-center">
-                <plan.icon className="h-8 w-8 mx-auto mb-4 text-primary" />
-                <CardTitle className="text-2xl">{plan.name}</CardTitle>
-                <CardDescription>{plan.description}</CardDescription>
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-6">
-                <ul className="space-y-3 flex-grow mb-6">
-                  {plan.features.map((feature, index) => (
-                    <li key={index} className="flex items-start gap-3 text-sm">
-                      <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Button className="w-full mt-auto" asChild>
-                  <Link to="/contact">{t('plans.contactSales')}</Link>
-                </Button>
+                {plan.isCustom ? (
+                  <Button className="w-full mt-auto" asChild>
+                    <Link to="/contact">{t('plans.contactSales')}</Link>
+                  </Button>
+                ) : plan.isFree ? (
+                  <Button className="w-full mt-auto" variant="outline">
+                    {plan.cta}
+                  </Button>
+                ) : (
+                  <Button className="w-full mt-auto" variant={plan.popular ? "default" : "outline"}>
+                    {t('plans.select')}
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}
