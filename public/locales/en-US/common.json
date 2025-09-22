@@ -1014,5 +1014,94 @@
       "email": "press@fitcouch.com",
       "requestInterview": "Request Interview"
     }
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "subtitle": "Transparency and simplicity in our refund process.",
+    "lead": "At FitCoach, your total satisfaction is our goal. We offer a <strong>7-day free trial</strong> so you can experience all features before any charge. If, for any reason, you are not satisfied, this policy outlines your options.",
+    "eligibility": {
+      "title": "Eligibility for Refund",
+      "item1": {
+        "title": "Cancellation within 7 days after the first charge",
+        "description": "If you are charged after the trial period and decide to cancel within 7 days, you are eligible for a full refund."
+      },
+      "item2": {
+        "title": "Recurring charges",
+        "description": "Refunds are not applicable for monthly or annual renewal charges. You can cancel at any time to avoid future charges."
+      },
+      "item3": {
+        "title": "Technical failures",
+        "description": "If the service was unavailable for an extended period due to our failures, we offer credits or proportional refunds."
+      }
+    },
+    "howTo": {
+      "title": "How to Request a Refund",
+      "steps": [
+        "<strong>Cancel Your Subscription:</strong> Go to \"Settings\" > \"Subscription\" in your profile and cancel the plan.",
+        "<strong>Contact Us:</strong> Send an email to <1>support@fitcoach.com</1> with the subject \"Refund Request\". Include your account email and the reason.",
+        "<strong>Processing:</strong> Our team will review your request within 3 business days. If approved, the refund will be processed within 10 business days to the original payment method."
+      ]
+    },
+    "cta": "Start Refund Request"
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "subtitle": "How we use cookies to improve your experience.",
+    "lead": "This policy explains what cookies are, how we use them on our site, and your options regarding them. By using FitCoach, you agree to the use of cookies in accordance with this policy.",
+    "whatAre": {
+      "title": "What are Cookies?",
+      "description": "Cookies are small text files that are placed on your device by websites you visit. They are widely used to make websites work, or work more efficiently, as well as to provide information to the site owners."
+    },
+    "howWeUse": {
+      "title": "How We Use Cookies",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "Necessary for core functionality, such as login and security. They cannot be disabled."
+      },
+      "performance": {
+        "title": "Performance and Analytics Cookies",
+        "description": "Help us understand how visitors interact with the site by collecting information anonymously."
+      }
+    },
+    "yourOptions": {
+      "title": "Your Options",
+      "description": "You have the right to decide whether to accept or reject cookies. You can exercise your cookie preferences by managing them in your browser settings. Please note that if you choose to reject cookies, you may still use our website, though your access to some functionality and areas may be restricted.",
+      "privacyLink": "For more details on how we manage your data, please see our <1>Privacy Policy</1>."
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility Statement",
+    "subtitle": "Our commitment to making FitCoach accessible to everyone.",
+    "compliance": "Compliance: WCAG 2.1 Level AA",
+    "lead": "FitCoach is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.",
+    "measures": {
+      "title": "Support Measures",
+      "description": "We take the following measures to ensure accessibility:",
+      "items": [
+        "Include accessibility as part of our mission statement.",
+        "Integrate accessibility into our development practices.",
+        "Conduct regular accessibility audits."
+      ]
+    },
+    "cards": {
+      "visual": {
+        "title": "Visual",
+        "description": "Color contrast, resizable text, and screen reader compatibility."
+      },
+      "auditory": {
+        "title": "Auditory",
+        "description": "Captions for videos and transcripts for audio content."
+      },
+      "motor": {
+        "title": "Motor",
+        "description": "Full keyboard navigation and enlarged click areas."
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "We welcome your feedback on the accessibility of FitCoach. Please let us know if you encounter accessibility barriers:",
+      "email": "<strong>Email:</strong> <1>accessibility@fitcoach.com</1>",
+      "response": "We try to respond to feedback within 5 business days."
+    }
   }
 }

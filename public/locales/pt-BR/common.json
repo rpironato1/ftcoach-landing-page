@@ -741,21 +741,127 @@
   "terms": {
     "version": "Versão",
     "title": "Termos de Serviço",
-    "subtitle": "Regras e diretrizes para uso da plataforma FitCoach"
+    "subtitle": "Regras e diretrizes para uso da plataforma FitCoach",
+    "history": {
+      "title": "Histórico de Versões",
+      "description": "Selecione uma versão para visualizar os termos específicos",
+      "current": "Atual",
+      "changesTitle": "Mudanças na versão {version}:"
+    },
+    "versions": [
+      { "version": "2.1", "date": "2024-07-25", "changes": ["Nova política de reembolso", "Atualização nos limites de uso"] },
+      { "version": "2.0", "date": "2024-01-15", "changes": ["Integração de serviços de IA", "Termos corporativos"] },
+      { "version": "1.2", "date": "2023-06-10", "changes": ["Ajustes de responsabilidade", "Política de cancelamento"] }
+    ],
+    "importantNotice": {
+      "title": "Aviso Importante",
+      "content": "Ao usar nossos serviços, você concorda com estes termos. Por favor, leia-os com atenção. Eles contêm disposições importantes sobre seus direitos e obrigações."
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Aceitação dos Termos",
+        "content": "Ao acessar ou usar o FitCoach, você concorda em ficar vinculado a estes Termos de Serviço e à nossa Política de Privacidade. Se você não concordar com qualquer parte dos termos, não poderá acessar o serviço."
+      },
+      "s2": {
+        "title": "2. Conta de Usuário",
+        "content": "Você é responsável por manter a confidencialidade de sua conta e senha. Você concorda em aceitar a responsabilidade por todas as atividades que ocorram sob sua conta ou senha."
+      },
+      "s3": {
+        "title": "3. Serviços de Assinatura",
+        "content": "Algumas partes do Serviço são faturadas com base em assinatura. Você será cobrado antecipadamente de forma recorrente. Todos os pagamentos não são reembolsáveis."
+      },
+      "s4": {
+        "title": "4. Conteúdo do Usuário",
+        "content": "Nosso Serviço permite que você poste, vincule, armazene, compartilhe e disponibilize certas informações, textos, gráficos, vídeos ou outros materiais. Você é responsável pelo conteúdo que posta."
+      },
+      "s5": {
+        "title": "5. Propriedade Intelectual",
+        "content": "O Serviço e seu conteúdo original, recursos e funcionalidades são e permanecerão propriedade exclusiva da FitCoach e de seus licenciadores."
+      },
+      "s6": {
+        "title": "6. Limitação de Responsabilidade",
+        "content": "Em nenhuma circunstância a FitCoach, nem seus diretores, funcionários, parceiros, agentes, fornecedores ou afiliados, serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos."
+      },
+      "s7": {
+        "title": "7. Lei Aplicável",
+        "content": "Estes Termos serão regidos e interpretados de acordo com as leis do Brasil, sem levar em conta o conflito de disposições legais."
+      },
+      "s8": {
+        "title": "8. Alterações",
+        "content": "Reservamo-nos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento."
+      }
+    },
+    "contact": "Para perguntas sobre estes Termos de Serviço, entre em contato conosco em legal@fitcoach.com.br"
   },
   "privacy": {
     "badge": "LGPD & GDPR Compliant",
     "title": "Política de Privacidade",
-    "subtitle": "Transparência total no tratamento dos seus dados pessoais"
-  },
-  "cookies": {
-    "title": "Política de Cookies",
-    "subtitle": "Como usamos cookies para melhorar sua experiência."
-  },
-  "accessibility": {
-    "title": "Declaração de Acessibilidade",
-    "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
-    "compliance": "Conformidade: WCAG 2.1 Nível AA"
+    "subtitle": "Transparência total no tratamento dos seus dados pessoais",
+    "preferences": {
+      "title": "Suas Preferências de Privacidade",
+      "description": "Controle como usamos seus dados para melhorar sua experiência",
+      "essential": {
+        "title": "Cookies Essenciais",
+        "description": "Necessários para o funcionamento do site"
+      },
+      "analytics": {
+        "title": "Análise e Melhoria",
+        "description": "Nos ajuda a entender como você usa o site"
+      },
+      "marketing": {
+        "title": "Marketing Personalizado",
+        "description": "Exibir conteúdo e ofertas relevantes"
+      }
+    },
+    "dataCollection": {
+      "title": "Coleta de Dados",
+      "items": [
+        "Dados de cadastro e perfil",
+        "Dados de saúde e atividade física",
+        "Dados de uso da plataforma",
+        "Dados técnicos e de dispositivo"
+      ]
+    },
+    "yourRights": {
+      "title": "Seus Direitos",
+      "items": [
+        "Acesso aos seus dados",
+        "Correção de informações",
+        "Exclusão de dados (Direito ao esquecimento)",
+        "Portabilidade de dados"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Informações que Coletamos",
+        "content": "Coletamos informações para fornecer melhores serviços a todos os nossos usuários. Isso inclui dados fornecidos voluntariamente, dados coletados automaticamente e dados de terceiros quando autorizados."
+      },
+      "s2": {
+        "title": "2. Como Usamos Suas Informações",
+        "content": "Usamos as informações para operar, fornecer, desenvolver e melhorar os serviços que oferecemos, incluindo personalização de treinos, suporte ao cliente, pesquisa e análise, e comunicação sobre os serviços."
+      },
+      "s3": {
+        "title": "3. Compartilhamento de Informações",
+        "content": "Não vendemos informações pessoais. Compartilhamos informações apenas nas seguintes circunstâncias: com seu consentimento, para processamento por prestadores de serviços, por razões legais ou em caso de transferência de negócios."
+      },
+      "s4": {
+        "title": "4. Segurança dos Dados",
+        "content": "Implementamos medidas de segurança técnicas e organizacionais robustas, projetadas para proteger a segurança de qualquer informação pessoal que processamos."
+      },
+      "s5": {
+        "title": "5. Retenção de Dados",
+        "content": "Reteremos suas informações pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei."
+      }
+    },
+    "actions": {
+      "downloadPdf": "Baixar PDF",
+      "requestDeletion": "Solicitar Exclusão"
+    },
+    "footer": {
+      "lastUpdated": "Última atualização",
+      "policyVersion": "Versão da política",
+      "dpoContact": "Contato do DPO"
+    }
   },
   "investors": {
     "title": "Área do Investidor",
@@ -927,6 +1033,95 @@
       "subtitle": "Para solicitações de entrevistas, informações adicionais ou suporte com materiais, nossa equipe de comunicação está à disposição.",
       "email": "press@fitcouch.com.br",
       "requestInterview": "Solicitar Entrevista"
+    }
+  },
+  "refund": {
+    "title": "Política de Reembolso",
+    "subtitle": "Transparência e simplicidade no nosso processo de reembolso.",
+    "lead": "Na FitCoach, nosso objetivo é sua total satisfação. Oferecemos um período de <strong> teste gratuito de 7 dias</strong> para que você possa experimentar todos os recursos antes de qualquer cobrança. Se, por qualquer motivo, você não estiver satisfeito, esta política descreve suas opções.",
+    "eligibility": {
+      "title": "Elegibilidade para Reembolso",
+      "item1": {
+        "title": "Cancelamento dentro de 7 dias após a primeira cobrança",
+        "description": "Se você for cobrado após o período de teste e decidir cancelar em até 7 dias, você é elegível para um reembolso total."
+      },
+      "item2": {
+        "title": "Cobranças recorrentes",
+        "description": "Reembolsos não são aplicáveis para cobranças de renovação mensal ou anual. Você pode cancelar a qualquer momento para evitar cobranças futuras."
+      },
+      "item3": {
+        "title": "Falhas técnicas",
+        "description": "Se o serviço ficou indisponível por um período prolongado devido a falhas de nossa parte, oferecemos créditos ou reembolsos proporcionais."
+      }
+    },
+    "howTo": {
+      "title": "Como Solicitar um Reembolso",
+      "steps": [
+        "<strong>Cancele sua Assinatura:</strong> Vá para \"Configurações\" > \"Assinatura\" em seu perfil e cancele o plano.",
+        "<strong>Entre em Contato:</strong> Envie um e-mail para <1>suporte@fitcoach.com.br</1> com o assunto \"Solicitação de Reembolso\". Inclua o e-mail da sua conta e o motivo.",
+        "<strong>Processamento:</strong> Nossa equipe analisará sua solicitação em até 3 dias úteis. Se aprovado, o reembolso será processado em até 10 dias úteis no método de pagamento original."
+      ]
+    },
+    "cta": "Iniciar Solicitação de Reembolso"
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "subtitle": "Como usamos cookies para melhorar sua experiência.",
+    "lead": "Esta política explica o que são cookies, como os usamos em nosso site e suas opções em relação a eles. Ao usar o FitCoach, você concorda com o uso de cookies de acordo com esta política.",
+    "whatAre": {
+      "title": "O que são Cookies?",
+      "description": "Cookies são pequenos arquivos de texto que são colocados no seu dispositivo por sites que você visita. Eles são amplamente utilizados para fazer os sites funcionarem, ou funcionarem de forma mais eficiente, bem como para fornecer informações aos proprietários do site."
+    },
+    "howWeUse": {
+      "title": "Como Usamos Cookies",
+      "essential": {
+        "title": "Cookies Essenciais",
+        "description": "Necessários para a funcionalidade principal, como login e segurança. Não podem ser desativados."
+      },
+      "performance": {
+        "title": "Cookies de Desempenho e Análise",
+        "description": "Nos ajudam a entender como os visitantes interagem com o site, coletando informações anonimamente."
+      }
+    },
+    "yourOptions": {
+      "title": "Suas Opções",
+      "description": "Você tem o direito de decidir se aceita ou rejeita cookies. Você pode exercer suas preferências de cookies gerenciando-as nas configurações do seu navegador. Observe que, se você optar por rejeitar os cookies, ainda poderá usar nosso site, embora seu acesso a algumas funcionalidades e áreas possa ser restrito.",
+      "privacyLink": "Para mais detalhes sobre como gerenciamos seus dados, consulte nossa <1>Política de Privacidade</1>."
+    }
+  },
+  "accessibility": {
+    "title": "Declaração de Acessibilidade",
+    "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
+    "compliance": "Conformidade: WCAG 2.1 Nível AA",
+    "lead": "A FitCoach está empenhada em garantir a acessibilidade digital para pessoas com deficiência. Estamos continuamente melhorando a experiência do usuário para todos e aplicando os padrões de acessibilidade relevantes.",
+    "measures": {
+      "title": "Medidas de Suporte",
+      "description": "Tomamos as seguintes medidas para garantir a acessibilidade:",
+      "items": [
+        "Incluímos a acessibilidade como parte de nossa missão.",
+        "Integramos a acessibilidade em nossas práticas de desenvolvimento.",
+        "Realizamos auditorias de acessibilidade regulares."
+      ]
+    },
+    "cards": {
+      "visual": {
+        "title": "Visual",
+        "description": "Contraste de cores, texto redimensionável e compatibilidade com leitores de tela."
+      },
+      "auditory": {
+        "title": "Auditivo",
+        "description": "Legendas em vídeos e transcrições para conteúdo de áudio."
+      },
+      "motor": {
+        "title": "Motor",
+        "description": "Navegação completa via teclado e áreas de clique ampliadas."
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "Agradecemos seu feedback sobre a acessibilidade do FitCoach. Por favor, informe-nos se encontrar barreiras de acessibilidade:",
+      "email": "<strong>E-mail:</strong> <1>acessibilidade@fitcoach.com.br</1>",
+      "response": "Procuramos responder ao feedback dentro de 5 dias úteis."
     }
   }
 }
