@@ -3,16 +3,22 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Team = () => {
+  const { t } = useTranslation();
   const teamMembers = [
     {
       id: 1,
-      name: "Dr. Ricardo Silva",
-      role: "CEO & Fundador",
+      name: t('team.members.ricardo.name'),
+      role: t('team.members.ricardo.role'),
       image: "/placeholder.svg",
-      bio: "PhD em Inteligência Artificial pela MIT, com 15 anos de experiência em machine learning aplicado à saúde. Fundador da FitCoach com a missão de democratizar o acesso a treinos personalizados.",
-      achievements: ["PhD MIT", "50+ patentes", "Autor best-seller"],
+      bio: t('team.members.ricardo.bio'),
+      achievements: [
+        t('team.members.ricardo.achievements.0'),
+        t('team.members.ricardo.achievements.1'),
+        t('team.members.ricardo.achievements.2')
+      ],
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
@@ -21,11 +27,15 @@ const Team = () => {
     },
     {
       id: 2,
-      name: "Dra. Ana Costa",
-      role: "Chief Medical Officer",
+      name: t('team.members.ana.name'),
+      role: t('team.members.ana.role'),
       image: "/placeholder.svg",
-      bio: "Médica especialista em medicina esportiva e nutrição clínica. Responsável por garantir que todos os protocolos sejam seguros e eficazes.",
-      achievements: ["CRM-SP", "PhD Nutrição", "Autora de 100+ artigos"],
+      bio: t('team.members.ana.bio'),
+      achievements: [
+        t('team.members.ana.achievements.0'),
+        t('team.members.ana.achievements.1'),
+        t('team.members.ana.achievements.2')
+      ],
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
@@ -34,11 +44,15 @@ const Team = () => {
     },
     {
       id: 3,
-      name: "Carlos Oliveira",
-      role: "CTO",
+      name: t('team.members.carlos.name'),
+      role: t('team.members.carlos.role'),
       image: "/placeholder.svg",
-      bio: "Engenheiro de software com especialização em sistemas distribuídos e IA. Lidera o desenvolvimento da plataforma e algoritmos de personalização.",
-      achievements: ["Eng. Poli-USP", "Ex-Google", "Y Combinator"],
+      bio: t('team.members.carlos.bio'),
+      achievements: [
+        t('team.members.carlos.achievements.0'),
+        t('team.members.carlos.achievements.1'),
+        t('team.members.carlos.achievements.2')
+      ],
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
@@ -47,11 +61,15 @@ const Team = () => {
     },
     {
       id: 4,
-      name: "Mariana Santos",
-      role: "Head de Produto",
+      name: t('team.members.mariana.name'),
+      role: t('team.members.mariana.role'),
       image: "/placeholder.svg",
-      bio: "Product Manager com MBA em Marketing Digital. Responsável pela experiência do usuário e estratégia de produto.",
-      achievements: ["MBA FGV", "Ex-Nubank", "Product Awards"],
+      bio: t('team.members.mariana.bio'),
+      achievements: [
+        t('team.members.mariana.achievements.0'),
+        t('team.members.mariana.achievements.1'),
+        t('team.members.mariana.achievements.2')
+      ],
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
@@ -60,11 +78,15 @@ const Team = () => {
     },
     {
       id: 5,
-      name: "Pedro Lima",
-      role: "Head de Dados",
+      name: t('team.members.pedro.name'),
+      role: t('team.members.pedro.role'),
       image: "/placeholder.svg",
-      bio: "Cientista de dados com PhD em Estatística. Desenvolve os algoritmos de machine learning que poweram a personalização.",
-      achievements: ["PhD Estatística", "Kaggle Master", "50+ modelos"],
+      bio: t('team.members.pedro.bio'),
+      achievements: [
+        t('team.members.pedro.achievements.0'),
+        t('team.members.pedro.achievements.1'),
+        t('team.members.pedro.achievements.2')
+      ],
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
@@ -73,11 +95,15 @@ const Team = () => {
     },
     {
       id: 6,
-      name: "Juliana Ferreira",
-      role: "Head de Marketing",
+      name: t('team.members.juliana.name'),
+      role: t('team.members.juliana.role'),
       image: "/placeholder.svg",
-      bio: "Marketing especialista em growth hacking e branding. Responsável pela estratégia de crescimento e comunicação da marca.",
-      achievements: ["Ex-99", "Google Certified", "Growth Awards"],
+      bio: t('team.members.juliana.bio'),
+      achievements: [
+        t('team.members.juliana.achievements.0'),
+        t('team.members.juliana.achievements.1'),
+        t('team.members.juliana.achievements.2')
+      ],
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
@@ -88,22 +114,22 @@ const Team = () => {
 
   const advisors = [
     {
-      name: "Dr. Roberto Almeida",
-      role: "Advisor Médico",
-      company: "Hospital Sírio-Libanês",
-      expertise: "Medicina Esportiva"
+      name: t('team.advisorsData.roberto.name'),
+      role: t('team.advisorsData.roberto.role'),
+      company: t('team.advisorsData.roberto.company'),
+      expertise: t('team.advisorsData.roberto.expertise')
     },
     {
-      name: "Patricia Mendes",
-      role: "Advisor de Negócios",
-      company: "Sequoia Capital",
-      expertise: "Scale-ups"
+      name: t('team.advisorsData.patricia.name'),
+      role: t('team.advisorsData.patricia.role'),
+      company: t('team.advisorsData.patricia.company'),
+      expertise: t('team.advisorsData.patricia.expertise')
     },
     {
-      name: "Fernando Gomes",
-      role: "Advisor Técnico",
-      company: "Ex-Uber",
-      expertise: "Engenharia de Software"
+      name: t('team.advisorsData.fernando.name'),
+      role: t('team.advisorsData.fernando.role'),
+      company: t('team.advisorsData.fernando.company'),
+      expertise: t('team.advisorsData.fernando.expertise')
     }
   ];
 
@@ -113,19 +139,19 @@ const Team = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Conheça Nossa Equipe
+            {t('team.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Profissionais apaixonados que estão transformando o futuro do fitness
+            {t('team.subtitle')}
           </p>
         </div>
 
         {/* Leadership Team */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Liderança</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('team.leadership.title')}</h2>
             <p className="text-muted-foreground">
-              A visão e estratégia por trás da FitCoach
+              {t('team.leadership.subtitle')}
             </p>
           </div>
 
@@ -202,9 +228,9 @@ const Team = () => {
         {/* Advisors */}
         <section>
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Conselheiros</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('team.advisors.title')}</h2>
             <p className="text-muted-foreground">
-              Especialistas que nos guiam para o futuro
+              {t('team.advisors.subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

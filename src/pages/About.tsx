@@ -13,36 +13,36 @@ const About = () => {
   const milestones = [
     {
       year: 2020,
-      title: "Fundação da FitCoach",
-      description: "Começamos com a missão de democratizar o acesso a treinos personalizados",
+      title: t('about.milestones.2020.title'),
+      description: t('about.milestones.2020.description'),
       icon: Users,
       color: "bg-blue-500"
     },
     {
       year: 2021,
-      title: "Lançamento da IA",
-      description: "Primeiro algoritmo de personalização fitness do Brasil",
+      title: t('about.milestones.2021.title'),
+      description: t('about.milestones.2021.description'),
       icon: Zap,
       color: "bg-purple-500"
     },
     {
       year: 2022,
-      title: "10 Mil Usuários",
-      description: "Alcançamos a marca de 10 mil transformações realizadas",
+      title: t('about.milestones.2022.title'),
+      description: t('about.milestones.2022.description'),
       icon: Target,
       color: "bg-green-500"
     },
     {
       year: 2023,
-      title: "Expansão Internacional",
-      description: "Lançamento em 5 países da América Latina",
+      title: t('about.milestones.2023.title'),
+      description: t('about.milestones.2023.description'),
       icon: TrendingUp,
       color: "bg-orange-500"
     },
     {
       year: 2024,
-      title: "Líder de Mercado",
-      description: "Maior plataforma de fitness com IA da América Latina",
+      title: t('about.milestones.2024.title'),
+      description: t('about.milestones.2024.description'),
       icon: Award,
       color: "bg-red-500"
     }
@@ -50,36 +50,36 @@ const About = () => {
 
   const values = [
     {
-      title: "Inovação Constante",
-      description: "Investimos 40% da receita em P&D para manter a liderança tecnológica",
+      title: t('about.values.innovation.title'),
+      description: t('about.values.innovation.description'),
       icon: Zap,
       color: "bg-purple-500 text-white"
     },
     {
-      title: "Acessibilidade",
-      description: "Fitness de qualidade deve estar ao alcance de todos, independentemente do nível",
+      title: t('about.values.accessibility.title'),
+      description: t('about.values.accessibility.description'),
       icon: Users,
       color: "bg-blue-500 text-white"
     },
     {
-      title: "Resultados Comprovados",
-      description: "Cada feature é testada e validada com dados reais de milhares de usuários",
+      title: t('about.values.results.title'),
+      description: t('about.values.results.description'),
       icon: Target,
       color: "bg-green-500 text-white"
     },
     {
-      title: "Transparência Total",
-      description: "Dados claros, políticas transparentes e comunicação honesta",
+      title: t('about.values.transparency.title'),
+      description: t('about.values.transparency.description'),
       icon: Award,
       color: "bg-orange-500 text-white"
     }
   ];
 
   const stats = [
-    { label: "Usuários Ativos", value: "50.000+", suffix: "" },
-    { label: "Treinos Criados", value: "2.5", suffix: "M+" },
-    { label: "Taxa de Sucesso", value: "98", suffix: "%" },
-    { label: "Países", value: "8", suffix: "" }
+    { label: t('about.stats.activeUsers'), value: "50.000+", suffix: "" },
+    { label: t('about.stats.workoutsCreated'), value: "2.5", suffix: "M+" },
+    { label: t('about.stats.successRate'), value: "98", suffix: "%" },
+    { label: t('about.stats.countries'), value: "8", suffix: "" }
   ];
 
   return (
@@ -133,10 +133,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Nossa Jornada
+              {t('about.journey.title')}
             </h2>
             <p className="text-xl text-muted-foreground">
-              Como crescemos para nos tornar líderes do mercado
+              {t('about.journey.subtitle')}
             </p>
           </div>
 
@@ -185,10 +185,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Nossos Valores
+              {t('about.values.title')}
             </h2>
             <p className="text-xl text-muted-foreground">
-              Princípios que guiam cada decisão que tomamos
+              {t('about.values.subtitle')}
             </p>
           </div>
 
@@ -214,13 +214,13 @@ const About = () => {
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pronto para fazer parte da nossa história?
+            {t('about.cta.title')}
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Junte-se a milhares de pessoas que já transformaram suas vidas com FitCoach
+            {t('about.cta.subtitle')}
           </p>
           <Button size="lg" variant="secondary">
-            Comece Agora
+            {t('about.cta.button')}
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>

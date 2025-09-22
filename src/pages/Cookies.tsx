@@ -36,13 +36,12 @@ const Cookies = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Shield className="h-5 w-5 text-primary" />
-                Cookies Essenciais
+                {t('cookies.essential.title')}
               </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm">
-                Necessários para a funcionalidade principal, como login e segurança. 
-                Não podem ser desativados.
+                {t('cookies.essential.description')}
               </p>
             </CardContent>
           </Card>
@@ -50,13 +49,12 @@ const Cookies = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Settings className="h-5 w-5 text-primary" />
-                Cookies de Desempenho e Análise
+                {t('cookies.performance.title')}
               </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm">
-                Nos ajudam a entender como os visitantes interagem com o site, 
-                coletando informações anonimamente.
+                {t('cookies.performance.description')}
               </p>
             </CardContent>
           </Card>

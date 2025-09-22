@@ -43,24 +43,24 @@ const Privacy = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Lock className="h-5 w-5" />
-              Suas Preferências de Privacidade
+              {t('privacy.preferences.title')}
             </CardTitle>
             <CardDescription>
-              Controle como usamos seus dados para melhorar sua experiência
+              {t('privacy.preferences.description')}
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-medium">Cookies Essenciais</p>
-                <p className="text-sm text-muted-foreground">Necessários para o funcionamento do site</p>
+                <p className="font-medium">{t('privacy.preferences.essential.title')}</p>
+                <p className="text-sm text-muted-foreground">{t('privacy.preferences.essential.description')}</p>
               </div>
               <Switch checked={preferences.essential} disabled />
             </div>
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-medium">Analytics e Melhoria</p>
-                <p className="text-sm text-muted-foreground">Nos ajuda a entender como você usa o site</p>
+                <p className="font-medium">{t('privacy.preferences.analytics.title')}</p>
+                <p className="text-sm text-muted-foreground">{t('privacy.preferences.analytics.description')}</p>
               </div>
               <Switch 
                 checked={preferences.analytics} 
@@ -69,8 +69,8 @@ const Privacy = () => {
             </div>
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-medium">Marketing Personalizado</p>
-                <p className="text-sm text-muted-foreground">Mostrar conteúdo e ofertas relevantes</p>
+                <p className="font-medium">{t('privacy.preferences.marketing.title')}</p>
+                <p className="text-sm text-muted-foreground">{t('privacy.preferences.marketing.description')}</p>
               </div>
               <Switch 
                 checked={preferences.marketing} 

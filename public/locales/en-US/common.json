@@ -47,6 +47,56 @@
       "address": "New York, USA"
     }
   },
+  "privacy": {
+    "badge": "Version 3.0",
+    "title": "Privacy Policy",
+    "subtitle": "How we protect and manage your personal data",
+    "preferences": {
+      "title": "Your Privacy Preferences",
+      "description": "Control how we use your data to improve your experience",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "Required for website functionality"
+      },
+      "analytics": {
+        "title": "Analytics & Improvement",
+        "description": "Helps us understand how you use the site"
+      },
+      "marketing": {
+        "title": "Personalized Marketing",
+        "description": "Show relevant content and offers"
+      }
+    }
+  },
+  "terms": {
+    "badge": "Version",
+    "title": "Terms of Service",
+    "subtitle": "Terms and conditions for using the FitCoach platform",
+    "version": "Version",
+    "history": {
+      "title": "Version History",
+      "description": "Select a version to view specific terms",
+      "current": "Current",
+      "changes": "Changes in version"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "subtitle": "How we use cookies to improve your experience",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for core functionality like login and security. Cannot be disabled."
+    },
+    "performance": {
+      "title": "Performance and Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site, collecting information anonymously."
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "subtitle": "Our commitment to an inclusive experience for everyone",
+    "compliance": "WCAG 2.1 AA Compliant"
+  },
   "features": {
     "badge": "Features",
     "title": "Cutting-Edge Technology for Extraordinary Results",
@@ -500,6 +550,63 @@
       "subtitle": "We are Latin America's largest AI-powered fitness platform, with the mission of democratizing access to personalized workouts and intelligent nutrition.",
       "teamButton": "Meet Our Team",
       "historyButton": "Our Story"
+    },
+    "stats": {
+      "activeUsers": "Active Users",
+      "workoutsCreated": "Workouts Created",
+      "successRate": "Success Rate",
+      "countries": "Countries"
+    },
+    "journey": {
+      "title": "Our Journey",
+      "subtitle": "How we grew to become market leaders"
+    },
+    "milestones": {
+      "2020": {
+        "title": "FitCoach Foundation",
+        "description": "We started with the mission to democratize access to personalized workouts"
+      },
+      "2021": {
+        "title": "AI Launch",
+        "description": "Brazil's first fitness personalization algorithm"
+      },
+      "2022": {
+        "title": "10 Thousand Users",
+        "description": "We reached the milestone of 10 thousand completed transformations"
+      },
+      "2023": {
+        "title": "International Expansion",
+        "description": "Launch in 5 Latin American countries"
+      },
+      "2024": {
+        "title": "Market Leader",
+        "description": "Largest AI-powered fitness platform in Latin America"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "Principles that guide every decision we make",
+      "innovation": {
+        "title": "Constant Innovation",
+        "description": "We invest 40% of revenue in R&D to maintain technological leadership"
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Quality fitness should be accessible to everyone, regardless of level"
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "Every feature is tested and validated with real data from thousands of users"
+      },
+      "transparency": {
+        "title": "Total Transparency",
+        "description": "Clear data, transparent policies and honest communication"
+      }
+    },
+    "cta": {
+      "title": "Ready to be part of our story?",
+      "subtitle": "Join thousands of people who have already transformed their lives with FitCoach",
+      "button": "Start Now"
     }
   },
   "terms": {
@@ -520,5 +627,192 @@
     "title": "Accessibility Statement",
     "subtitle": "Our commitment to making FitCoach accessible to everyone.",
     "compliance": "Compliance: WCAG 2.1 Level AA"
+  },
+  "investors": {
+    "title": "Investor Relations",
+    "subtitle": "Financial information and updates for our investors",
+    "metrics": {
+      "companyValue": "Company Value",
+      "annualRevenue": "Annual Revenue",
+      "activeUsers": "Active Users",
+      "retentionRate": "Retention Rate"
+    },
+    "funding": {
+      "title": "Investment History",
+      "subtitle": "Our journey of growth and fundraising",
+      "leader": "Lead:",
+      "valuation": "Valuation:",
+      "objective": "Objective:",
+      "rounds": {
+        "seed": "Seed",
+        "seriesA": "Series A",
+        "seriesB": "Series B",
+        "seriesC": "Series C"
+      },
+      "descriptions": {
+        "2020": "MVP development and market validation",
+        "2021": "National expansion and AI development",
+        "2022": "International expansion and acquisitions", 
+        "2024": "Market leadership and new products"
+      }
+    },
+    "documents": {
+      "title": "Investor Documents",
+      "subtitle": "Access our official reports and presentations",
+      "download": "Download",
+      "items": {
+        "presentation": {
+          "title": "Investor Presentation",
+          "description": "Business, market and strategy overview"
+        },
+        "annualReport": {
+          "title": "Annual Report 2023", 
+          "description": "Complete financial and operational performance"
+        },
+        "esgReport": {
+          "title": "ESG Report",
+          "description": "Environmental, social and governance responsibility"
+        }
+      }
+    },
+    "contact": {
+      "title": "Interested in Investing?",
+      "subtitle": "Contact our Investor Relations team for more information about investment opportunities and market updates.",
+      "email": "investors@fitcoach.com",
+      "scheduleButton": "Schedule Meeting"
+    }
+  },
+  "press": {
+    "title": "Press Room",
+    "subtitle": "Resources and information for journalists and media professionals",
+    "releases": {
+      "title": "Press Releases",
+      "subtitle": "Latest news and announcements from FitCoach",
+      "categories": {
+        "finance": "Finance",
+        "technology": "Technology",
+        "business": "Business",
+        "partnerships": "Partnerships"
+      },
+      "readMore": "Read More",
+      "items": {
+        "unicorn": {
+          "title": "FitCoach Raises $100M Series C and Becomes Brazilian Unicorn",
+          "summary": "Round led by Tiger Global will accelerate international expansion and development of new technologies."
+        },
+        "ai": {
+          "title": "FitCoach AI Revolutionizes Workout Personalization with 98% Accuracy",
+          "summary": "New machine learning algorithm reduces analysis time by 70% and increases user success rate."
+        },
+        "milestone": {
+          "title": "FitCoach Reaches 500 Thousand Life Transformations Milestone",
+          "summary": "Brazilian platform consolidates itself as leader in personalized fitness in Latin America."
+        },
+        "partnership": {
+          "title": "Nike Partnership Strengthens FitCoach's Market Position",
+          "summary": "Strategic collaboration will integrate Nike products into the FitCoach ecosystem."
+        }
+      }
+    },
+    "coverage": {
+      "title": "Media Coverage",
+      "subtitle": "How the press has covered our developments",
+      "visit": "Visit"
+    },
+    "assets": {
+      "title": "Brand Assets",
+      "subtitle": "Logos, images and resources for editorial use",
+      "download": "Download",
+      "categories": {
+        "logos": "Logos",
+        "brandGuidelines": "Brand Guidelines",
+        "photos": "Photos",
+        "product": "Product"
+      },
+      "items": {
+        "logo": {
+          "name": "Main Logo",
+          "description": "Official FitCoach logo in high resolution"
+        },
+        "colors": {
+          "name": "Color Kit",
+          "description": "Official color palette and guidelines"
+        },
+        "team": {
+          "name": "Team Photos",
+          "description": "Official images of executive leadership"
+        },
+        "screenshots": {
+          "name": "App Screenshots",
+          "description": "Application images on devices"
+        }
+      }
+    },
+    "mediaKit": {
+      "title": "Media Kit",
+      "subtitle": "Everything you need to cover FitCoach",
+      "items": {
+        "factSheet": {
+          "title": "Fact Sheet",
+          "description": "Quick facts about the company"
+        },
+        "bios": {
+          "title": "Executive Biographies",
+          "description": "Leadership profiles"
+        },
+        "history": {
+          "title": "Company History",
+          "description": "Our journey and milestones"
+        },
+        "images": {
+          "title": "Images and Logos",
+          "description": "Complete media kit"
+        }
+      }
+    },
+    "contact": {
+      "title": "Press Contact",
+      "subtitle": "Contact us for interviews, statements or additional information",
+      "email": "press@fitcoach.com",
+      "phone": "+1 (555) 123-4567",
+      "scheduleButton": "Schedule Interview"
+    }
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "subtitle": "Transparency and simplicity in our refund process.",
+    "intro": "At FitCoach, our goal is your complete satisfaction. We offer a 7-day free trial period so you can experience all features before any charges. If, for any reason, you are not satisfied, this policy describes your options.",
+    "eligibility": {
+      "title": "Refund Eligibility",
+      "items": {
+        "monthly": "Monthly subscription: up to 30 days after billing",
+        "annual": "Annual subscription: up to 30 days after first billing",
+        "enterprise": "Corporate plans: according to specific contract"
+      }
+    },
+    "process": {
+      "title": "How to Request a Refund",
+      "steps": {
+        "1": "Contact us via email or chat",
+        "2": "Provide account information and reason",
+        "3": "Wait for confirmation within 24h",
+        "4": "Refund processed in 5-7 business days"
+      }
+    },
+    "important": {
+      "title": "Important Information",
+      "items": {
+        "noFee": "We don't charge cancellation fees",
+        "dataAccess": "Data preserved for 30 days after cancellation",
+        "support": "Support available throughout the process"
+      }
+    },
+    "contact": {
+      "title": "Need Help?",
+      "subtitle": "Our team is ready to help with any refund questions",
+      "email": "support@fitcoach.com",
+      "chat": "Live Chat",
+      "scheduleButton": "Talk to Specialist"
+    }
   }
 }

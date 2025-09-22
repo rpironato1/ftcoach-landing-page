@@ -47,6 +47,56 @@
       "address": "São Paulo, Brasil"
     }
   },
+  "privacy": {
+    "badge": "Versão 3.0",
+    "title": "Política de Privacidade",
+    "subtitle": "Como protegemos e gerenciamos seus dados pessoais",
+    "preferences": {
+      "title": "Suas Preferências de Privacidade",
+      "description": "Controle como usamos seus dados para melhorar sua experiência",
+      "essential": {
+        "title": "Cookies Essenciais",
+        "description": "Necessários para o funcionamento do site"
+      },
+      "analytics": {
+        "title": "Analytics e Melhoria", 
+        "description": "Nos ajuda a entender como você usa o site"
+      },
+      "marketing": {
+        "title": "Marketing Personalizado",
+        "description": "Mostrar conteúdo e ofertas relevantes"
+      }
+    }
+  },
+  "terms": {
+    "badge": "Versão",
+    "title": "Termos de Serviço",
+    "subtitle": "Termos e condições de uso da plataforma FitCoach",
+    "version": "Versão",
+    "history": {
+      "title": "Histórico de Versões",
+      "description": "Selecione uma versão para visualizar os termos específicos",
+      "current": "Atual",
+      "changes": "Mudanças na versão"
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies", 
+    "subtitle": "Como usamos cookies para melhorar sua experiência",
+    "essential": {
+      "title": "Cookies Essenciais",
+      "description": "Necessários para a funcionalidade principal, como login e segurança. Não podem ser desativados."
+    },
+    "performance": {
+      "title": "Cookies de Desempenho e Análise",
+      "description": "Nos ajudam a entender como os visitantes interagem com o site, coletando informações anonimamente."
+    }
+  },
+  "accessibility": {
+    "title": "Acessibilidade",
+    "subtitle": "Nosso compromisso com uma experiência inclusiva para todos",
+    "compliance": "WCAG 2.1 AA Compatível"
+  },
   "features": {
     "badge": "Recursos",
     "title": "Tecnologia de Ponta para Resultados Extraordinários",
@@ -500,6 +550,63 @@
       "subtitle": "Somos a maior plataforma de fitness com IA da América Latina, com a missão de democratizar o acesso a treinos personalizados e nutrição inteligente.",
       "teamButton": "Conheça Nossa Equipe",
       "historyButton": "Nossa História"
+    },
+    "stats": {
+      "activeUsers": "Usuários Ativos",
+      "workoutsCreated": "Treinos Criados",
+      "successRate": "Taxa de Sucesso",
+      "countries": "Países"
+    },
+    "journey": {
+      "title": "Nossa Jornada",
+      "subtitle": "Como crescemos para nos tornar líderes do mercado"
+    },
+    "milestones": {
+      "2020": {
+        "title": "Fundação da FitCoach",
+        "description": "Começamos com a missão de democratizar o acesso a treinos personalizados"
+      },
+      "2021": {
+        "title": "Lançamento da IA",
+        "description": "Primeiro algoritmo de personalização fitness do Brasil"
+      },
+      "2022": {
+        "title": "10 Mil Usuários",
+        "description": "Alcançamos a marca de 10 mil transformações realizadas"
+      },
+      "2023": {
+        "title": "Expansão Internacional",
+        "description": "Lançamento em 5 países da América Latina"
+      },
+      "2024": {
+        "title": "Líder de Mercado",
+        "description": "Maior plataforma de fitness com IA da América Latina"
+      }
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "subtitle": "Princípios que guiam cada decisão que tomamos",
+      "innovation": {
+        "title": "Inovação Constante",
+        "description": "Investimos 40% da receita em P&D para manter a liderança tecnológica"
+      },
+      "accessibility": {
+        "title": "Acessibilidade",
+        "description": "Fitness de qualidade deve estar ao alcance de todos, independentemente do nível"
+      },
+      "results": {
+        "title": "Resultados Comprovados",
+        "description": "Cada feature é testada e validada com dados reais de milhares de usuários"
+      },
+      "transparency": {
+        "title": "Transparência Total",
+        "description": "Dados claros, políticas transparentes e comunicação honesta"
+      }
+    },
+    "cta": {
+      "title": "Pronto para fazer parte da nossa história?",
+      "subtitle": "Junte-se a milhares de pessoas que já transformaram suas vidas com FitCoach",
+      "button": "Comece Agora"
     }
   },
   "terms": {
@@ -520,5 +627,192 @@
     "title": "Declaração de Acessibilidade",
     "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
     "compliance": "Conformidade: WCAG 2.1 Nível AA"
+  },
+  "investors": {
+    "title": "Área do Investidor",
+    "subtitle": "Informações financeiras e atualizações para nossos investidores",
+    "metrics": {
+      "companyValue": "Valor da Empresa",
+      "annualRevenue": "Receita Anual",
+      "activeUsers": "Usuários Ativos",
+      "retentionRate": "Taxa de Retenção"
+    },
+    "funding": {
+      "title": "Histórico de Investimentos",
+      "subtitle": "Nossa jornada de crescimento e captação de recursos",
+      "leader": "Líder:",
+      "valuation": "Valuação:",
+      "objective": "Objetivo:",
+      "rounds": {
+        "seed": "Semente",
+        "seriesA": "Série A",
+        "seriesB": "Série B", 
+        "seriesC": "Série C"
+      },
+      "descriptions": {
+        "2020": "Desenvolvimento do MVP e validação de mercado",
+        "2021": "Expansão nacional e desenvolvimento da IA",
+        "2022": "Expansão internacional e aquisições",
+        "2024": "Liderança de mercado e novos produtos"
+      }
+    },
+    "documents": {
+      "title": "Documentos para Investidores",
+      "subtitle": "Acesse nossos relatórios e apresentações oficiais",
+      "download": "Baixar",
+      "items": {
+        "presentation": {
+          "title": "Apresentação para Investidores",
+          "description": "Visão geral do negócio, mercado e estratégia"
+        },
+        "annualReport": {
+          "title": "Relatório Anual 2023",
+          "description": "Performance financeira e operacional completa"
+        },
+        "esgReport": {
+          "title": "ESG Report",
+          "description": "Responsabilidade social e ambiental"
+        }
+      }
+    },
+    "contact": {
+      "title": "Interessado em Investir?",
+      "subtitle": "Entre em contato com nosso time de Relações com Investidores para mais informações sobre oportunidades de investimento e atualizações do mercado.",
+      "email": "investors@fitcouch.com.br",
+      "scheduleButton": "Agendar Reunião"
+    }
+  },
+  "press": {
+    "title": "Sala de Imprensa",
+    "subtitle": "Recursos e informações para jornalistas e profissionais de mídia",
+    "releases": {
+      "title": "Comunicados de Imprensa",
+      "subtitle": "Últimas notícias e anúncios da FitCoach",
+      "categories": {
+        "finance": "Finanças",
+        "technology": "Tecnologia",
+        "business": "Negócios",
+        "partnerships": "Parcerias"
+      },
+      "readMore": "Ler Mais",
+      "items": {
+        "unicorn": {
+          "title": "FitCoach Levanta R$ 100M em Série C e Se Torna Unicórnio Brasileiro",
+          "summary": "Rodada liderada pela Tiger Global vai acelerar expansão internacional e desenvolvimento de novas tecnologias."
+        },
+        "ai": {
+          "title": "IA da FitCoach Revoluciona Personalização de Treinos com 98% de Precisão",
+          "summary": "Novo algoritmo de machine learning reduz tempo de análise em 70% e aumenta taxa de sucesso dos usuários."
+        },
+        "milestone": {
+          "title": "FitCoach Alcança Marca de 500 Mil Transformações de Vida",
+          "summary": "Plataforma brasileira se consolida como líder em fitness personalizado na América Latina."
+        },
+        "partnership": {
+          "title": "Parceria com Nike Fortalece Posição da FitCoach no Mercado",
+          "summary": "Colaboração estratégica vai integrar produtos Nike ao ecossistema FitCoach."
+        }
+      }
+    },
+    "coverage": {
+      "title": "Cobertura da Mídia",
+      "subtitle": "Como a imprensa tem coberto nossos desenvolvimentos",
+      "visit": "Visitar"
+    },
+    "assets": {
+      "title": "Assets da Marca",
+      "subtitle": "Logos, imagens e recursos para uso editorial",
+      "download": "Baixar",
+      "categories": {
+        "logos": "Logos",
+        "brandGuidelines": "Brand Guidelines",
+        "photos": "Fotos",
+        "product": "Product"
+      },
+      "items": {
+        "logo": {
+          "name": "Logo Principal",
+          "description": "Logo oficial FitCoach em alta resolução"
+        },
+        "colors": {
+          "name": "Kit de Cores",
+          "description": "Paleta oficial de cores e guidelines"
+        },
+        "team": {
+          "name": "Fotos da Equipe",
+          "description": "Imagens oficiais da liderança executiva"
+        },
+        "screenshots": {
+          "name": "Screenshots do App",
+          "description": "Imagens do aplicativo em dispositivos"
+        }
+      }
+    },
+    "mediaKit": {
+      "title": "Kit de Mídia",
+      "subtitle": "Tudo que você precisa para cobrir a FitCoach",
+      "items": {
+        "factSheet": {
+          "title": "Fact Sheet",
+          "description": "Dados rápidos sobre a empresa"
+        },
+        "bios": {
+          "title": "Biografias Executivas",
+          "description": "Perfis da liderança"
+        },
+        "history": {
+          "title": "História da Empresa",
+          "description": "Nossa jornada e marcos"
+        },
+        "images": {
+          "title": "Imagens e Logos",
+          "description": "Kit de mídia completo"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contato para Imprensa",
+      "subtitle": "Entre em contato conosco para entrevistas, declarações ou informações adicionais",
+      "email": "imprensa@fitcouch.com.br",
+      "phone": "+55 (11) 99999-9999",
+      "scheduleButton": "Agendar Entrevista"
+    }
+  },
+  "refund": {
+    "title": "Política de Reembolso",
+    "subtitle": "Transparência e simplicidade no nosso processo de reembolso.",
+    "intro": "Na FitCoach, nosso objetivo é sua total satisfação. Oferecemos um período de teste gratuito de 7 dias para que você possa experimentar todos os recursos antes de qualquer cobrança. Se, por qualquer motivo, você não estiver satisfeito, esta política descreve suas opções.",
+    "eligibility": {
+      "title": "Elegibilidade para Reembolso",
+      "items": {
+        "monthly": "Assinatura mensal: até 30 dias após a cobrança",
+        "annual": "Assinatura anual: até 30 dias após a primeira cobrança",
+        "enterprise": "Planos corporativos: conforme contrato específico"
+      }
+    },
+    "process": {
+      "title": "Como Solicitar Reembolso",
+      "steps": {
+        "1": "Entre em contato via email ou chat",
+        "2": "Forneça informações da conta e motivo",
+        "3": "Aguarde confirmação em até 24h",
+        "4": "Reembolso processado em 5-7 dias úteis"
+      }
+    },
+    "important": {
+      "title": "Informações Importantes",
+      "items": {
+        "noFee": "Não cobramos taxas de cancelamento",
+        "dataAccess": "Dados preservados por 30 dias após cancelamento",
+        "support": "Suporte disponível durante todo o processo"
+      }
+    },
+    "contact": {
+      "title": "Precisa de Ajuda?",
+      "subtitle": "Nossa equipe está pronta para ajudar com qualquer dúvida sobre reembolsos",
+      "email": "suporte@fitcouch.com.br",
+      "chat": "Chat ao Vivo",
+      "scheduleButton": "Falar com Especialista"
+    }
   }
 }

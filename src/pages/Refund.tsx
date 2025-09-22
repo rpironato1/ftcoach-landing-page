@@ -1,23 +1,24 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, XCircle, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const Refund = () => (
+const Refund = () => {
+  const { t } = useTranslation();
+  
+  return (
   <div className="min-h-screen py-20 bg-muted/20">
     <div className="container mx-auto px-4 max-w-4xl">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Política de Reembolso</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('refund.title')}</h1>
         <p className="text-xl text-muted-foreground">
-          Transparência e simplicidade no nosso processo de reembolso.
+          {t('refund.subtitle')}
         </p>
       </div>
 
       <div className="prose prose-lg max-w-none dark:prose-invert">
         <p className="lead">
-          Na FitCoach, nosso objetivo é sua total satisfação. Oferecemos um período de 
-          <strong> teste gratuito de 7 dias</strong> para que você possa experimentar todos os recursos 
-          antes de qualquer cobrança. Se, por qualquer motivo, você não estiver satisfeito, 
-          esta política descreve suas opções.
+          {t('refund.intro')}
         </p>
 
         <Card className="my-8">
@@ -83,7 +84,8 @@ const Refund = () => (
         </div>
       </div>
     </div>
-  </div>
-);
+    </div>
+  );
+};
 
 export default Refund;
