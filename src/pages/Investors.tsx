@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
 import { 
   TrendingUp, 
   Users, 
@@ -14,30 +15,32 @@ import {
 } from 'lucide-react';
 
 const Investors = () => {
+  const { t } = useTranslation();
+  
   const metrics = [
     {
-      label: "Valor da Empresa",
+      label: t('investors.metrics.companyValue'),
       value: "R$ 500M",
       change: "+150% YoY",
       icon: TrendingUp,
       color: "text-green-600"
     },
     {
-      label: "Receita Anual",
+      label: t('investors.metrics.annualRevenue'),
       value: "R$ 120M",
       change: "+200% YoY",
       icon: DollarSign,
       color: "text-blue-600"
     },
     {
-      label: "Usuários Ativos",
+      label: t('investors.metrics.activeUsers'),
       value: "500K+",
       change: "+300% YoY",
       icon: Users,
       color: "text-purple-600"
     },
     {
-      label: "Taxa de Retenção",
+      label: t('investors.metrics.retentionRate'),
       value: "94%",
       change: "+5% YoY",
       icon: Target,
@@ -47,7 +50,7 @@ const Investors = () => {
 
   const fundingRounds = [
     {
-      round: "Semente",
+      round: t('investors.fundingRounds.seed'),
       year: "2020",
       amount: "R$ 2M",
       lead: "Monashees",
@@ -55,7 +58,7 @@ const Investors = () => {
       description: "Desenvolvimento do MVP e validação de mercado"
     },
     {
-      round: "Série A",
+      round: t('investors.fundingRounds.seriesA'),
       year: "2021",
       amount: "R$ 15M",
       lead: "Kaszek",
@@ -63,7 +66,7 @@ const Investors = () => {
       description: "Expansão nacional e desenvolvimento da IA"
     },
     {
-      round: "Série B",
+      round: t('investors.fundingRounds.seriesB'),
       year: "2022",
       amount: "R$ 50M",
       lead: "SoftBank",
@@ -71,7 +74,7 @@ const Investors = () => {
       description: "Expansão internacional e aquisições"
     },
     {
-      round: "Série C",
+      round: t('investors.fundingRounds.seriesC'),
       year: "2024",
       amount: "R$ 100M",
       lead: "Tiger Global",
@@ -82,22 +85,22 @@ const Investors = () => {
 
   const documents = [
     {
-      title: "Apresentação para Investidores",
-      description: "Visão geral do negócio, mercado e estratégia",
+      title: t('investors.documents.investorPresentation'),
+      description: t('investors.documents.investorPresentationDesc'),
       size: "5.2 MB",
       type: "PDF",
       icon: Presentation
     },
     {
-      title: "Relatório Anual 2023",
-      description: "Performance financeira e operacional completa",
+      title: t('investors.documents.annualReport'),
+      description: t('investors.documents.annualReportDesc'),
       size: "12.8 MB",
       type: "PDF",
       icon: FileText
     },
     {
-      title: "ESG Report",
-      description: "Responsabilidade social e ambiental",
+      title: t('investors.documents.esgReport'),
+      description: t('investors.documents.esgReportDesc'),
       size: "3.1 MB",
       type: "PDF",
       icon: Award
@@ -110,10 +113,10 @@ const Investors = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Área do Investidor
+            {t('investors.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Informações financeiras e atualizações para nossos investidores
+            {t('investors.subtitle')}
           </p>
         </div>
 
@@ -142,9 +145,9 @@ const Investors = () => {
         {/* Funding History */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Histórico de Investimentos</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('investors.fundingHistory.title')}</h2>
             <p className="text-muted-foreground">
-              Nossa jornada de crescimento e captação de recursos
+              {t('investors.fundingHistory.subtitle')}
             </p>
           </div>
 
@@ -163,15 +166,15 @@ const Investors = () => {
                 <CardContent>
                   <div className="grid md:grid-cols-3 gap-4 text-sm">
                     <div>
-                      <span className="font-medium">Líder:</span>
+                      <span className="font-medium">{t('investors.fundingRounds.leader')}:</span>
                       <p className="text-muted-foreground">{round.lead}</p>
                     </div>
                     <div>
-                      <span className="font-medium">Valuação:</span>
+                      <span className="font-medium">{t('investors.fundingRounds.valuation')}:</span>
                       <p className="text-muted-foreground">{round.valuation}</p>
                     </div>
                     <div>
-                      <span className="font-medium">Objetivo:</span>
+                      <span className="font-medium">{t('investors.fundingRounds.objective')}:</span>
                       <p className="text-muted-foreground">{round.description}</p>
                     </div>
                   </div>
@@ -184,9 +187,9 @@ const Investors = () => {
         {/* Investor Documents */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Documentos para Investidores</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('investors.documents.title')}</h2>
             <p className="text-muted-foreground">
-              Acesse nossos relatórios e apresentações oficiais
+              {t('investors.documents.subtitle')}
             </p>
           </div>
 
@@ -206,7 +209,7 @@ const Investors = () => {
                     <span className="text-sm text-muted-foreground">{doc.size}</span>
                     <Button variant="outline" size="sm">
                       <Download className="h-4 w-4 mr-2" />
-                      Baixar
+                      {t('investors.documents.download')}
                     </Button>
                   </div>
                 </CardContent>
@@ -218,19 +221,18 @@ const Investors = () => {
         {/* Contact Section */}
         <section className="bg-muted/50 rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">
-            Interessado em Investir?
+            {t('investors.contact.title')}
           </h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Entre em contato com nosso time de Relações com Investidores para mais informações
-            sobre oportunidades de investimento e atualizações do mercado.
+            {t('investors.contact.subtitle')}
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg">
               <Mail className="h-4 w-4 mr-2" />
-              investors@fitcouch.com.br
+              {t('investors.contact.email')}
             </Button>
             <Button variant="outline" size="lg">
-              Agendar Reunião
+              {t('investors.contact.schedule')}
             </Button>
           </div>
         </section>

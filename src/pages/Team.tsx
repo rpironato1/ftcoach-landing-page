@@ -2,9 +2,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { useTranslation } from 'react-i18next';
 import { Linkedin, Twitter, Mail } from 'lucide-react';
 
 const Team = () => {
+  const { t } = useTranslation();
+  
   const teamMembers = [
     {
       id: 1,
@@ -113,19 +116,19 @@ const Team = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Conheça Nossa Equipe
+            {t('team.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Profissionais apaixonados que estão transformando o futuro do fitness
+            {t('team.subtitle')}
           </p>
         </div>
 
         {/* Leadership Team */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Liderança</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('team.leadership.title')}</h2>
             <p className="text-muted-foreground">
-              A visão e estratégia por trás da FitCoach
+              {t('team.leadership.subtitle')}
             </p>
           </div>
 
@@ -202,9 +205,9 @@ const Team = () => {
         {/* Advisors */}
         <section>
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Conselheiros</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('team.advisors.title')}</h2>
             <p className="text-muted-foreground">
-              Especialistas que nos guiam para o futuro
+              {t('team.advisors.subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

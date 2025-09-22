@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
 import { 
   Download, 
   User, 
@@ -11,6 +12,8 @@ import {
 } from 'lucide-react';
 
 const Press = () => {
+  const { t } = useTranslation();
+  
   const pressReleases = [
     {
       id: 1,
@@ -83,29 +86,29 @@ const Press = () => {
 
   const brandAssets = [
     {
-      name: "Logo Principal",
-      description: "Logo oficial FitCoach em alta resolução",
+      name: t('press.brandAssets.mainLogo'),
+      description: t('press.brandAssets.mainLogoDesc'),
       formats: ["PNG", "SVG", "EPS"],
       size: "2.5 MB",
       category: "Logos"
     },
     {
-      name: "Kit de Cores",
-      description: "Paleta oficial de cores e guidelines",
+      name: t('press.brandAssets.colorKit'),
+      description: t('press.brandAssets.colorKitDesc'),
       formats: ["PDF", "AI"],
       size: "5.8 MB",
       category: "Brand Guidelines"
     },
     {
-      name: "Fotos da Equipe",
-      description: "Imagens oficiais da liderança executiva",
+      name: t('press.brandAssets.teamPhotos'),
+      description: t('press.brandAssets.teamPhotosDesc'),
       formats: ["JPG", "PNG"],
       size: "15.2 MB",
       category: "Fotos"
     },
     {
-      name: "Screenshots do App",
-      description: "Imagens do aplicativo em dispositivos",
+      name: t('press.brandAssets.appScreenshots'),
+      description: t('press.brandAssets.appScreenshotsDesc'),
       formats: ["PNG"],
       size: "8.3 MB",
       category: "Product"
@@ -114,23 +117,23 @@ const Press = () => {
 
   const mediaKit = [
     {
-      title: "Fact Sheet",
-      description: "Dados rápidos sobre a empresa",
+      title: t('press.mediaKit.factSheet'),
+      description: t('press.mediaKit.factSheetDesc'),
       icon: FileText
     },
     {
-      title: "Biografias Executivas",
-      description: "Perfis da liderança",
+      title: t('press.mediaKit.executiveBios'),
+      description: t('press.mediaKit.executiveBiosDesc'),
       icon: User
     },
     {
-      title: "História da Empresa",
-      description: "Nossa jornada e marcos",
+      title: t('press.mediaKit.companyHistory'),
+      description: t('press.mediaKit.companyHistoryDesc'),
       icon: Newspaper
     },
     {
-      title: "Imagens e Logos",
-      description: "Kit de mídia completo",
+      title: t('press.mediaKit.imagesLogos'),
+      description: t('press.mediaKit.imagesLogosDesc'),
       icon: Download
     }
   ];
@@ -141,10 +144,10 @@ const Press = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Sala de Imprensa
+            {t('press.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Recursos e informações para jornalistas e profissionais de mídia
+            {t('press.subtitle')}
           </p>
         </div>
 
@@ -161,7 +164,7 @@ const Press = () => {
                 <CardContent>
                   <Button variant="outline" className="w-full">
                     <Download className="h-4 w-4 mr-2" />
-                    Baixar
+                    {t('press.mediaKit.download')}
                   </Button>
                 </CardContent>
               </Card>
@@ -172,9 +175,9 @@ const Press = () => {
         {/* Press Releases */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Comunicados de Imprensa</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('press.pressReleases.title')}</h2>
             <p className="text-muted-foreground">
-              Últimas notícias e anúncios oficiais
+              {t('press.pressReleases.subtitle')}
             </p>
           </div>
 
@@ -206,7 +209,7 @@ const Press = () => {
                       )}
                     </div>
                     <Button variant="ghost" size="sm">
-                      Ler mais
+                      {t('press.pressReleases.readMore')}
                     </Button>
                   </div>
                 </CardContent>
@@ -218,9 +221,9 @@ const Press = () => {
         {/* Media Coverage */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Cobertura na Mídia</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('press.mediaCoverage.title')}</h2>
             <p className="text-muted-foreground">
-              O que estão dizendo sobre a FitCoach
+              {t('press.mediaCoverage.subtitle')}
             </p>
           </div>
 
@@ -251,7 +254,7 @@ const Press = () => {
                     <Button variant="outline" size="sm" asChild>
                       <a href={coverage.url} target="_blank" rel="noopener noreferrer">
                         <Globe className="h-4 w-4 mr-2" />
-                        Ver Matéria
+                        {t('press.mediaCoverage.viewArticle')}
                       </a>
                     </Button>
                   </div>
@@ -264,9 +267,9 @@ const Press = () => {
         {/* Brand Assets */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Materiais de Marca</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('press.brandAssets.title')}</h2>
             <p className="text-muted-foreground">
-              Logos, imagens e recursos para uso da mídia
+              {t('press.brandAssets.subtitle')}
             </p>
           </div>
 
@@ -293,7 +296,7 @@ const Press = () => {
                   </div>
                   <Button variant="outline" className="w-full">
                     <Download className="h-4 w-4 mr-2" />
-                    Baixar
+                    {t('press.mediaKit.download')}
                   </Button>
                 </CardContent>
               </Card>
@@ -304,19 +307,18 @@ const Press = () => {
         {/* Contact Section */}
         <section className="bg-primary text-primary-foreground rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">
-            Contato para Imprensa
+            {t('press.contact.title')}
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Para solicitações de entrevistas, informações adicionais ou suporte com materiais,
-            nossa equipe de comunicação está à disposição.
+            {t('press.contact.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary">
               <Mail className="h-4 w-4 mr-2" />
-              press@fitcouch.com.br
+              {t('press.contact.email')}
             </Button>
             <Button variant="outline" size="lg" className="bg-primary-foreground/10 hover:bg-primary-foreground/20">
-              Solicitar Entrevista
+              {t('press.contact.requestInterview')}
             </Button>
           </div>
         </section>
