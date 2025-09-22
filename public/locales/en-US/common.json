@@ -23,7 +23,56 @@
     "title": "Transform your fitness journey with AI",
     "subtitle": "Personalized workouts, intelligent nutrition and real results with FitCoach",
     "cta": "Start Now",
-    "ctaSecondary": "See Plans"
+    "ctaSecondary": "Watch Demo",
+    "badge": "🚀 Artificial Intelligence for Fitness",
+    "stats": {
+      "transformations": "Transformations",
+      "satisfaction": "Satisfaction",
+      "rating": "Rating", 
+      "support": "AI Support"
+    }
+  },
+  "home": {
+    "benefits": {
+      "title": "Why choose FitCoach?",
+      "subtitle": "Cutting-edge technology that revolutionizes your fitness journey",
+      "personalization": {
+        "title": "Total Personalization",
+        "description": "AI that learns from your progress and adapts workouts in real time"
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "98% satisfaction with over 50 thousand completed transformations"
+      },
+      "efficiency": {
+        "title": "Maximum Efficiency", 
+        "description": "30-minute workouts with results superior to 2h at the gym"
+      }
+    },
+    "testimonials": {
+      "title": "Real Transformations",
+      "subtitle": "See what our clients are saying",
+      "mariana": {
+        "name": "Mariana Silva",
+        "role": "Entrepreneur",
+        "text": "I lost 15kg in 4 months with personalized workouts. The AI is incredible!"
+      },
+      "carlos": {
+        "name": "Carlos Oliveira",
+        "role": "Engineer", 
+        "text": "Best investment of my life. Flexibility and extraordinary results."
+      },
+      "ana": {
+        "name": "Ana Costa",
+        "role": "Doctor",
+        "text": "As a health professional, I recommend FitCoach to all my patients."
+      }
+    },
+    "cta": {
+      "title": "Ready to start your transformation?",
+      "subtitle": "Join thousands of people who have already achieved their goals with FitCoach",
+      "button": "Start Now - 7 Days Free"
+    }
   },
   "plans": {
     "title": "Choose your ideal plan",

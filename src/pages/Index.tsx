@@ -18,41 +18,41 @@ const Index = () => {
   const benefits = [
     {
       icon: Users,
-      title: "Personalização Total",
-      description: "IA que aprende com seu progresso e adapta treinos em tempo real"
+      title: t('home.benefits.personalization.title'),
+      description: t('home.benefits.personalization.description')
     },
     {
       icon: Trophy,
-      title: "Resultados Comprovados",
-      description: "98% de satisfação com mais de 50 mil transformações realizadas"
+      title: t('home.benefits.results.title'),
+      description: t('home.benefits.results.description')
     },
     {
       icon: Zap,
-      title: "Eficiência Máxima",
-      description: "Treinos de 30 minutos com resultados superiores a 2h na academia"
+      title: t('home.benefits.efficiency.title'),
+      description: t('home.benefits.efficiency.description')
     }
   ];
 
   const testimonials = [
     {
-      name: "Mariana Silva",
-      role: "Empresária",
+      name: t('home.testimonials.mariana.name'),
+      role: t('home.testimonials.mariana.role'),
       image: "/placeholder.svg",
-      text: "Perdi 15kg em 4 meses com treinos personalizados. A IA é incrível!",
+      text: t('home.testimonials.mariana.text'),
       rating: 5
     },
     {
-      name: "Carlos Oliveira",
-      role: "Engenheiro",
+      name: t('home.testimonials.carlos.name'),
+      role: t('home.testimonials.carlos.role'),
       image: "/placeholder.svg",
-      text: "Melhor investimento da minha vida. Flexibilidade e resultados extraordinários.",
+      text: t('home.testimonials.carlos.text'),
       rating: 5
     },
     {
-      name: "Ana Costa",
-      role: "Médica",
+      name: t('home.testimonials.ana.name'),
+      role: t('home.testimonials.ana.role'),
       image: "/placeholder.svg",
-      text: "Como profissional de saúde, recomendo FitCoach para todos os meus pacientes.",
+      text: t('home.testimonials.ana.text'),
       rating: 5
     }
   ];
@@ -68,7 +68,7 @@ const Index = () => {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           <Badge variant="secondary" className="mb-6 animate-pulse">
-            🚀 Inteligência Artificial para Fitness
+            {t('hero.badge')}
           </Badge>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
@@ -89,7 +89,7 @@ const Index = () => {
             
             <Button variant="outline" size="lg" className="group">
               <Play className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform" />
-              Ver Demo
+              {t('hero.ctaSecondary')}
             </Button>
           </div>
           
@@ -97,19 +97,19 @@ const Index = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">50K+</div>
-              <div className="text-sm text-muted-foreground">Transformações</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stats.transformations')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">98%</div>
-              <div className="text-sm text-muted-foreground">Satisfação</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stats.satisfaction')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">4.9</div>
-              <div className="text-sm text-muted-foreground">Avaliação</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stats.rating')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">24/7</div>
-              <div className="text-sm text-muted-foreground">Suporte IA</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stats.support')}</div>
             </div>
           </div>
         </div>
@@ -120,10 +120,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Por que escolher FitCoach?
+              {t('home.benefits.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Tecnologia de ponta que revoluciona sua jornada fitness
+              {t('home.benefits.subtitle')}
             </p>
           </div>
           
@@ -152,10 +152,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Transformações Reais
+              {t('home.testimonials.title')}
             </h2>
             <p className="text-xl text-muted-foreground">
-              Veja o que nossos clientes estão dizendo
+              {t('home.testimonials.subtitle')}
             </p>
           </div>
           
@@ -195,14 +195,14 @@ const Index = () => {
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pronto para começar sua transformação?
+            {t('home.cta.title')}
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Junte-se a milhares de pessoas que já alcançaram seus objetivos com FitCoach
+            {t('home.cta.subtitle')}
           </p>
           <Button size="lg" variant="secondary" asChild>
             <Link to="/plans">
-              Comece Agora - 7 Dias Grátis
+              {t('home.cta.button')}
             </Link>
           </Button>
         </div>

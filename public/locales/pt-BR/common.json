@@ -23,7 +23,56 @@
     "title": "Transforme sua jornada fitness com IA",
     "subtitle": "Treinos personalizados, nutrição inteligente e resultados reais com FitCoach",
     "cta": "Comece Agora",
-    "ctaSecondary": "Ver Planos"
+    "ctaSecondary": "Ver Demo",
+    "badge": "🚀 Inteligência Artificial para Fitness",
+    "stats": {
+      "transformations": "Transformações",
+      "satisfaction": "Satisfação", 
+      "rating": "Avaliação",
+      "support": "Suporte IA"
+    }
+  },
+  "home": {
+    "benefits": {
+      "title": "Por que escolher FitCoach?",
+      "subtitle": "Tecnologia de ponta que revoluciona sua jornada fitness",
+      "personalization": {
+        "title": "Personalização Total",
+        "description": "IA que aprende com seu progresso e adapta treinos em tempo real"
+      },
+      "results": {
+        "title": "Resultados Comprovados", 
+        "description": "98% de satisfação com mais de 50 mil transformações realizadas"
+      },
+      "efficiency": {
+        "title": "Eficiência Máxima",
+        "description": "Treinos de 30 minutos com resultados superiores a 2h na academia"
+      }
+    },
+    "testimonials": {
+      "title": "Transformações Reais",
+      "subtitle": "Veja o que nossos clientes estão dizendo",
+      "mariana": {
+        "name": "Mariana Silva",
+        "role": "Empresária",
+        "text": "Perdi 15kg em 4 meses com treinos personalizados. A IA é incrível!"
+      },
+      "carlos": {
+        "name": "Carlos Oliveira", 
+        "role": "Engenheiro",
+        "text": "Melhor investimento da minha vida. Flexibilidade e resultados extraordinários."
+      },
+      "ana": {
+        "name": "Ana Costa",
+        "role": "Médica",
+        "text": "Como profissional de saúde, recomendo FitCoach para todos os meus pacientes."
+      }
+    },
+    "cta": {
+      "title": "Pronto para começar sua transformação?",
+      "subtitle": "Junte-se a milhares de pessoas que já alcançaram seus objetivos com FitCoach",
+      "button": "Comece Agora - 7 Dias Grátis"
+    }
   },
   "plans": {
     "title": "Escolha seu plano ideal",
