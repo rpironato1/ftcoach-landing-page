@@ -105,48 +105,40 @@
     }
   },
   "studentPlans": {
-    "badge": "🎓 Desconto exclusivo para estudantes",
+    "badge": "🎓 Para Alunos",
     "title": "Planos para Alunos",
-    "subtitle": "Mantenha-se ativo e focado durante seus estudos com planos especiais para estudantes.",
+    "subtitle": "Potencialize seus resultados com a melhor tecnologia de treino e nutrição.",
     "plans": {
-      "starter": {
-        "name": "Aluno Starter",
-        "description": "Para o dia a dia na faculdade",
-        "price": "9,90",
+      "free": {
+        "name": "Plano Free Alunos",
+        "description": "Acesso essencial para acompanhar seus treinos.",
+        "price": "Grátis",
         "features": [
-          "3 treinos rápidos por semana",
-          "Exercícios para postura e foco",
-          "Plano nutricional para energia",
-          "Suporte básico por email"
+          "Acesso a dashboard/app",
+          "Treinos gerados pelo seu personal",
+          "Controle nutricional gerado pelo seu personal",
+          "Relatórios e métricas de progresso",
+          "Sistema de gamificação básico",
+          "Descontos em produtos patrocinados"
         ]
       },
-      "performance": {
-        "name": "Aluno Performance",
-        "description": "Para atletas universitários",
-        "price": "19,90",
+      "pro": {
+        "name": "Plano Pro Alunos",
+        "description": "A experiência completa com o poder da IA.",
         "features": [
-          "Treinos diários de alta performance",
-          "Análise biomecânica por IA",
-          "Plano nutricional para competição",
-          "Suporte prioritário com especialistas"
-        ]
-      },
-      "wellness": {
-        "name": "Aluno Wellness",
-        "description": "Foco em bem-estar e antiestresse",
-        "price": "14,90",
-        "features": [
-          "Sessões de meditação e mindfulness",
-          "Treinos de baixa intensidade",
-          "Plano nutricional anti-inflamatório",
-          "Comunidade de bem-estar"
+          "Acesso completo a dashboard/app",
+          "Uso completo da IA FocusTraining",
+          "Treinos gerados pelo seu personal e pela IA",
+          "Controle nutricional gerado pelo seu personal e pela IA",
+          "Métricas, gamificações e incentivos",
+          "Descontos e Cashback em produtos patrocinados"
         ]
       }
     },
     "cta": {
-      "title": "Precisa de um plano corporativo?",
-      "subtitle": "Temos soluções para empresas de todos os tamanhos.",
-      "button": "Ver Planos Corporativos"
+      "title": "É um Personal Trainer?",
+      "subtitle": "Temos planos especiais para você gerenciar todos os seus alunos.",
+      "button": "Ver Planos Personal"
     }
   },
   "footer": {

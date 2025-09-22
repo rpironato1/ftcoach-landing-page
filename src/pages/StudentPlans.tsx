@@ -1,42 +1,43 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Check, BookOpen, Brain, Heart } from 'lucide-react';
+import { Switch } from '@/components/ui/switch';
+import { Check, Gift, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { cn } from '@/lib/utils';
 
 const StudentPlans = () => {
   const { t } = useTranslation();
+  const [isYearly, setIsYearly] = useState(true);
 
   const plans = [
     {
-      id: 'starter',
-      name: t('studentPlans.plans.starter.name'),
-      icon: BookOpen,
-      description: t('studentPlans.plans.starter.description'),
-      price: t('studentPlans.plans.starter.price'),
-      features: t('studentPlans.plans.starter.features', { returnObjects: true }) as string[],
-      popular: false,
+      id: 'free',
+      name: t('studentPlans.plans.free.name'),
+      icon: Gift,
+      description: t('studentPlans.plans.free.description'),
+      priceText: t('studentPlans.plans.free.price'),
+      isFree: true,
+      features: t('studentPlans.plans.free.features', { returnObjects: true }) as string[],
     },
     {
-      id: 'wellness',
-      name: t('studentPlans.plans.wellness.name'),
-      icon: Heart,
-      description: t('studentPlans.plans.wellness.description'),
-      price: t('studentPlans.plans.wellness.price'),
-      features: t('studentPlans.plans.wellness.features', { returnObjects: true }) as string[],
+      id: 'pro',
+      name: t('studentPlans.plans.pro.name'),
+      icon: Zap,
+      description: t('studentPlans.plans.pro.description'),
+      monthlyPrice: 29.90,
+      yearlyPrice: 299.90,
       popular: true,
-    },
-    {
-      id: 'performance',
-      name: t('studentPlans.plans.performance.name'),
-      icon: Brain,
-      description: t('studentPlans.plans.performance.description'),
-      price: t('studentPlans.plans.performance.price'),
-      features: t('studentPlans.plans.performance.features', { returnObjects: true }) as string[],
-      popular: false,
+      features: t('studentPlans.plans.pro.features', { returnObjects: true }) as string[],
     }
   ];
+
+  const getPrice = (plan: any) => {
+    const price = isYearly ? plan.yearlyPrice / 12 : plan.monthlyPrice;
+    return price.toFixed(2).replace('.', ',');
+  };
 
   return (
     <div className="min-h-screen py-20 bg-gradient-to-b from-background to-muted/20">
@@ -51,9 +52,23 @@ const StudentPlans = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             {t('studentPlans.subtitle')}
           </p>
+          
+          <div className="flex items-center justify-center gap-4 mb-12">
+            <span className={cn("font-medium", !isYearly && "text-primary")}>
+              {t('plans.monthly')}
+            </span>
+            <Switch
+              checked={isYearly}
+              onCheckedChange={setIsYearly}
+              className="data-[state=checked]:bg-primary"
+            />
+            <span className={cn("font-medium", isYearly && "text-primary")}>
+              {t('plans.yearly')}
+            </span>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
           {plans.map((plan) => (
             <Card key={plan.id} className={`flex flex-col border-2 transition-all duration-500 hover:scale-105 ${plan.popular ? 'border-primary shadow-2xl relative ring-2 ring-primary/20' : 'border-border hover:shadow-xl'}`}>
               {plan.popular && (
@@ -70,11 +85,16 @@ const StudentPlans = () => {
                 <CardTitle className="text-2xl">{plan.name}</CardTitle>
                 <CardDescription className="text-lg">{plan.description}</CardDescription>
                 <div className="mt-6">
-                  <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-2xl">R$</span>
-                    <span className="text-5xl font-bold">{plan.price}</span>
-                    <span className="text-muted-foreground text-lg">/mês</span>
-                  </div>
+                  {plan.isFree ? (
+                    <span className="text-5xl font-bold">{plan.priceText}</span>
+                  ) : (
+                    <div className="flex items-baseline justify-center gap-1">
+                      <span className="text-2xl">R$</span>
+                      <span className="text-5xl font-bold">{getPrice(plan)}</span>
+                      <span className="text-muted-foreground text-lg">/mês</span>
+                    </div>
+                  )}
+                  {isYearly && !plan.isFree && <p className="text-xs text-muted-foreground mt-1">cobrado anualmente</p>}
                 </div>
               </CardHeader>
               <CardContent className="flex flex-col flex-grow p-6">
