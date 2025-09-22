@@ -5,8 +5,9 @@ import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { ThemeSwitcher } from './ThemeSwitcher';
 import { cn } from '@/lib/utils';
 
 export const Header = () => {
@@ -75,6 +76,7 @@ export const Header = () => {
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
             <LanguageSwitcher />
+            <ThemeSwitcher />
             
             <div className="hidden md:flex items-center space-x-2">
               <Button variant="ghost" size="sm">
