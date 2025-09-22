@@ -786,5 +786,127 @@
       "emailButton": "investors@fitcouch.com",
       "scheduleButton": "Schedule Meeting"
     }
+  },
+  "press": {
+    "title": "Press Room",
+    "subtitle": "Resources and information for journalists and media professionals",
+    "mediaKit": {
+      "title": "Quick Access",
+      "factSheet": {
+        "title": "Fact Sheet",
+        "description": "Quick facts about the company"
+      },
+      "execBios": {
+        "title": "Executive Bios",
+        "description": "Leadership profiles"
+      },
+      "companyHistory": {
+        "title": "Company History",
+        "description": "Our journey and milestones"
+      },
+      "imagesLogos": {
+        "title": "Images & Logos",
+        "description": "Complete media kit"
+      },
+      "download": "Download"
+    },
+    "releases": {
+      "title": "Press Releases",
+      "subtitle": "Latest news and official announcements",
+      "readMore": "Read more",
+      "items": [
+        {
+          "title": "FitCoach Raises $100M in Series C, Becomes Brazilian Unicorn",
+          "category": "Finance",
+          "summary": "Round led by Tiger Global will accelerate international expansion and new technology development.",
+          "media": ["TechCrunch", "Bloomberg", "Exame"]
+        },
+        {
+          "title": "FitCoach AI Revolutionizes Workout Personalization with 98% Accuracy",
+          "category": "Technology",
+          "summary": "New machine learning algorithm reduces analysis time by 70% and increases user success rate.",
+          "media": ["G1", "TechTudo", "Olhar Digital"]
+        },
+        {
+          "title": "FitCoach Reaches Milestone of 500,000 Lives Transformed",
+          "category": "Business",
+          "summary": "Brazilian platform consolidates as a leader in personalized fitness in Latin America.",
+          "media": ["Estadão", "Folha", "Valor Econômico"]
+        },
+        {
+          "title": "Partnership with Nike Strengthens FitCoach's Market Position",
+          "category": "Partnerships",
+          "summary": "Strategic collaboration will integrate Nike products into the FitCoach ecosystem.",
+          "media": ["Forbes", "Vogue", "GQ"]
+        }
+      ]
+    },
+    "coverage": {
+      "title": "Media Coverage",
+      "subtitle": "What they're saying about FitCoach",
+      "viewArticle": "View Article",
+      "items": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Brazilian fitness startup FitCoach becomes unicorn with $100M Series C",
+          "type": "Online"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "FitCoach AI Technology Disrupts Personal Training Market",
+          "type": "TV"
+        },
+        {
+          "outlet": "Exame",
+          "title": "How FitCoach is transforming the fitness market in Brazil",
+          "type": "Magazine"
+        },
+        {
+          "outlet": "G1",
+          "title": "Brazilian app uses AI to create personalized workouts",
+          "type": "Online"
+        }
+      ]
+    },
+    "assets": {
+      "title": "Brand Assets",
+      "subtitle": "Logos, images, and resources for media use",
+      "items": [
+        {
+          "name": "Main Logo",
+          "description": "Official FitCoach logo in high resolution",
+          "formats": ["PNG", "SVG", "EPS"],
+          "size": "2.5 MB",
+          "category": "Logos"
+        },
+        {
+          "name": "Color Kit",
+          "description": "Official color palette and guidelines",
+          "formats": ["PDF", "AI"],
+          "size": "5.8 MB",
+          "category": "Brand Guidelines"
+        },
+        {
+          "name": "Team Photos",
+          "description": "Official images of the executive leadership",
+          "formats": ["JPG", "PNG"],
+          "size": "15.2 MB",
+          "category": "Photos"
+        },
+        {
+          "name": "App Screenshots",
+          "description": "Images of the application on devices",
+          "formats": ["PNG"],
+          "size": "8.3 MB",
+          "category": "Product"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Press Contact",
+      "subtitle": "For interview requests, additional information, or support with materials, our communication team is available.",
+      "email": "press@fitcouch.com",
+      "requestInterview": "Request Interview"
+    }
   }
 }
