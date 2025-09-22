@@ -21,8 +21,8 @@ export const Footer = () => {
   const productLinks = [
     { href: '/plans', label: t('navigation.plans') },
     { href: '/ai', label: t('navigation.ai') },
-    { href: '/features', label: 'Recursos' },
-    { href: '/pricing', label: 'Preços' },
+    { href: '/features', label: t('navigation.features') },
+    { href: '/pricing', label: t('navigation.pricing') },
   ];
 
   const companyLinks = [
@@ -36,7 +36,7 @@ export const Footer = () => {
     { href: '/faq', label: t('navigation.faq') },
     { href: '/contact', label: t('navigation.contact') },
     { href: '/help', label: t('navigation.help') },
-    { href: '/support', label: 'Suporte Técnico' },
+    { href: '/support', label: t('navigation.support') },
   ];
 
   const legalLinks = [
@@ -69,7 +69,7 @@ export const Footer = () => {
               <span className="font-bold text-xl">FitCoach</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Transformando vidas através de inteligência artificial e personalização fitness avançada.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-2">
               {socialLinks.map((social) => (
@@ -168,15 +168,15 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <Mail className="h-4 w-4" />
-            <span>contato@fitcouch.com.br</span>
+            <span>{t('footer.contact.email')}</span>
           </div>
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <Phone className="h-4 w-4" />
-            <span>+55 (11) 99999-9999</span>
+            <span>{t('footer.contact.phone')}</span>
           </div>
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <MapPin className="h-4 w-4" />
-            <span>São Paulo, Brasil</span>
+            <span>{t('footer.contact.address')}</span>
           </div>
         </div>
 

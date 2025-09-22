@@ -3,8 +3,10 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { FileText, Calendar, AlertCircle, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Terms = () => {
+  const { t } = useTranslation();
   const [selectedVersion, setSelectedVersion] = useState('2.1');
 
   const versions = [
@@ -23,10 +25,10 @@ const Terms = () => {
               <FileText className="h-8 w-8 text-primary" />
             </div>
           </div>
-          <Badge variant="secondary" className="mb-4">Versão {selectedVersion}</Badge>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Termos de Serviço</h1>
+          <Badge variant="secondary" className="mb-4">{t('terms.version')} {selectedVersion}</Badge>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('terms.title')}</h1>
           <p className="text-xl text-muted-foreground">
-            Regras e diretrizes para uso da plataforma FitCoach
+            {t('terms.subtitle')}
           </p>
         </div>
 

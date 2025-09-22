@@ -4,8 +4,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Users, Target, Zap, TrendingUp, Award } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
   const [activeYear, setActiveYear] = useState(2024);
 
   const milestones = [
@@ -87,22 +89,21 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-6">
-              Sobre Nós
+              {t('about.badge')}
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Transformando Vidas Através da
-              <span className="text-primary"> Tecnologia</span>
+              {t('about.hero.title')}
+              <span className="text-primary"> {t('about.hero.titleHighlight')}</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Somos a maior plataforma de fitness com IA da América Latina, 
-              com a missão de democratizar o acesso a treinos personalizados e nutrição inteligente.
+              {t('about.hero.subtitle')}
             </p>
             <div className="flex gap-4 justify-center">
               <Button size="lg">
-                Conheça Nossa Equipe
+                {t('about.hero.teamButton')}
               </Button>
               <Button variant="outline" size="lg">
-                Nossa História
+                {t('about.hero.historyButton')}
               </Button>
             </div>
           </div>
