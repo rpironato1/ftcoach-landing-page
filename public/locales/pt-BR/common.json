@@ -500,6 +500,63 @@
       "subtitle": "Somos a maior plataforma de fitness com IA da América Latina, com a missão de democratizar o acesso a treinos personalizados e nutrição inteligente.",
       "teamButton": "Conheça Nossa Equipe",
       "historyButton": "Nossa História"
+    },
+    "stats": {
+      "activeUsers": "Usuários Ativos",
+      "workoutsCreated": "Treinos Criados",
+      "successRate": "Taxa de Sucesso",
+      "countries": "Países"
+    },
+    "journey": {
+      "title": "Nossa Jornada",
+      "subtitle": "Como crescemos para nos tornar líderes do mercado"
+    },
+    "milestones": {
+      "2020": {
+        "title": "Fundação da FitCoach",
+        "description": "Começamos com a missão de democratizar o acesso a treinos personalizados"
+      },
+      "2021": {
+        "title": "Lançamento da IA",
+        "description": "Primeiro algoritmo de personalização fitness do Brasil"
+      },
+      "2022": {
+        "title": "10 Mil Usuários",
+        "description": "Alcançamos a marca de 10 mil transformações realizadas"
+      },
+      "2023": {
+        "title": "Expansão Internacional",
+        "description": "Lançamento em 5 países da América Latina"
+      },
+      "2024": {
+        "title": "Líder de Mercado",
+        "description": "Maior plataforma de fitness com IA da América Latina"
+      }
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "subtitle": "Princípios que guiam cada decisão que tomamos",
+      "innovation": {
+        "title": "Inovação Constante",
+        "description": "Investimos 40% da receita em P&D para manter a liderança tecnológica"
+      },
+      "accessibility": {
+        "title": "Acessibilidade",
+        "description": "Fitness de qualidade deve estar ao alcance de todos, independentemente do nível"
+      },
+      "results": {
+        "title": "Resultados Comprovados",
+        "description": "Cada feature é testada e validada com dados reais de milhares de usuários"
+      },
+      "transparency": {
+        "title": "Transparência Total",
+        "description": "Dados claros, políticas transparentes e comunicação honesta"
+      }
+    },
+    "cta": {
+      "title": "Pronto para fazer parte da nossa história?",
+      "subtitle": "Junte-se a milhares de pessoas que já transformaram suas vidas com FitCoach",
+      "button": "Comece Agora"
     }
   },
   "terms": {
@@ -520,121 +577,5 @@
     "title": "Declaração de Acessibilidade",
     "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
     "compliance": "Conformidade: WCAG 2.1 Nível AA"
-  },
-  "investors": {
-    "title": "Área do Investidor",
-    "subtitle": "Informações financeiras e atualizações para nossos investidores",
-    "metrics": {
-      "companyValue": "Valor da Empresa",
-      "annualRevenue": "Receita Anual",
-      "activeUsers": "Usuários Ativos",
-      "retentionRate": "Taxa de Retenção"
-    },
-    "fundingHistory": {
-      "title": "Histórico de Investimentos",
-      "subtitle": "Nossa jornada de crescimento e captação de recursos"
-    },
-    "documents": {
-      "title": "Documentos para Investidores",
-      "subtitle": "Acesse nossos relatórios e apresentações oficiais",
-      "investorPresentation": "Apresentação para Investidores",
-      "investorPresentationDesc": "Visão geral do negócio, mercado e estratégia",
-      "annualReport": "Relatório Anual 2023",
-      "annualReportDesc": "Performance financeira e operacional completa",
-      "esgReport": "ESG Report",
-      "esgReportDesc": "Responsabilidade social e ambiental",
-      "download": "Baixar"
-    },
-    "contact": {
-      "title": "Interessado em Investir?",
-      "subtitle": "Entre em contato com nosso time de Relações com Investidores para mais informações sobre oportunidades de investimento e atualizações do mercado.",
-      "email": "investors@fitcouch.com.br",
-      "schedule": "Agendar Reunião"
-    },
-    "fundingRounds": {
-      "seed": "Semente",
-      "seriesA": "Série A",
-      "seriesB": "Série B", 
-      "seriesC": "Série C",
-      "leader": "Líder",
-      "valuation": "Valuação",
-      "objective": "Objetivo"
-    }
-  },
-  "press": {
-    "title": "Sala de Imprensa",
-    "subtitle": "Recursos e informações para jornalistas e profissionais de mídia",
-    "mediaKit": {
-      "factSheet": "Fact Sheet",
-      "factSheetDesc": "Dados rápidos sobre a empresa",
-      "executiveBios": "Biografias Executivas",
-      "executiveBiosDesc": "Perfis da liderança",
-      "companyHistory": "História da Empresa",
-      "companyHistoryDesc": "Nossa jornada e marcos",
-      "imagesLogos": "Imagens e Logos",
-      "imagesLogosDesc": "Kit de mídia completo",
-      "download": "Baixar"
-    },
-    "pressReleases": {
-      "title": "Comunicados de Imprensa",
-      "subtitle": "Últimas notícias e anúncios oficiais",
-      "readMore": "Ler mais"
-    },
-    "mediaCoverage": {
-      "title": "Cobertura na Mídia",
-      "subtitle": "O que estão dizendo sobre a FitCoach",
-      "viewArticle": "Ver Matéria"
-    },
-    "brandAssets": {
-      "title": "Materiais de Marca",
-      "subtitle": "Logos, imagens e recursos para uso da mídia",
-      "mainLogo": "Logo Principal",
-      "mainLogoDesc": "Logo oficial FitCoach em alta resolução",
-      "colorKit": "Kit de Cores",
-      "colorKitDesc": "Paleta oficial de cores e guidelines",
-      "teamPhotos": "Fotos da Equipe",
-      "teamPhotosDesc": "Imagens oficiais da liderança executiva",
-      "appScreenshots": "Screenshots do App",
-      "appScreenshotsDesc": "Imagens do aplicativo em dispositivos"
-    },
-    "contact": {
-      "title": "Contato para Imprensa",
-      "subtitle": "Para solicitações de entrevistas, informações adicionais ou suporte com materiais, nossa equipe de comunicação está à disposição.",
-      "email": "press@fitcouch.com.br",
-      "requestInterview": "Solicitar Entrevista"
-    }
-  },
-  "team": {
-    "title": "Conheça Nossa Equipe",
-    "subtitle": "Profissionais apaixonados que estão transformando o futuro do fitness",
-    "leadership": {
-      "title": "Liderança",
-      "subtitle": "A visão e estratégia por trás da FitCoach"
-    },
-    "advisors": {
-      "title": "Conselheiros",
-      "subtitle": "Especialistas que nos guiam para o futuro"
-    }
-  },
-  "refund": {
-    "title": "Política de Reembolso",
-    "subtitle": "Transparência e simplicidade no nosso processo de reembolso.",
-    "intro": "Na FitCoach, nosso objetivo é sua total satisfação. Oferecemos um período de teste gratuito de 7 dias para que você possa experimentar todos os recursos antes de qualquer cobrança. Se, por qualquer motivo, você não estiver satisfeito, esta política descreve suas opções.",
-    "eligibility": {
-      "title": "Elegibilidade para Reembolso",
-      "firstCharge": "Cancelamento dentro de 7 dias após a primeira cobrança",
-      "firstChargeDesc": "Se você for cobrado após o período de teste e decidir cancelar em até 7 dias, você é elegível para um reembolso total.",
-      "recurring": "Cobranças recorrentes",
-      "recurringDesc": "Reembolsos não são aplicáveis para cobranças de renovação mensal ou anual. Você pode cancelar a qualquer momento para evitar cobranças futuras.",
-      "technical": "Falhas técnicas",
-      "technicalDesc": "Se o serviço ficou indisponível por um período prolongado devido a falhas de nossa parte, oferecemos créditos ou reembolsos proporcionais."
-    },
-    "howTo": {
-      "title": "Como Solicitar um Reembolso",
-      "step1": "Cancele sua Assinatura: Vá para \"Configurações\" > \"Assinatura\" em seu perfil e cancele o plano.",
-      "step2": "Entre em Contato: Envie um e-mail para suporte@fitcoach.com.br com o assunto \"Solicitação de Reembolso\". Inclua o e-mail da sua conta e o motivo.",
-      "step3": "Processamento: Nossa equipe analisará sua solicitação em até 3 dias úteis. Se aprovado, o reembolso será processado em até 10 dias úteis no método de pagamento original."
-    },
-    "cta": "Iniciar Solicitação de Reembolso"
   }
 }
