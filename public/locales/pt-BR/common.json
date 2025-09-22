@@ -5,6 +5,7 @@
     "team": "Quem Somos",
     "investors": "Investidores",
     "press": "Imprensa",
+    "plans": "Planos",
     "faq": "FAQ",
     "contact": "Contato",
     "help": "Ajuda",
@@ -13,7 +14,10 @@
     "refund": "Reembolso",
     "cookies": "Cookies",
     "accessibility": "Acessibilidade",
-    "ai": "IA FocusTraining"
+    "ai": "IA FocusTraining",
+    "features": "Recursos",
+    "pricing": "Preços",
+    "support": "Suporte"
   },
   "hero": {
     "title": "Transforme sua jornada fitness com IA",

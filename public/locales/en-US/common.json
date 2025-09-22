@@ -5,6 +5,7 @@
     "team": "Team",
     "investors": "Investors",
     "press": "Press",
+    "plans": "Plans",
     "faq": "FAQ",
     "contact": "Contact",
     "help": "Help",
@@ -13,7 +14,10 @@
     "refund": "Refund",
     "cookies": "Cookies",
     "accessibility": "Accessibility",
-    "ai": "AI FocusTraining"
+    "ai": "AI FocusTraining",
+    "features": "Features",
+    "pricing": "Pricing",
+    "support": "Support"
   },
   "hero": {
     "title": "Transform your fitness journey with AI",

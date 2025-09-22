@@ -14,7 +14,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'pt-BR',
-    debug: process.env.NODE_ENV === 'development',
+    debug: false, // Disable debug for cleaner output
     
     interpolation: {
       escapeValue: false,
@@ -27,6 +27,7 @@ i18n
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng',
     },
 
     supportedLngs: languages,
