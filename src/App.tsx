@@ -12,7 +12,8 @@ import About from "./pages/About";
 import Team from "./pages/Team";
 import Investors from "./pages/Investors";
 import Press from "./pages/Press";
-import Plans from "./pages/Plans";
+import PersonalPlans from "./pages/PersonalPlans";
+import StudentPlans from "./pages/StudentPlans";
 import AI from "./pages/AI";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
@@ -51,7 +52,8 @@ const App = () => (
                 <Route path="/team" element={<Team />} />
                 <Route path="/investors" element={<Investors />} />
                 <Route path="/press" element={<Press />} />
-                <Route path="/plans" element={<Plans />} />
+                <Route path="/personal-plans" element={<PersonalPlans />} />
+                <Route path="/student-plans" element={<StudentPlans />} />
                 <Route path="/ai" element={<AI />} />
                 <Route path="/features" element={<Features />} />
                 <Route path="/pricing" element={<Pricing />} />

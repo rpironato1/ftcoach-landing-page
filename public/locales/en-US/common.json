@@ -6,6 +6,8 @@
     "investors": "Investors",
     "press": "Press",
     "plans": "Plans",
+    "personalPlans": "Personal Plans",
+    "studentPlans": "Student Plans",
     "faq": "FAQ",
     "contact": "Contact",
     "help": "Help",
@@ -33,6 +35,62 @@
     "popular": "Most Popular",
     "features": "Features included",
     "select": "Select Plan"
+  },
+  "personalPlans": {
+    "badge": "💰 Save up to 17% with an annual plan",
+    "title": "Personal Plans",
+    "subtitle": "Choose from 9 perfect modalities for your fitness journey. 7-day free trial on any plan.",
+    "cta": {
+      "title": "Not sure which plan to choose?",
+      "subtitle": "Our experts can help you find the perfect solution for your goals.",
+      "primary": "Talk to an Expert",
+      "secondary": "Compare Plans in Detail"
+    }
+  },
+  "studentPlans": {
+    "badge": "🎓 Exclusive discount for students",
+    "title": "Student Plans",
+    "subtitle": "Stay active and focused during your studies with special plans for students.",
+    "plans": {
+      "starter": {
+        "name": "Student Starter",
+        "description": "For daily college life",
+        "price": "9.90",
+        "features": [
+          "3 quick workouts per week",
+          "Exercises for posture and focus",
+          "Nutrition plan for energy",
+          "Basic email support"
+        ]
+      },
+      "performance": {
+        "name": "Student Performance",
+        "description": "For university athletes",
+        "price": "19.90",
+        "features": [
+          "Daily high-performance workouts",
+          "AI biomechanical analysis",
+          "Competition nutrition plan",
+          "Priority support with specialists"
+        ]
+      },
+      "wellness": {
+        "name": "Student Wellness",
+        "description": "Focus on well-being and anti-stress",
+        "price": "14.90",
+        "features": [
+          "Meditation and mindfulness sessions",
+          "Low-intensity workouts",
+          "Anti-inflammatory nutrition plan",
+          "Wellness community"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Need a corporate plan?",
+      "subtitle": "We have solutions for companies of all sizes.",
+      "button": "See Corporate Plans"
+    }
   },
   "footer": {
     "product": "Product",

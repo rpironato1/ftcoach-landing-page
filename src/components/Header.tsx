@@ -29,7 +29,8 @@ export const Header = () => {
     { href: '/', label: t('navigation.home') },
     { href: '/about', label: t('navigation.about') },
     { href: '/team', label: t('navigation.team') },
-    { href: '/plans', label: t('navigation.plans') },
+    { href: '/personal-plans', label: t('navigation.personalPlans') },
+    { href: '/student-plans', label: t('navigation.studentPlans') },
     { href: '/ai', label: t('navigation.ai') },
     { href: '/contact', label: t('navigation.contact') },
   ];

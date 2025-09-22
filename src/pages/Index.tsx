@@ -81,7 +81,7 @@ const Index = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" asChild className="group">
-              <Link to="/plans" className="flex items-center gap-2">
+              <Link to="/personal-plans" className="flex items-center gap-2">
                 {t('hero.cta')}
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -201,7 +201,7 @@ const Index = () => {
             Junte-se a milhares de pessoas que já alcançaram seus objetivos com FitCoach
           </p>
           <Button size="lg" variant="secondary" asChild>
-            <Link to="/plans">
+            <Link to="/personal-plans">
               Comece Agora - 7 Dias Grátis
             </Link>
           </Button>

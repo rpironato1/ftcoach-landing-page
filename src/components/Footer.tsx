@@ -19,7 +19,8 @@ export const Footer = () => {
   const { t } = useTranslation();
 
   const productLinks = [
-    { href: '/plans', label: t('navigation.plans') },
+    { href: '/personal-plans', label: t('navigation.personalPlans') },
+    { href: '/student-plans', label: t('navigation.studentPlans') },
     { href: '/ai', label: t('navigation.ai') },
     { href: '/features', label: t('navigation.features') },
     { href: '/pricing', label: t('navigation.pricing') },
