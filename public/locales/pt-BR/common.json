@@ -47,6 +47,56 @@
       "address": "São Paulo, Brasil"
     }
   },
+  "privacy": {
+    "badge": "Versão 3.0",
+    "title": "Política de Privacidade",
+    "subtitle": "Como protegemos e gerenciamos seus dados pessoais",
+    "preferences": {
+      "title": "Suas Preferências de Privacidade",
+      "description": "Controle como usamos seus dados para melhorar sua experiência",
+      "essential": {
+        "title": "Cookies Essenciais",
+        "description": "Necessários para o funcionamento do site"
+      },
+      "analytics": {
+        "title": "Analytics e Melhoria", 
+        "description": "Nos ajuda a entender como você usa o site"
+      },
+      "marketing": {
+        "title": "Marketing Personalizado",
+        "description": "Mostrar conteúdo e ofertas relevantes"
+      }
+    }
+  },
+  "terms": {
+    "badge": "Versão",
+    "title": "Termos de Serviço",
+    "subtitle": "Termos e condições de uso da plataforma FitCoach",
+    "version": "Versão",
+    "history": {
+      "title": "Histórico de Versões",
+      "description": "Selecione uma versão para visualizar os termos específicos",
+      "current": "Atual",
+      "changes": "Mudanças na versão"
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies", 
+    "subtitle": "Como usamos cookies para melhorar sua experiência",
+    "essential": {
+      "title": "Cookies Essenciais",
+      "description": "Necessários para a funcionalidade principal, como login e segurança. Não podem ser desativados."
+    },
+    "performance": {
+      "title": "Cookies de Desempenho e Análise",
+      "description": "Nos ajudam a entender como os visitantes interagem com o site, coletando informações anonimamente."
+    }
+  },
+  "accessibility": {
+    "title": "Acessibilidade",
+    "subtitle": "Nosso compromisso com uma experiência inclusiva para todos",
+    "compliance": "WCAG 2.1 AA Compatível"
+  },
   "features": {
     "badge": "Recursos",
     "title": "Tecnologia de Ponta para Resultados Extraordinários",

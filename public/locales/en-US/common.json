@@ -47,6 +47,56 @@
       "address": "New York, USA"
     }
   },
+  "privacy": {
+    "badge": "Version 3.0",
+    "title": "Privacy Policy",
+    "subtitle": "How we protect and manage your personal data",
+    "preferences": {
+      "title": "Your Privacy Preferences",
+      "description": "Control how we use your data to improve your experience",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "Required for website functionality"
+      },
+      "analytics": {
+        "title": "Analytics & Improvement",
+        "description": "Helps us understand how you use the site"
+      },
+      "marketing": {
+        "title": "Personalized Marketing",
+        "description": "Show relevant content and offers"
+      }
+    }
+  },
+  "terms": {
+    "badge": "Version",
+    "title": "Terms of Service",
+    "subtitle": "Terms and conditions for using the FitCoach platform",
+    "version": "Version",
+    "history": {
+      "title": "Version History",
+      "description": "Select a version to view specific terms",
+      "current": "Current",
+      "changes": "Changes in version"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "subtitle": "How we use cookies to improve your experience",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for core functionality like login and security. Cannot be disabled."
+    },
+    "performance": {
+      "title": "Performance and Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site, collecting information anonymously."
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "subtitle": "Our commitment to an inclusive experience for everyone",
+    "compliance": "WCAG 2.1 AA Compliant"
+  },
   "features": {
     "badge": "Features",
     "title": "Cutting-Edge Technology for Extraordinary Results",

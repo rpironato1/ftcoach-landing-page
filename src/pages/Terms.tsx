@@ -37,10 +37,10 @@ const Terms = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Calendar className="h-5 w-5" />
-              Histórico de Versões
+              {t('terms.history.title')}
             </CardTitle>
             <CardDescription>
-              Selecione uma versão para visualizar os termos específicos
+              {t('terms.history.description')}
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -53,7 +53,7 @@ const Terms = () => {
                   onClick={() => setSelectedVersion(ver.version)}
                 >
                   v{ver.version}
-                  {ver.version === '2.1' && <Badge variant="secondary" className="ml-2">Atual</Badge>}
+                  {ver.version === '2.1' && <Badge variant="secondary" className="ml-2">{t('terms.history.current')}</Badge>}
                 </Button>
               ))}
             </div>
@@ -61,7 +61,7 @@ const Terms = () => {
             {/* Changelog */}
             {selectedVersion && (
               <div className="mt-4 p-4 bg-muted/50 rounded-lg">
-                <h4 className="font-semibold mb-2">Mudanças na versão {selectedVersion}:</h4>
+                <h4 className="font-semibold mb-2">{t('terms.history.changes')} {selectedVersion}:</h4>
                 <ul className="space-y-1">
                   {versions.find(v => v.version === selectedVersion)?.changes.map((change, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm">
