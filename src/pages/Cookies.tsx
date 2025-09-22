@@ -17,20 +17,15 @@ const Cookies = () => {
 
       <div className="prose prose-lg max-w-none dark:prose-invert">
         <p className="lead">
-          Esta política explica o que são cookies, como os usamos em nosso site e suas 
-          opções em relação a eles. Ao usar o FitCoach, você concorda com o uso de 
-          cookies de acordo com esta política.
+          {t('cookies.intro')}
         </p>
 
-        <h2>O que são Cookies?</h2>
+        <h2>{t('cookies.whatAreCookies.title')}</h2>
         <p>
-          Cookies são pequenos arquivos de texto que são colocados no seu dispositivo 
-          por sites que você visita. Eles são amplamente utilizados para fazer os sites 
-          funcionarem, ou funcionarem de forma mais eficiente, bem como para fornecer 
-          informações aos proprietários do site.
+          {t('cookies.whatAreCookies.description')}
         </p>
 
-        <h2>Como Usamos Cookies</h2>
+        <h2>{t('cookies.howWeUse.title')}</h2>
         <div className="grid md:grid-cols-2 gap-6 my-8">
           <Card>
             <CardHeader>
@@ -60,18 +55,14 @@ const Cookies = () => {
           </Card>
         </div>
 
-        <h2>Suas Opções</h2>
+        <h2>{t('cookies.yourOptions.title')}</h2>
         <p>
-          Você tem o direito de decidir se aceita ou rejeita cookies. Você pode 
-          exercer suas preferências de cookies gerenciando-as nas configurações 
-          do seu navegador. Observe que, se você optar por rejeitar os cookies, 
-          ainda poderá usar nosso site, embora seu acesso a algumas funcionalidades 
-          e áreas possa ser restrito.
+          {t('cookies.yourOptions.description')}
         </p>
         
         <p>
-          Para mais detalhes sobre como gerenciamos seus dados, consulte nossa 
-          <a href="/privacy"> Política de Privacidade</a>.
+          {t('cookies.yourOptions.privacy')}
+          <a href="/privacy"> {t('navigation.privacy')}</a>.
         </p>
       </div>
     </div>

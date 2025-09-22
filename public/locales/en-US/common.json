@@ -89,6 +89,14 @@
   "cookies": {
     "title": "Cookie Policy",
     "subtitle": "How we use cookies to improve your experience",
+    "intro": "This policy explains what cookies are, how we use them on our site and your options regarding them. By using FitCoach, you agree to the use of cookies in accordance with this policy.",
+    "whatAreCookies": {
+      "title": "What are Cookies?",
+      "description": "Cookies are small text files that are placed on your device by websites you visit. They are widely used to make websites work, or work more efficiently, as well as to provide information to site owners."
+    },
+    "howWeUse": {
+      "title": "How We Use Cookies"
+    },
     "essential": {
       "title": "Essential Cookies",
       "description": "Required for core functionality like login and security. Cannot be disabled."
@@ -96,6 +104,11 @@
     "performance": {
       "title": "Performance and Analytics Cookies",
       "description": "Help us understand how visitors interact with the site, collecting information anonymously."
+    },
+    "yourOptions": {
+      "title": "Your Options",
+      "description": "You have the right to decide whether to accept or reject cookies. You can exercise your cookie preferences by managing them in your browser settings. Note that if you choose to reject cookies, you may still use our website, although your access to some functionality and areas may be restricted.",
+      "privacy": "For more details on how we manage your data, see our"
     }
   },
   "accessibility": {
@@ -726,7 +739,37 @@
   "accessibility": {
     "title": "Accessibility Statement",
     "subtitle": "Our commitment to making FitCoach accessible to everyone.",
-    "compliance": "Compliance: WCAG 2.1 Level AA"
+    "compliance": "Compliance: WCAG 2.1 Level AA",
+    "intro": "FitCoach is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying relevant accessibility standards.",
+    "measures": {
+      "title": "Support Measures",
+      "description": "We take the following measures to ensure accessibility:",
+      "items": {
+        "mission": "We include accessibility as part of our mission.",
+        "development": "We integrate accessibility into our development practices.",
+        "audits": "We conduct regular accessibility audits."
+      }
+    },
+    "features": {
+      "visual": {
+        "title": "Visual",
+        "description": "Color contrast, resizable text and screen reader compatibility."
+      },
+      "auditory": {
+        "title": "Auditory",
+        "description": "Video captions and visual alternatives for audio content."
+      },
+      "motor": {
+        "title": "Motor",
+        "description": "Keyboard navigation and adjustable response times."
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "We appreciate your feedback on FitCoach accessibility. Please let us know if you encounter accessibility barriers:",
+      "email": "Email:",
+      "response": "We seek to respond to feedback within 5 business days."
+    }
   },
   "investors": {
     "title": "Investor Relations",

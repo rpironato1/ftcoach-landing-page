@@ -89,6 +89,14 @@
   "cookies": {
     "title": "Política de Cookies", 
     "subtitle": "Como usamos cookies para melhorar sua experiência",
+    "intro": "Esta política explica o que são cookies, como os usamos em nosso site e suas opções em relação a eles. Ao usar o FitCoach, você concorda com o uso de cookies de acordo com esta política.",
+    "whatAreCookies": {
+      "title": "O que são Cookies?",
+      "description": "Cookies são pequenos arquivos de texto que são colocados no seu dispositivo por sites que você visita. Eles são amplamente utilizados para fazer os sites funcionarem, ou funcionarem de forma mais eficiente, bem como para fornecer informações aos proprietários do site."
+    },
+    "howWeUse": {
+      "title": "Como Usamos Cookies"
+    },
     "essential": {
       "title": "Cookies Essenciais",
       "description": "Necessários para a funcionalidade principal, como login e segurança. Não podem ser desativados."
@@ -96,6 +104,11 @@
     "performance": {
       "title": "Cookies de Desempenho e Análise",
       "description": "Nos ajudam a entender como os visitantes interagem com o site, coletando informações anonimamente."
+    },
+    "yourOptions": {
+      "title": "Suas Opções",
+      "description": "Você tem o direito de decidir se aceita ou rejeita cookies. Você pode exercer suas preferências de cookies gerenciando-as nas configurações do seu navegador. Observe que, se você optar por rejeitar os cookies, ainda poderá usar nosso site, embora seu acesso a algumas funcionalidades e áreas possa ser restrito.",
+      "privacy": "Para mais detalhes sobre como gerenciamos seus dados, consulte nossa"
     }
   },
   "accessibility": {
@@ -726,7 +739,37 @@
   "accessibility": {
     "title": "Declaração de Acessibilidade",
     "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
-    "compliance": "Conformidade: WCAG 2.1 Nível AA"
+    "compliance": "Conformidade: WCAG 2.1 Nível AA",
+    "intro": "A FitCoach está empenhada em garantir a acessibilidade digital para pessoas com deficiência. Estamos continuamente melhorando a experiência do usuário para todos e aplicando os padrões de acessibilidade relevantes.",
+    "measures": {
+      "title": "Medidas de Suporte",
+      "description": "Tomamos as seguintes medidas para garantir a acessibilidade:",
+      "items": {
+        "mission": "Incluímos a acessibilidade como parte de nossa missão.",
+        "development": "Integramos a acessibilidade em nossas práticas de desenvolvimento.",
+        "audits": "Realizamos auditorias de acessibilidade regulares."
+      }
+    },
+    "features": {
+      "visual": {
+        "title": "Visual",
+        "description": "Contraste de cores, texto redimensionável e compatibilidade com leitores de tela."
+      },
+      "auditory": {
+        "title": "Auditivo",
+        "description": "Legendas para vídeos e alternativas visuais para conteúdo sonoro."
+      },
+      "motor": {
+        "title": "Motor",
+        "description": "Navegação por teclado e tempos de resposta ajustáveis."
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "Agradecemos seu feedback sobre a acessibilidade do FitCoach. Por favor, informe-nos se encontrar barreiras de acessibilidade:",
+      "email": "E-mail:",
+      "response": "Procuramos responder ao feedback dentro de 5 dias úteis."
+    }
   },
   "investors": {
     "title": "Área do Investidor",
