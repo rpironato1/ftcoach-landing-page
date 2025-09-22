@@ -40,5 +40,311 @@
     "support": "Suporte",
     "legal": "Legal",
     "rights": "Todos os direitos reservados"
+  },
+  "features": {
+    "badge": "Recursos",
+    "title": "Tecnologia de Ponta para Resultados Extraordinários",
+    "subtitle": "Descubra como nossa plataforma revoluciona sua jornada fitness com inteligência artificial avançada e recursos inovadores",
+    "categories": {
+      "ai": "Inteligência Artificial",
+      "training": "Treinos",
+      "nutrition": "Nutrição",
+      "technology": "Tecnologia",
+      "support": "Suporte"
+    },
+    "ai": {
+      "personalization": {
+        "title": "Personalização Inteligente",
+        "description": "IA que aprende com seus dados e personaliza treinos únicos para seu perfil"
+      },
+      "adaptation": {
+        "title": "Adaptação em Tempo Real",
+        "description": "Algoritmos avançados ajustam intensidade conforme seu progresso"
+      },
+      "analytics": {
+        "title": "Análise Preditiva",
+        "description": "Previsão de resultados e identificação de padrões de performance"
+      }
+    },
+    "training": {
+      "videos": {
+        "title": "Vídeos em 4K",
+        "description": "Biblioteca com mais de 500 exercícios em alta definição"
+      },
+      "scheduling": {
+        "title": "Agendamento Inteligente",
+        "description": "Sistema que encontra os melhores horários baseado na sua rotina"
+      },
+      "community": {
+        "title": "Comunidade Global",
+        "description": "Conecte-se com 50mil+ usuários e compartilhe sua jornada"
+      }
+    },
+    "nutrition": {
+      "plans": {
+        "title": "Planos Nutricionais",
+        "description": "Cardápios personalizados por nutricionistas certificados"
+      },
+      "tracking": {
+        "title": "Monitoramento Nutricional",
+        "description": "Acompanhe macros, calorias e hidratação em tempo real"
+      },
+      "coaching": {
+        "title": "Coaching Nutricional",
+        "description": "Orientação especializada com nutricionistas experientes"
+      }
+    },
+    "technology": {
+      "mobile": {
+        "title": "App Mobile Completo",
+        "description": "Aplicativo nativo para iOS e Android com sincronização total"
+      },
+      "wearables": {
+        "title": "Integração Wearables",
+        "description": "Compatível com Apple Watch, Fitbit, Garmin e mais 20 dispositivos"
+      },
+      "offline": {
+        "title": "Modo Offline",
+        "description": "Acesse seus treinos mesmo sem conexão com a internet"
+      }
+    },
+    "support": {
+      "available": {
+        "title": "Suporte 24/7",
+        "description": "Equipe especializada disponível todos os dias do ano"
+      },
+      "health": {
+        "title": "Acompanhamento Médico",
+        "description": "Monitoramento de saúde por profissionais qualificados"
+      },
+      "security": {
+        "title": "Segurança Total",
+        "description": "Seus dados protegidos com criptografia de nível bancário"
+      }
+    },
+    "badges": {
+      "exclusive": "Exclusivo",
+      "patent": "Patenteado",
+      "new": "Novo",
+      "smart": "Inteligente",
+      "certified": "Certificado",
+      "realtime": "Tempo Real",
+      "available": "Disponível",
+      "medical": "Médico"
+    },
+    "stats": {
+      "workouts": "Treinos Completados",
+      "satisfaction": "Taxa de Satisfação",
+      "exercises": "Exercícios Únicos",
+      "support": "Suporte Disponível"
+    },
+    "cta": {
+      "title": "Pronto para Começar sua Transformação?",
+      "subtitle": "Junte-se a milhares de pessoas que já transformaram suas vidas",
+      "primary": "Começar Agora",
+      "secondary": "Ver Demonstração"
+    }
+  },
+  "pricing": {
+    "badge": "Preços",
+    "title": "Planos Que Se Adaptam ao Seu Objetivo",
+    "subtitle": "Escolha o plano ideal para sua jornada fitness. Todos os planos incluem garantia de 30 dias.",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "save": "Economize",
+    "popular": "Mais Popular",
+    "month": "mês",
+    "billedYearly": "cobrado anualmente",
+    "selectPlan": "Escolher Plano",
+    "features": "O que está incluído",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfeito para quem está começando",
+        "features": {
+          "0": "Treinos básicos personalizados",
+          "1": "App mobile essencial",
+          "2": "Suporte por email",
+          "3": "3 treinos por semana",
+          "4": "Análise de progresso simples",
+          "5": "Plano nutricional básico",
+          "6": "Coach virtual",
+          "7": "Suporte prioritário 24/7"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Ideal para resultados consistentes",
+        "features": {
+          "0": "Treinos avançados com IA",
+          "1": "App completo + wearables",
+          "2": "Suporte prioritário",
+          "3": "Treinos ilimitados",
+          "4": "Análise avançada + insights",
+          "5": "Plano nutricional personalizado",
+          "6": "Coach virtual + humano",
+          "7": "Suporte prioritário 24/7"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Para resultados extraordinários",
+        "features": {
+          "0": "Sistema completo de IA",
+          "1": "Todos os recursos premium",
+          "2": "Suporte VIP 24/7",
+          "3": "Treinos + nutrição + bem-estar",
+          "4": "Relatórios médicos detalhados",
+          "5": "Nutricionista dedicado",
+          "6": "Coach pessoal dedicado",
+          "7": "Consultoria de saúde integral"
+        }
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "q1": {
+        "question": "Posso cancelar a qualquer momento?",
+        "answer": "Sim, você pode cancelar seu plano a qualquer momento sem taxas adicionais. Seu acesso permanece ativo até o final do período pago."
+      },
+      "q2": {
+        "question": "Existe período de teste gratuito?",
+        "answer": "Oferecemos 7 dias grátis para todos os planos. Não é necessário cartão de crédito para começar."
+      },
+      "q3": {
+        "question": "Posso mudar de plano depois?",
+        "answer": "Claro! Você pode fazer upgrade ou downgrade do seu plano a qualquer momento. Ajustamos proporcionalmente o valor."
+      },
+      "q4": {
+        "question": "Os treinos funcionam offline?",
+        "answer": "Sim, você pode baixar treinos e usar offline. A sincronização acontece quando você se conecta novamente."
+      },
+      "q5": {
+        "question": "Há garantia de satisfação?",
+        "answer": "Oferecemos garantia de 30 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro."
+      },
+      "q6": {
+        "question": "Como funciona o suporte médico?",
+        "answer": "Nossos planos Premium e Enterprise incluem acompanhamento com profissionais de saúde certificados."
+      }
+    },
+    "cta": {
+      "title": "Ainda tem dúvidas sobre qual plano escolher?",
+      "subtitle": "Nossa equipe está pronta para ajudar você a encontrar o plano perfeito",
+      "contact": "Falar com Especialista",
+      "faq": "Ver Mais Perguntas"
+    }
+  },
+  "support": {
+    "badge": "Suporte",
+    "title": "Estamos Aqui Para Ajudar Você",
+    "subtitle": "Nossa equipe especializada está disponível 24/7 para garantir que você tenha a melhor experiência possível com o FitCoach",
+    "channels": {
+      "title": "Canais de Atendimento",
+      "contact": "Entrar em Contato",
+      "chat": {
+        "title": "Chat ao Vivo",
+        "description": "Converse em tempo real com nossa equipe",
+        "availability": "24/7 disponível",
+        "response": "Resposta em 2 minutos"
+      },
+      "email": {
+        "title": "Suporte por Email",
+        "description": "Envie sua dúvida detalhada por email",
+        "availability": "Sempre disponível",
+        "response": "Resposta em 4 horas"
+      },
+      "phone": {
+        "title": "Telefone",
+        "description": "Fale diretamente com um especialista",
+        "availability": "Seg-Sex 8h-20h",
+        "response": "Atendimento imediato"
+      },
+      "video": {
+        "title": "Videochamada",
+        "description": "Sessão personalizada por videochamada",
+        "availability": "Agendamento",
+        "response": "Sessão de 30 minutos"
+      }
+    },
+    "types": {
+      "title": "Tipos de Suporte",
+      "examples": "Exemplos",
+      "general": {
+        "title": "Dúvidas Gerais",
+        "description": "Informações sobre planos, recursos e funcionalidades",
+        "examples": {
+          "0": "Como funciona a personalização de treinos?",
+          "1": "Quais são os benefícios de cada plano?",
+          "2": "Como usar os recursos do aplicativo?"
+        }
+      },
+      "technical": {
+        "title": "Suporte Técnico",
+        "description": "Problemas com aplicativo, sincronização e dispositivos",
+        "examples": {
+          "0": "App não está sincronizando",
+          "1": "Problemas de login ou acesso",
+          "2": "Integração com wearables"
+        }
+      },
+      "health": {
+        "title": "Orientação de Saúde",
+        "description": "Dúvidas sobre exercícios, nutrição e bem-estar",
+        "examples": {
+          "0": "Adaptação de treinos para limitações",
+          "1": "Orientações nutricionais específicas",
+          "2": "Dúvidas sobre progressão de treinos"
+        }
+      },
+      "account": {
+        "title": "Conta e Cobrança",
+        "description": "Gerenciamento de conta, pagamentos e assinaturas",
+        "examples": {
+          "0": "Alterar dados da conta",
+          "1": "Dúvidas sobre cobrança",
+          "2": "Cancelamento ou mudança de plano"
+        }
+      }
+    },
+    "resources": {
+      "title": "Recursos de Autoatendimento",
+      "explore": "Explorar",
+      "knowledge": {
+        "title": "Base de Conhecimento",
+        "description": "Artigos e guias detalhados sobre todos os recursos"
+      },
+      "tutorials": {
+        "title": "Tutoriais em Vídeo",
+        "description": "Aprenda passo a passo como usar cada funcionalidade"
+      },
+      "community": {
+        "title": "Comunidade",
+        "description": "Conecte-se com outros usuários e compartilhe experiências"
+      },
+      "guides": {
+        "title": "Guias Práticos",
+        "description": "Manuais completos para maximizar seus resultados"
+      }
+    },
+    "status": {
+      "title": "Status do Sistema",
+      "subtitle": "Monitoramento em Tempo Real",
+      "description": "Acompanhe o status de todos os nossos serviços",
+      "operational": "Operacional",
+      "uptime": "Uptime",
+      "services": {
+        "app": "Aplicativo Mobile",
+        "api": "API Principal",
+        "ai": "Sistema de IA",
+        "payments": "Processamento de Pagamentos"
+      }
+    },
+    "cta": {
+      "title": "Não Encontrou o Que Procurava?",
+      "subtitle": "Nossa equipe está pronta para ajudar com qualquer dúvida ou problema que você possa ter",
+      "contact": "Falar com Suporte",
+      "help": "Ver Central de Ajuda"
+    }
   }
 }
