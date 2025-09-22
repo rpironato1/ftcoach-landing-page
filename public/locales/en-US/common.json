@@ -32,7 +32,13 @@
     "save": "Save",
     "popular": "Most Popular",
     "features": "Features included",
-    "select": "Select Plan"
+    "select": "Select Plan",
+    "comparison": {
+      "title": "Don't know which plan to choose?",
+      "subtitle": "Our specialists can help you find the perfect solution for your goals.",
+      "talkToSpecialist": "Talk to Specialist",
+      "compareDetailed": "Compare Plans in Detail"
+    }
   },
   "footer": {
     "product": "Product",
@@ -607,6 +613,100 @@
       "title": "Ready to be part of our story?",
       "subtitle": "Join thousands of people who have already transformed their lives with FitCoach",
       "button": "Start Now"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the specialists behind the FitCoach revolution",
+    "leadership": {
+      "title": "Executive Leadership",
+      "subtitle": "Experts with decades of experience in technology and fitness"
+    },
+    "advisors": {
+      "title": "Advisory Board",
+      "subtitle": "Strategic guidance from the best market professionals"
+    },
+    "members": {
+      "ricardo": {
+        "name": "Ricardo Pironato",
+        "role": "CEO & Founder",
+        "bio": "Former VP of Engineering at iFood and specialist in high-scale systems. Computer Science degree from USP with MBA from Stanford.",
+        "achievements": [
+          "15+ years in technology and leadership",
+          "Scaled systems for 50M+ users",
+          "Former McKinsey & Company consultant"
+        ]
+      },
+      "ana": {
+        "name": "Ana Costa",
+        "role": "CTO & Co-founder",
+        "bio": "PhD in AI from MIT and former Machine Learning lead at Google. Expert in personalization algorithms and distributed systems.",
+        "achievements": [
+          "PhD in AI from MIT",
+          "10+ patents in machine learning",
+          "Former Google Senior Staff Engineer"
+        ]
+      },
+      "carlos": {
+        "name": "Carlos Silva",
+        "role": "VP of Product",
+        "bio": "Former product director at Spotify and user experience specialist. Design degree from ESDI with UX specialization from IDEO.",
+        "achievements": [
+          "12+ years in digital products",
+          "300% growth at Spotify",
+          "UX specialization from IDEO"
+        ]
+      },
+      "mariana": {
+        "name": "Mariana Santos",
+        "role": "CMO",
+        "bio": "Former marketing director at Nike Brazil and sports marketing specialist. MBA from Wharton and Growth certification from Reforge.",
+        "achievements": [
+          "15+ years in sports marketing",
+          "Internationally awarded campaigns",
+          "400% growth at Nike Brazil"
+        ]
+      },
+      "pedro": {
+        "name": "Pedro Oliveira",
+        "role": "CFO",
+        "bio": "Former VP of Finance at Nubank and fintech specialist. Economics degree from FGV with MBA from Wharton and CFA charter.",
+        "achievements": [
+          "10+ years in fintech and venture capital",
+          "Led 5 investment rounds",
+          "Former Goldman Sachs analyst"
+        ]
+      },
+      "juliana": {
+        "name": "Juliana Lima",
+        "role": "VP of Data Science",
+        "bio": "PhD in Statistics from Stanford and former chief scientist at Uber. Expert in recommendation algorithms and predictive analytics.",
+        "achievements": [
+          "PhD in Statistics from Stanford",
+          "Developed algorithms used by 100M+ users",
+          "15+ publications in scientific journals"
+        ]
+      }
+    },
+    "advisorsData": {
+      "roberto": {
+        "name": "Roberto Marinho",
+        "role": "Strategic Advisor",
+        "company": "Former CEO Globo",
+        "expertise": "Corporate Strategy and International Expansion"
+      },
+      "patricia": {
+        "name": "Patricia Herrera",
+        "role": "Health Advisor",
+        "company": "Former CMO Johnson & Johnson",
+        "expertise": "Healthcare and Wellness Technology"
+      },
+      "fernando": {
+        "name": "Fernando Costa",
+        "role": "Technical Advisor",
+        "company": "Former CTO Mercado Livre",
+        "expertise": "Systems Architecture and Scalability"
+      }
     }
   },
   "terms": {

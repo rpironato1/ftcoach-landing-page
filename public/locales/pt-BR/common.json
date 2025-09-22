@@ -32,7 +32,13 @@
     "save": "Economize",
     "popular": "Mais Popular",
     "features": "Recursos incluídos",
-    "select": "Selecionar Plano"
+    "select": "Selecionar Plano",
+    "comparison": {
+      "title": "Não sabe qual plano escolher?",
+      "subtitle": "Nossos especialistas podem ajudar a encontrar a solução perfeita para seus objetivos.",
+      "talkToSpecialist": "Falar com Especialista",
+      "compareDetailed": "Comparar Planos Detalhadamente"
+    }
   },
   "footer": {
     "product": "Produto",
@@ -607,6 +613,100 @@
       "title": "Pronto para fazer parte da nossa história?",
       "subtitle": "Junte-se a milhares de pessoas que já transformaram suas vidas com FitCoach",
       "button": "Comece Agora"
+    }
+  },
+  "team": {
+    "title": "Nossa Equipe",
+    "subtitle": "Conheça os especialistas por trás da revolução FitCoach",
+    "leadership": {
+      "title": "Liderança Executiva",
+      "subtitle": "Especialistas com décadas de experiência em tecnologia e fitness"
+    },
+    "advisors": {
+      "title": "Conselho Consultivo",
+      "subtitle": "Orientação estratégica dos melhores profissionais do mercado"
+    },
+    "members": {
+      "ricardo": {
+        "name": "Ricardo Pironato",
+        "role": "CEO & Fundador",
+        "bio": "Ex-VP de Engenharia no iFood e especialista em sistemas de alta escala. Formado em Ciência da Computação pela USP com MBA em Stanford.",
+        "achievements": [
+          "15+ anos em tecnologia e liderança",
+          "Escalou sistemas para 50M+ usuários",
+          "Ex-consultor McKinsey & Company"
+        ]
+      },
+      "ana": {
+        "name": "Ana Costa",
+        "role": "CTO & Co-fundadora",
+        "bio": "Doutora em IA pela MIT e ex-líder de Machine Learning no Google. Especialista em algoritmos de personalização e sistemas distribuídos.",
+        "achievements": [
+          "PhD em IA pelo MIT",
+          "10+ patents em machine learning",
+          "Ex-Google Senior Staff Engineer"
+        ]
+      },
+      "carlos": {
+        "name": "Carlos Silva",
+        "role": "VP de Produto",
+        "bio": "Ex-diretor de produto na Spotify e especialista em experiência do usuário. Formado em Design pela ESDI com especialização em UX pela IDEO.",
+        "achievements": [
+          "12+ anos em produtos digitais",
+          "Crescimento de 300% no Spotify",
+          "Especialização em UX pela IDEO"
+        ]
+      },
+      "mariana": {
+        "name": "Mariana Santos",
+        "role": "CMO",
+        "bio": "Ex-diretora de marketing na Nike Brasil e especialista em marketing esportivo. MBA pela Wharton e certificação em Growth pela Reforge.",
+        "achievements": [
+          "15+ anos em marketing esportivo",
+          "Campanhas premiadas internacionalmente",
+          "Crescimento de 400% na Nike Brasil"
+        ]
+      },
+      "pedro": {
+        "name": "Pedro Oliveira",
+        "role": "CFO",
+        "bio": "Ex-VP financeiro no Nubank e especialista em fintech. Formado em Economia pela FGV com MBA pela Wharton e CFA charter.",
+        "achievements": [
+          "10+ anos em fintech e venture capital",
+          "Liderou 5 rodadas de investimento",
+          "Ex-analista no Goldman Sachs"
+        ]
+      },
+      "juliana": {
+        "name": "Juliana Lima",
+        "role": "VP de Ciência de Dados",
+        "bio": "Doutora em Estatística pela Stanford e ex-cientista chefe na Uber. Especialista em algoritmos de recomendação e análise preditiva.",
+        "achievements": [
+          "PhD em Estatística pela Stanford",
+          "Desenvolveu algoritmos usados por 100M+ usuários",
+          "15+ publicações em journals científicos"
+        ]
+      }
+    },
+    "advisorsData": {
+      "roberto": {
+        "name": "Roberto Marinho",
+        "role": "Advisor Estratégico",
+        "company": "Ex-CEO Globo",
+        "expertise": "Estratégia Corporativa e Expansão Internacional"
+      },
+      "patricia": {
+        "name": "Patricia Herrera",
+        "role": "Advisor de Saúde",
+        "company": "Ex-CMO Johnson & Johnson",
+        "expertise": "Healthcare e Wellness Technology"
+      },
+      "fernando": {
+        "name": "Fernando Costa",
+        "role": "Advisor Técnico",
+        "company": "Ex-CTO Mercado Livre",
+        "expertise": "Arquitetura de Sistemas e Escalabilidade"
+      }
     }
   },
   "terms": {
