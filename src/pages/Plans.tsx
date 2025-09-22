@@ -328,13 +328,13 @@ const Plans = () => {
         <div className="mt-20 text-center">
           <Card className="border-0 bg-gradient-to-r from-primary/5 to-primary/10">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4">Não sabe qual plano escolher?</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('plans.comparison.title')}</h3>
               <p className="text-muted-foreground mb-6">
-                Nossos especialistas podem ajudar a encontrar a solução perfeita para seus objetivos.
+                {t('plans.comparison.subtitle')}
               </p>
               <div className="flex gap-4 justify-center">
-                <Button variant="default">Falar com Especialista</Button>
-                <Button variant="outline">Comparar Planos Detalhadamente</Button>
+                <Button variant="default">{t('plans.comparison.talkToSpecialist')}</Button>
+                <Button variant="outline">{t('plans.comparison.compareDetailed')}</Button>
               </div>
             </CardContent>
           </Card>

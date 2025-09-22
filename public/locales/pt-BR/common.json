@@ -32,7 +32,13 @@
     "save": "Economize",
     "popular": "Mais Popular",
     "features": "Recursos incluídos",
-    "select": "Selecionar Plano"
+    "select": "Selecionar Plano",
+    "comparison": {
+      "title": "Não sabe qual plano escolher?",
+      "subtitle": "Nossos especialistas podem ajudar a encontrar a solução perfeita para seus objetivos.",
+      "talkToSpecialist": "Falar com Especialista",
+      "compareDetailed": "Comparar Planos Detalhadamente"
+    }
   },
   "footer": {
     "product": "Produto",
@@ -83,6 +89,14 @@
   "cookies": {
     "title": "Política de Cookies", 
     "subtitle": "Como usamos cookies para melhorar sua experiência",
+    "intro": "Esta política explica o que são cookies, como os usamos em nosso site e suas opções em relação a eles. Ao usar o FitCoach, você concorda com o uso de cookies de acordo com esta política.",
+    "whatAreCookies": {
+      "title": "O que são Cookies?",
+      "description": "Cookies são pequenos arquivos de texto que são colocados no seu dispositivo por sites que você visita. Eles são amplamente utilizados para fazer os sites funcionarem, ou funcionarem de forma mais eficiente, bem como para fornecer informações aos proprietários do site."
+    },
+    "howWeUse": {
+      "title": "Como Usamos Cookies"
+    },
     "essential": {
       "title": "Cookies Essenciais",
       "description": "Necessários para a funcionalidade principal, como login e segurança. Não podem ser desativados."
@@ -90,6 +104,11 @@
     "performance": {
       "title": "Cookies de Desempenho e Análise",
       "description": "Nos ajudam a entender como os visitantes interagem com o site, coletando informações anonimamente."
+    },
+    "yourOptions": {
+      "title": "Suas Opções",
+      "description": "Você tem o direito de decidir se aceita ou rejeita cookies. Você pode exercer suas preferências de cookies gerenciando-as nas configurações do seu navegador. Observe que, se você optar por rejeitar os cookies, ainda poderá usar nosso site, embora seu acesso a algumas funcionalidades e áreas possa ser restrito.",
+      "privacy": "Para mais detalhes sobre como gerenciamos seus dados, consulte nossa"
     }
   },
   "accessibility": {
@@ -609,6 +628,100 @@
       "button": "Comece Agora"
     }
   },
+  "team": {
+    "title": "Nossa Equipe",
+    "subtitle": "Conheça os especialistas por trás da revolução FitCoach",
+    "leadership": {
+      "title": "Liderança Executiva",
+      "subtitle": "Especialistas com décadas de experiência em tecnologia e fitness"
+    },
+    "advisors": {
+      "title": "Conselho Consultivo",
+      "subtitle": "Orientação estratégica dos melhores profissionais do mercado"
+    },
+    "members": {
+      "ricardo": {
+        "name": "Ricardo Pironato",
+        "role": "CEO & Fundador",
+        "bio": "Ex-VP de Engenharia no iFood e especialista em sistemas de alta escala. Formado em Ciência da Computação pela USP com MBA em Stanford.",
+        "achievements": [
+          "15+ anos em tecnologia e liderança",
+          "Escalou sistemas para 50M+ usuários",
+          "Ex-consultor McKinsey & Company"
+        ]
+      },
+      "ana": {
+        "name": "Ana Costa",
+        "role": "CTO & Co-fundadora",
+        "bio": "Doutora em IA pela MIT e ex-líder de Machine Learning no Google. Especialista em algoritmos de personalização e sistemas distribuídos.",
+        "achievements": [
+          "PhD em IA pelo MIT",
+          "10+ patents em machine learning",
+          "Ex-Google Senior Staff Engineer"
+        ]
+      },
+      "carlos": {
+        "name": "Carlos Silva",
+        "role": "VP de Produto",
+        "bio": "Ex-diretor de produto na Spotify e especialista em experiência do usuário. Formado em Design pela ESDI com especialização em UX pela IDEO.",
+        "achievements": [
+          "12+ anos em produtos digitais",
+          "Crescimento de 300% no Spotify",
+          "Especialização em UX pela IDEO"
+        ]
+      },
+      "mariana": {
+        "name": "Mariana Santos",
+        "role": "CMO",
+        "bio": "Ex-diretora de marketing na Nike Brasil e especialista em marketing esportivo. MBA pela Wharton e certificação em Growth pela Reforge.",
+        "achievements": [
+          "15+ anos em marketing esportivo",
+          "Campanhas premiadas internacionalmente",
+          "Crescimento de 400% na Nike Brasil"
+        ]
+      },
+      "pedro": {
+        "name": "Pedro Oliveira",
+        "role": "CFO",
+        "bio": "Ex-VP financeiro no Nubank e especialista em fintech. Formado em Economia pela FGV com MBA pela Wharton e CFA charter.",
+        "achievements": [
+          "10+ anos em fintech e venture capital",
+          "Liderou 5 rodadas de investimento",
+          "Ex-analista no Goldman Sachs"
+        ]
+      },
+      "juliana": {
+        "name": "Juliana Lima",
+        "role": "VP de Ciência de Dados",
+        "bio": "Doutora em Estatística pela Stanford e ex-cientista chefe na Uber. Especialista em algoritmos de recomendação e análise preditiva.",
+        "achievements": [
+          "PhD em Estatística pela Stanford",
+          "Desenvolveu algoritmos usados por 100M+ usuários",
+          "15+ publicações em journals científicos"
+        ]
+      }
+    },
+    "advisorsData": {
+      "roberto": {
+        "name": "Roberto Marinho",
+        "role": "Advisor Estratégico",
+        "company": "Ex-CEO Globo",
+        "expertise": "Estratégia Corporativa e Expansão Internacional"
+      },
+      "patricia": {
+        "name": "Patricia Herrera",
+        "role": "Advisor de Saúde",
+        "company": "Ex-CMO Johnson & Johnson",
+        "expertise": "Healthcare e Wellness Technology"
+      },
+      "fernando": {
+        "name": "Fernando Costa",
+        "role": "Advisor Técnico",
+        "company": "Ex-CTO Mercado Livre",
+        "expertise": "Arquitetura de Sistemas e Escalabilidade"
+      }
+    }
+  },
   "terms": {
     "version": "Versão",
     "title": "Termos de Serviço",
@@ -626,7 +739,37 @@
   "accessibility": {
     "title": "Declaração de Acessibilidade",
     "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
-    "compliance": "Conformidade: WCAG 2.1 Nível AA"
+    "compliance": "Conformidade: WCAG 2.1 Nível AA",
+    "intro": "A FitCoach está empenhada em garantir a acessibilidade digital para pessoas com deficiência. Estamos continuamente melhorando a experiência do usuário para todos e aplicando os padrões de acessibilidade relevantes.",
+    "measures": {
+      "title": "Medidas de Suporte",
+      "description": "Tomamos as seguintes medidas para garantir a acessibilidade:",
+      "items": {
+        "mission": "Incluímos a acessibilidade como parte de nossa missão.",
+        "development": "Integramos a acessibilidade em nossas práticas de desenvolvimento.",
+        "audits": "Realizamos auditorias de acessibilidade regulares."
+      }
+    },
+    "features": {
+      "visual": {
+        "title": "Visual",
+        "description": "Contraste de cores, texto redimensionável e compatibilidade com leitores de tela."
+      },
+      "auditory": {
+        "title": "Auditivo",
+        "description": "Legendas para vídeos e alternativas visuais para conteúdo sonoro."
+      },
+      "motor": {
+        "title": "Motor",
+        "description": "Navegação por teclado e tempos de resposta ajustáveis."
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "Agradecemos seu feedback sobre a acessibilidade do FitCoach. Por favor, informe-nos se encontrar barreiras de acessibilidade:",
+      "email": "E-mail:",
+      "response": "Procuramos responder ao feedback dentro de 5 dias úteis."
+    }
   },
   "investors": {
     "title": "Área do Investidor",
