@@ -5,6 +5,7 @@
     "team": "Team",
     "investors": "Investors",
     "press": "Press",
+    "plans": "Plans",
     "faq": "FAQ",
     "contact": "Contact",
     "help": "Help",
@@ -13,7 +14,10 @@
     "refund": "Refund",
     "cookies": "Cookies",
     "accessibility": "Accessibility",
-    "ai": "AI FocusTraining"
+    "ai": "AI FocusTraining",
+    "features": "Features",
+    "pricing": "Pricing",
+    "support": "Support"
   },
   "hero": {
     "title": "Transform your fitness journey with AI",
@@ -36,5 +40,311 @@
     "support": "Support",
     "legal": "Legal",
     "rights": "All rights reserved"
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Cutting-Edge Technology for Extraordinary Results",
+    "subtitle": "Discover how our platform revolutionizes your fitness journey with advanced artificial intelligence and innovative features",
+    "categories": {
+      "ai": "Artificial Intelligence",
+      "training": "Training",
+      "nutrition": "Nutrition",
+      "technology": "Technology",
+      "support": "Support"
+    },
+    "ai": {
+      "personalization": {
+        "title": "Smart Personalization",
+        "description": "AI that learns from your data and creates unique workouts for your profile"
+      },
+      "adaptation": {
+        "title": "Real-Time Adaptation",
+        "description": "Advanced algorithms adjust intensity according to your progress"
+      },
+      "analytics": {
+        "title": "Predictive Analytics",
+        "description": "Result prediction and performance pattern identification"
+      }
+    },
+    "training": {
+      "videos": {
+        "title": "4K Videos",
+        "description": "Library with over 500 exercises in high definition"
+      },
+      "scheduling": {
+        "title": "Smart Scheduling",
+        "description": "System that finds the best times based on your routine"
+      },
+      "community": {
+        "title": "Global Community",
+        "description": "Connect with 50k+ users and share your journey"
+      }
+    },
+    "nutrition": {
+      "plans": {
+        "title": "Nutrition Plans",
+        "description": "Personalized menus by certified nutritionists"
+      },
+      "tracking": {
+        "title": "Nutrition Tracking",
+        "description": "Track macros, calories and hydration in real time"
+      },
+      "coaching": {
+        "title": "Nutrition Coaching",
+        "description": "Expert guidance with experienced nutritionists"
+      }
+    },
+    "technology": {
+      "mobile": {
+        "title": "Complete Mobile App",
+        "description": "Native app for iOS and Android with full synchronization"
+      },
+      "wearables": {
+        "title": "Wearables Integration",
+        "description": "Compatible with Apple Watch, Fitbit, Garmin and 20+ devices"
+      },
+      "offline": {
+        "title": "Offline Mode",
+        "description": "Access your workouts even without internet connection"
+      }
+    },
+    "support": {
+      "available": {
+        "title": "24/7 Support",
+        "description": "Specialized team available every day of the year"
+      },
+      "health": {
+        "title": "Medical Monitoring",
+        "description": "Health monitoring by qualified professionals"
+      },
+      "security": {
+        "title": "Total Security",
+        "description": "Your data protected with bank-level encryption"
+      }
+    },
+    "badges": {
+      "exclusive": "Exclusive",
+      "patent": "Patented",
+      "new": "New",
+      "smart": "Smart",
+      "certified": "Certified",
+      "realtime": "Real Time",
+      "available": "Available",
+      "medical": "Medical"
+    },
+    "stats": {
+      "workouts": "Completed Workouts",
+      "satisfaction": "Satisfaction Rate",
+      "exercises": "Unique Exercises",
+      "support": "Support Available"
+    },
+    "cta": {
+      "title": "Ready to Start Your Transformation?",
+      "subtitle": "Join thousands of people who have already transformed their lives",
+      "primary": "Start Now",
+      "secondary": "See Demo"
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Plans That Adapt to Your Goal",
+    "subtitle": "Choose the ideal plan for your fitness journey. All plans include 30-day guarantee.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save",
+    "popular": "Most Popular",
+    "month": "month",
+    "billedYearly": "billed annually",
+    "selectPlan": "Select Plan",
+    "features": "What's included",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for beginners",
+        "features": {
+          "0": "Basic personalized workouts",
+          "1": "Essential mobile app",
+          "2": "Email support",
+          "3": "3 workouts per week",
+          "4": "Simple progress analysis",
+          "5": "Basic nutrition plan",
+          "6": "Virtual coach",
+          "7": "24/7 priority support"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Ideal for consistent results",
+        "features": {
+          "0": "Advanced AI workouts",
+          "1": "Complete app + wearables",
+          "2": "Priority support",
+          "3": "Unlimited workouts",
+          "4": "Advanced analysis + insights",
+          "5": "Personalized nutrition plan",
+          "6": "Virtual + human coach",
+          "7": "24/7 priority support"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For extraordinary results",
+        "features": {
+          "0": "Complete AI system",
+          "1": "All premium features",
+          "2": "VIP 24/7 support",
+          "3": "Training + nutrition + wellness",
+          "4": "Detailed medical reports",
+          "5": "Dedicated nutritionist",
+          "6": "Dedicated personal coach",
+          "7": "Comprehensive health consulting"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes, you can cancel your plan anytime without additional fees. Your access remains active until the end of the paid period."
+      },
+      "q2": {
+        "question": "Is there a free trial period?",
+        "answer": "We offer 7 days free for all plans. No credit card required to start."
+      },
+      "q3": {
+        "question": "Can I change plans later?",
+        "answer": "Sure! You can upgrade or downgrade your plan anytime. We adjust the amount proportionally."
+      },
+      "q4": {
+        "question": "Do workouts work offline?",
+        "answer": "Yes, you can download workouts and use offline. Synchronization happens when you connect again."
+      },
+      "q5": {
+        "question": "Is there a satisfaction guarantee?",
+        "answer": "We offer a 30-day guarantee. If you're not satisfied, we return 100% of your money."
+      },
+      "q6": {
+        "question": "How does medical support work?",
+        "answer": "Our Premium and Enterprise plans include monitoring with certified health professionals."
+      }
+    },
+    "cta": {
+      "title": "Still have questions about which plan to choose?",
+      "subtitle": "Our team is ready to help you find the perfect plan",
+      "contact": "Talk to Specialist",
+      "faq": "See More Questions"
+    }
+  },
+  "support": {
+    "badge": "Support",
+    "title": "We're Here to Help You",
+    "subtitle": "Our specialized team is available 24/7 to ensure you have the best possible experience with FitCoach",
+    "channels": {
+      "title": "Support Channels",
+      "contact": "Get in Touch",
+      "chat": {
+        "title": "Live Chat",
+        "description": "Chat in real time with our team",
+        "availability": "24/7 available",
+        "response": "2-minute response"
+      },
+      "email": {
+        "title": "Email Support",
+        "description": "Send your detailed question by email",
+        "availability": "Always available",
+        "response": "4-hour response"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "Speak directly with a specialist",
+        "availability": "Mon-Fri 8am-8pm",
+        "response": "Immediate service"
+      },
+      "video": {
+        "title": "Video Call",
+        "description": "Personalized session via video call",
+        "availability": "By appointment",
+        "response": "30-minute session"
+      }
+    },
+    "types": {
+      "title": "Support Types",
+      "examples": "Examples",
+      "general": {
+        "title": "General Questions",
+        "description": "Information about plans, features and functionalities",
+        "examples": {
+          "0": "How does workout personalization work?",
+          "1": "What are the benefits of each plan?",
+          "2": "How to use app features?"
+        }
+      },
+      "technical": {
+        "title": "Technical Support",
+        "description": "Problems with app, synchronization and devices",
+        "examples": {
+          "0": "App not syncing",
+          "1": "Login or access problems",
+          "2": "Wearables integration"
+        }
+      },
+      "health": {
+        "title": "Health Guidance",
+        "description": "Questions about exercises, nutrition and wellness",
+        "examples": {
+          "0": "Workout adaptation for limitations",
+          "1": "Specific nutritional guidance",
+          "2": "Questions about workout progression"
+        }
+      },
+      "account": {
+        "title": "Account & Billing",
+        "description": "Account management, payments and subscriptions",
+        "examples": {
+          "0": "Change account data",
+          "1": "Billing questions",
+          "2": "Cancellation or plan change"
+        }
+      }
+    },
+    "resources": {
+      "title": "Self-Service Resources",
+      "explore": "Explore",
+      "knowledge": {
+        "title": "Knowledge Base",
+        "description": "Detailed articles and guides about all features"
+      },
+      "tutorials": {
+        "title": "Video Tutorials",
+        "description": "Learn step by step how to use each functionality"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Connect with other users and share experiences"
+      },
+      "guides": {
+        "title": "Practical Guides",
+        "description": "Complete manuals to maximize your results"
+      }
+    },
+    "status": {
+      "title": "System Status",
+      "subtitle": "Real-Time Monitoring",
+      "description": "Track the status of all our services",
+      "operational": "Operational",
+      "uptime": "Uptime",
+      "services": {
+        "app": "Mobile App",
+        "api": "Main API",
+        "ai": "AI System",
+        "payments": "Payment Processing"
+      }
+    },
+    "cta": {
+      "title": "Didn't Find What You Were Looking For?",
+      "subtitle": "Our team is ready to help with any questions or problems you may have",
+      "contact": "Contact Support",
+      "help": "See Help Center"
+    }
   }
 }

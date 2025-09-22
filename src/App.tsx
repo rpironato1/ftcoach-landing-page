@@ -22,6 +22,9 @@ import Terms from "./pages/Terms";
 import Refund from "./pages/Refund";
 import Cookies from "./pages/Cookies";
 import Accessibility from "./pages/Accessibility";
+import Features from "./pages/Features";
+import Pricing from "./pages/Pricing";
+import Support from "./pages/Support";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -45,9 +48,12 @@ const App = () => (
                 <Route path="/press" element={<Press />} />
                 <Route path="/plans" element={<Plans />} />
                 <Route path="/ai" element={<AI />} />
+                <Route path="/features" element={<Features />} />
+                <Route path="/pricing" element={<Pricing />} />
                 <Route path="/faq" element={<FAQ />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/help" element={<Help />} />
+                <Route path="/support" element={<Support />} />
                 <Route path="/privacy" element={<Privacy />} />
                 <Route path="/terms" element={<Terms />} />
                 <Route path="/refund" element={<Refund />} />

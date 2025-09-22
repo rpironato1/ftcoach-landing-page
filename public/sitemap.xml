@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://fitcoach.com.br/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://fitcoach.com.br/about</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/about?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/about?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/about" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Team -->
+  <url>
+    <loc>https://fitcoach.com.br/team</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/team?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/team?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/team" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Plans -->
+  <url>
+    <loc>https://fitcoach.com.br/plans</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/plans?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/plans?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/plans" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Pricing -->
+  <url>
+    <loc>https://fitcoach.com.br/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/pricing?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/pricing?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/pricing" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Features -->
+  <url>
+    <loc>https://fitcoach.com.br/features</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/features?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/features?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/features" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- AI FocusTraining -->
+  <url>
+    <loc>https://fitcoach.com.br/ai</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/ai?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/ai?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/ai" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Support -->
+  <url>
+    <loc>https://fitcoach.com.br/support</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/support?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/support?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/support" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://fitcoach.com.br/contact</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/contact?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/contact?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/contact" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://fitcoach.com.br/faq</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/faq?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/faq?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/faq" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Help -->
+  <url>
+    <loc>https://fitcoach.com.br/help</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/help?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/help?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/help" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Company Pages -->
+  <url>
+    <loc>https://fitcoach.com.br/investors</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/investors?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/investors?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/investors" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://fitcoach.com.br/press</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/press?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/press?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/press" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://fitcoach.com.br/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/privacy?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/privacy?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/privacy" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://fitcoach.com.br/terms</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/terms?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/terms?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/terms" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://fitcoach.com.br/refund</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/refund?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/refund?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/refund" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://fitcoach.com.br/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/cookies?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/cookies?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/cookies" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://fitcoach.com.br/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://fitcoach.com.br/accessibility?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://fitcoach.com.br/accessibility?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fitcoach.com.br/accessibility" />
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
