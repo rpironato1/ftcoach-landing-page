@@ -1,65 +1,187 @@
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
-import { Globe, Instagram, Linkedin } from 'lucide-react';
-import TiktokIcon from './icons/TiktokIcon';
+"use client";
 
-const Footer = () => {
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { Button } from '@/components/ui/button';
+import { Separator } from '@/components/ui/separator';
+import { 
+  Facebook, 
+  Instagram, 
+  Twitter, 
+  Linkedin, 
+  Youtube,
+  Mail,
+  Phone,
+  MapPin
+} from 'lucide-react';
+
+export const Footer = () => {
   const { t } = useTranslation();
 
+  const productLinks = [
+    { href: '/personal-plans', label: t('navigation.personalPlans') },
+    { href: '/student-plans', label: t('navigation.studentPlans') },
+    { href: '/ai', label: t('navigation.ai') },
+    { href: '/features', label: t('navigation.features') },
+    { href: '/pricing', label: t('navigation.pricing') },
+  ];
+
+  const companyLinks = [
+    { href: '/about', label: t('navigation.about') },
+    { href: '/team', label: t('navigation.team') },
+    { href: '/investors', label: t('navigation.investors') },
+    { href: '/press', label: t('navigation.press') },
+  ];
+
+  const supportLinks = [
+    { href: '/faq', label: t('navigation.faq') },
+    { href: '/contact', label: t('navigation.contact') },
+    { href: '/help', label: t('navigation.help') },
+    { href: '/support', label: t('navigation.support') },
+  ];
+
+  const legalLinks = [
+    { href: '/privacy', label: t('navigation.privacy') },
+    { href: '/terms', label: t('navigation.terms') },
+    { href: '/refund', label: t('navigation.refund') },
+    { href: '/cookies', label: t('navigation.cookies') },
+    { href: '/accessibility', label: t('navigation.accessibility') },
+  ];
+
+  const socialLinks = [
+    { href: 'https://facebook.com', icon: Facebook, label: 'Facebook' },
+    { href: 'https://instagram.com', icon: Instagram, label: 'Instagram' },
+    { href: 'https://twitter.com', icon: Twitter, label: 'Twitter' },
+    { href: 'https://linkedin.com', icon: Linkedin, label: 'LinkedIn' },
+    { href: 'https://youtube.com', icon: Youtube, label: 'YouTube' },
+  ];
+
   return (
-    <footer className="bg-background border-t">
+    <footer className="bg-muted/50 border-t">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-8">
-          {/* Logo and Description */}
-          <div className="md:col-span-2 lg:col-span-2">
-            <h2 className="text-2xl font-bold mb-4">FitCoach</h2>
-            <p className="text-muted-foreground mb-6 max-w-sm">
+        {/* Main Footer Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+          {/* Brand Section */}
+          <div className="lg:col-span-2 space-y-4">
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                <span className="text-primary-foreground font-bold text-sm">FC</span>
+              </div>
+              <span className="font-bold text-xl">FitCoach</span>
+            </div>
+            <p className="text-sm text-muted-foreground max-w-xs">
               {t('footer.description')}
             </p>
-            <div className="flex items-center gap-2">
-              <Globe className="h-5 w-5 text-muted-foreground" />
-              <span className="text-sm text-muted-foreground">Português (Brasil)</span>
+            <div className="flex space-x-2">
+              {socialLinks.map((social) => (
+                <Button
+                  key={social.href}
+                  variant="ghost"
+                  size="icon"
+                  asChild
+                  className="h-8 w-8"
+                >
+                  <a
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.label}
+                  >
+                    <social.icon className="h-4 w-4" />
+                  </a>
+                </Button>
+              ))}
             </div>
           </div>
 
-          {/* Links */}
-          <div>
-            <h3 className="font-semibold mb-4">{t('footer.product')}</h3>
+          {/* Product Links */}
+          <div className="space-y-3">
+            <h3 className="font-semibold text-sm">{t('footer.product')}</h3>
             <ul className="space-y-2">
-              <li><Link to="/features" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.features')}</Link></li>
-              <li><Link to="/ai" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.ai')}</Link></li>
-              <li><Link to="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.pricing')}</Link></li>
+              {productLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">{t('footer.company')}</h3>
+          {/* Company Links */}
+          <div className="space-y-3">
+            <h3 className="font-semibold text-sm">{t('footer.company')}</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.about')}</Link></li>
-              <li><Link to="/team" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.team')}</Link></li>
+              {companyLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">{t('footer.support')}</h3>
+          {/* Support Links */}
+          <div className="space-y-3">
+            <h3 className="font-semibold text-sm">{t('footer.support')}</h3>
             <ul className="space-y-2">
-              <li><Link to="/help" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.help')}</Link></li>
-              <li><Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.contact')}</Link></li>
-              <li><Link to="/faq" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.faq')}</Link></li>
+              {supportLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">{t('footer.legal')}</h3>
+          {/* Legal Links */}
+          <div className="space-y-3">
+            <h3 className="font-semibold text-sm">{t('footer.legal')}</h3>
             <ul className="space-y-2">
-              <li><Link to="/terms" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.terms')}</Link></li>
-              <li><Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.privacy')}</Link></li>
-              <li><Link to="/cookies" className="text-muted-foreground hover:text-foreground transition-colors">{t('navigation.cookies')}</Link></li>
+              {legalLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
 
-        <div className="border-t my-8"></div>
+        <Separator className="my-8" />
+
+        {/* Contact Info */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <Mail className="h-4 w-4" />
+            <span>{t('footer.contact.email')}</span>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <Phone className="h-4 w-4" />
+            <span>{t('footer.contact.phone')}</span>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <MapPin className="h-4 w-4" />
+            <span>{t('footer.contact.address')}</span>
+          </div>
+        </div>
+
+        <Separator className="mb-8" />
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
@@ -67,20 +189,19 @@ const Footer = () => {
             © 2024 FitCoach. {t('footer.rights')}
           </p>
           <div className="flex items-center space-x-4">
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              <TiktokIcon className="h-5 w-5" />
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Linkedin className="h-5 w-5" />
-            </a>
+            <img
+              src="/placeholder.svg"
+              alt="SSL Secure"
+              className="h-8 w-auto"
+            />
+            <img
+              src="/placeholder.svg"
+              alt="PCI Compliance"
+              className="h-8 w-auto"
+            />
           </div>
         </div>
       </div>
     </footer>
   );
 };
-
-export default Footer;
