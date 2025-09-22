@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Timeline } from '@/components/ui/timeline';
 import { ArrowRight, Users, Target, Zap, TrendingUp, Award } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 const About = () => {
   const [activeYear, setActiveYear] = useState(2024);
@@ -51,143 +51,25 @@ const About = () => {
       title: "Inovação Constante",
       description: "Investimos 40% da receita em P&D para manter a liderança tecnológica",
       icon: Zap,
-      color: "text-purple-600"
+      color: "bg-purple-500 text-white"
     },
     {
       title: "Acessibilidade",
       description: "Fitness de qualidade deve estar ao alcance de todos, independentemente do nível",
       icon: Users,
-      color: "text-blue-600"
+      color: "bg-blue-500 text-white"
     },
     {
       title: "Resultados Comprovados",
       description: "Cada feature é testada e validada com dados reais de milhares de usuários",
       icon: Target,
-      color: "text-green-600"
+      color: "bg-green-500 text-white"
     },
     {
       title: "Transparência Total",
       description: "Dados claros, políticas transparentes e comunicação honesta",
       icon: Award,
-      color: "text-orange-600"
-    }
-  ];
-
-  const stats = [
-    { label: "Usuários Ativos", value: "50.000+", suffix: "" },
-    { label: "Treinos Criados", value: "2.5", suffix: "M+" },
-    { label: "Taxa de Sucesso", value: "98", suffix: "%" },
-    { label: "Países", value: "8", suffix: "" }
-  ];
-
-  return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-secondary/20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-6">
-              Sobre Nós
-            </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Transformando Vidas Através da
-              <span className="text-primary"> Tecnologia</span>
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              Somos a maior plataforma de fitness com IA da América Latina, 
-              com a missão de democratizar o acesso a treinos personalizados e nutrição inteligente.
-            </p>
-            <div className="flex gap-4 justify-center">
-              <Button size="lg">
-                Conheça Nossa Equipe
-              </Button>
-              <Button variant="outline" size="lg">
-                Nossa História
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-centerLet me continue with the About page and create the remaining institutional pages:
-
-<dyad-write path="src/pages/About.tsx">
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { ArrowRight, Users, Target, Zap, TrendingUp, Award } from 'lucide-react';
-
-const About = () => {
-  const [activeYear, setActiveYear] = useState(2024);
-
-  const milestones = [
-    {
-      year: 2020,
-      title: "Fundação da FitCoach",
-      description: "Começamos com a missão de democratizar o acesso a treinos personalizados",
-      icon: Users,
-      color: "bg-blue-500"
-    },
-    {
-      year: 2021,
-      title: "Lançamento da IA",
-      description: "Primeiro algoritmo de personalização fitness do Brasil",
-      icon: Zap,
-      color: "bg-purple-500"
-    },
-    {
-      year: 2022,
-      title: "10 Mil Usuários",
-      description: "Alcançamos a marca de 10 mil transformações realizadas",
-      icon: Target,
-      color: "bg-green-500"
-    },
-    {
-      year: 2023,
-      title: "Expansão Internacional",
-      description: "Lançamento em 5 países da América Latina",
-      icon: TrendingUp,
-      color: "bg-orange-500"
-    },
-    {
-      year: 2024,
-      title: "Líder de Mercado",
-      description: "Maior plataforma de fitness com IA da América Latina",
-      icon: Award,
-      color: "bg-red-500"
-    }
-  ];
-
-  const values = [
-    {
-      title: "Inovação Constante",
-      description: "Investimos 40% da receita em P&D para manter a liderança tecnológica",
-      icon: Zap,
-      color: "text-purple-600"
-    },
-    {
-      title: "Acessibilidade",
-      description: "Fitness de qualidade deve estar ao alcance de todos, independentemente do nível",
-      icon: Users,
-      color: "text-blue-600"
-    },
-    {
-      title: "Resultados Comprovados",
-      description: "Cada feature é testada e validada com dados reais de milhares de usuários",
-      icon: Target,
-      color: "text-green-600"
-    },
-    {
-      title: "Transparência Total",
-      description: "Dados claros, políticas transparentes e comunicação honesta",
-      icon: Award,
-      color: "text-orange-600"
+      color: "bg-orange-500 text-white"
     }
   ];
 
@@ -278,7 +160,7 @@ const About = () => {
                     )}
                     onClick={() => setActiveYear(milestone.year)}>
                       <CardHeader>
-                        <div className="flex items-center gap-2 mb-2">
+                        <div className="flex items-center gap-2 mb-2 justify-end flex-row-reverse">
                           <div className={cn("w-3 h-3 rounded-full", milestone.color)}></div>
                           <Badge variant="outline">{milestone.year}</Badge>
                         </div>
@@ -314,7 +196,7 @@ const About = () => {
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300">
                 <CardHeader>
                   <div className={cn("w-12 h-12 rounded-lg flex items-center justify-center mb-4", value.color)}>
-                    <value.icon className="h-6 w-6 text-white" />
+                    <value.icon className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-lg">{value.title}</CardTitle>
                 </CardHeader>
