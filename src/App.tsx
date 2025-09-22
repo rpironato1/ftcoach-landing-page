@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Index from "@/pages/Index";
 import PersonalPlans from "@/pages/PersonalPlans";
 import StudentPlans from "@/pages/StudentPlans";
-import { ThemeProvider } from "@/lib/theme-provider";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { Header } from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Breadcrumbs } from "@/components/Breadcrumbs";

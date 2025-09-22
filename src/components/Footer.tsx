@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Globe, Instagram, Linkedin } from 'lucide-react';
-import TiktokIcon from './TiktokIcon';
+import TiktokIcon from './icons/TiktokIcon';
 
 const Footer = () => {
   const { t } = useTranslation();
