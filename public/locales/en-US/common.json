@@ -727,5 +727,42 @@
       "phone": "+1 (555) 123-4567",
       "scheduleButton": "Schedule Interview"
     }
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "subtitle": "Transparency and simplicity in our refund process.",
+    "intro": "At FitCoach, our goal is your complete satisfaction. We offer a 7-day free trial period so you can experience all features before any charges. If, for any reason, you are not satisfied, this policy describes your options.",
+    "eligibility": {
+      "title": "Refund Eligibility",
+      "items": {
+        "monthly": "Monthly subscription: up to 30 days after billing",
+        "annual": "Annual subscription: up to 30 days after first billing",
+        "enterprise": "Corporate plans: according to specific contract"
+      }
+    },
+    "process": {
+      "title": "How to Request a Refund",
+      "steps": {
+        "1": "Contact us via email or chat",
+        "2": "Provide account information and reason",
+        "3": "Wait for confirmation within 24h",
+        "4": "Refund processed in 5-7 business days"
+      }
+    },
+    "important": {
+      "title": "Important Information",
+      "items": {
+        "noFee": "We don't charge cancellation fees",
+        "dataAccess": "Data preserved for 30 days after cancellation",
+        "support": "Support available throughout the process"
+      }
+    },
+    "contact": {
+      "title": "Need Help?",
+      "subtitle": "Our team is ready to help with any refund questions",
+      "email": "support@fitcoach.com",
+      "chat": "Live Chat",
+      "scheduleButton": "Talk to Specialist"
+    }
   }
 }

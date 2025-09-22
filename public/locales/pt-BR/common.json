@@ -727,5 +727,42 @@
       "phone": "+55 (11) 99999-9999",
       "scheduleButton": "Agendar Entrevista"
     }
+  },
+  "refund": {
+    "title": "Política de Reembolso",
+    "subtitle": "Transparência e simplicidade no nosso processo de reembolso.",
+    "intro": "Na FitCoach, nosso objetivo é sua total satisfação. Oferecemos um período de teste gratuito de 7 dias para que você possa experimentar todos os recursos antes de qualquer cobrança. Se, por qualquer motivo, você não estiver satisfeito, esta política descreve suas opções.",
+    "eligibility": {
+      "title": "Elegibilidade para Reembolso",
+      "items": {
+        "monthly": "Assinatura mensal: até 30 dias após a cobrança",
+        "annual": "Assinatura anual: até 30 dias após a primeira cobrança",
+        "enterprise": "Planos corporativos: conforme contrato específico"
+      }
+    },
+    "process": {
+      "title": "Como Solicitar Reembolso",
+      "steps": {
+        "1": "Entre em contato via email ou chat",
+        "2": "Forneça informações da conta e motivo",
+        "3": "Aguarde confirmação em até 24h",
+        "4": "Reembolso processado em 5-7 dias úteis"
+      }
+    },
+    "important": {
+      "title": "Informações Importantes",
+      "items": {
+        "noFee": "Não cobramos taxas de cancelamento",
+        "dataAccess": "Dados preservados por 30 dias após cancelamento",
+        "support": "Suporte disponível durante todo o processo"
+      }
+    },
+    "contact": {
+      "title": "Precisa de Ajuda?",
+      "subtitle": "Nossa equipe está pronta para ajudar com qualquer dúvida sobre reembolsos",
+      "email": "suporte@fitcouch.com.br",
+      "chat": "Chat ao Vivo",
+      "scheduleButton": "Falar com Especialista"
+    }
   }
 }

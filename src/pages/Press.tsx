@@ -143,10 +143,10 @@ const Press = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Sala de Imprensa
+            {t('press.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Recursos e informações para jornalistas e profissionais de mídia
+            {t('press.subtitle')}
           </p>
         </div>
 
@@ -163,7 +163,7 @@ const Press = () => {
                 <CardContent>
                   <Button variant="outline" className="w-full">
                     <Download className="h-4 w-4 mr-2" />
-                    Baixar
+                    {t('press.assets.download')}
                   </Button>
                 </CardContent>
               </Card>
@@ -174,9 +174,9 @@ const Press = () => {
         {/* Press Releases */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Comunicados de Imprensa</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('press.releases.title')}</h2>
             <p className="text-muted-foreground">
-              Últimas notícias e anúncios oficiais
+              {t('press.releases.subtitle')}
             </p>
           </div>
 
@@ -208,7 +208,7 @@ const Press = () => {
                       )}
                     </div>
                     <Button variant="ghost" size="sm">
-                      Ler mais
+                      {t('press.releases.readMore')}
                     </Button>
                   </div>
                 </CardContent>
