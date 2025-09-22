@@ -522,26 +522,6 @@
         "title": "Contact Us",
         "description": "Direct support"
       }
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help. Send us your message and we'll get back to you soon.",
-    "form": {
-      "title": "Send Your Message",
-      "description": "Fill out the form below.",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "subjectPlaceholder": "Select Subject",
-      "subjects": {
-        "support": "Technical Support",
-        "billing": "Billing",
-        "partnership": "Partnerships",
-        "other": "Other"
-      },
-      "messagePlaceholder": "Your message",
-      "submit": "Send"
     },
     "info": {
       "title": "Contact Information",
@@ -756,5 +736,55 @@
     "title": "Accessibility Statement",
     "subtitle": "Our commitment to making FitCoach accessible to everyone.",
     "compliance": "Compliance: WCAG 2.1 Level AA"
+  },
+  "investors": {
+    "title": "Investor Relations",
+    "subtitle": "Financial information and updates for our investors",
+    "metrics": {
+      "valuation": "Company Valuation",
+      "revenue": "Annual Revenue",
+      "users": "Active Users",
+      "retention": "Retention Rate"
+    },
+    "funding": {
+      "title": "Funding History",
+      "subtitle": "Our journey of growth and fundraising",
+      "seed": "Seed",
+      "seriesA": "Series A",
+      "seriesB": "Series B",
+      "seriesC": "Series C",
+      "lead": "Lead",
+      "valuation": "Valuation",
+      "goal": "Goal",
+      "descriptions": {
+        "seed": "MVP development and market validation",
+        "seriesA": "National expansion and AI development",
+        "seriesB": "International expansion and acquisitions",
+        "seriesC": "Market leadership and new products"
+      }
+    },
+    "documents": {
+      "title": "Investor Documents",
+      "subtitle": "Access our official reports and presentations",
+      "deck": {
+        "title": "Investor Deck",
+        "description": "Overview of the business, market, and strategy"
+      },
+      "report2023": {
+        "title": "2023 Annual Report",
+        "description": "Complete financial and operational performance"
+      },
+      "esg": {
+        "title": "ESG Report",
+        "description": "Environmental, social, and governance responsibility"
+      },
+      "download": "Download"
+    },
+    "contact": {
+      "title": "Interested in Investing?",
+      "subtitle": "Contact our Investor Relations team for more information on investment opportunities and market updates.",
+      "emailButton": "investors@fitcouch.com",
+      "scheduleButton": "Schedule Meeting"
+    }
   }
 }

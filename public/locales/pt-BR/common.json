@@ -547,7 +547,7 @@
       "title": "Informações de Contato",
       "email": {
         "label": "Email",
-        "value": "contato@fitcoach.com.br"
+        "value": "contato@fitcouch.com.br"
       },
       "phone": {
         "label": "Telefone",
@@ -756,5 +756,55 @@
     "title": "Declaração de Acessibilidade",
     "subtitle": "Nosso compromisso em tornar o FitCoach acessível para todos.",
     "compliance": "Conformidade: WCAG 2.1 Nível AA"
+  },
+  "investors": {
+    "title": "Área do Investidor",
+    "subtitle": "Informações financeiras e atualizações para nossos investidores",
+    "metrics": {
+      "valuation": "Valor da Empresa",
+      "revenue": "Receita Anual",
+      "users": "Usuários Ativos",
+      "retention": "Taxa de Retenção"
+    },
+    "funding": {
+      "title": "Histórico de Investimentos",
+      "subtitle": "Nossa jornada de crescimento e captação de recursos",
+      "seed": "Semente",
+      "seriesA": "Série A",
+      "seriesB": "Série B",
+      "seriesC": "Série C",
+      "lead": "Líder",
+      "valuation": "Valuação",
+      "goal": "Objetivo",
+      "descriptions": {
+        "seed": "Desenvolvimento do MVP e validação de mercado",
+        "seriesA": "Expansão nacional e desenvolvimento da IA",
+        "seriesB": "Expansão internacional e aquisições",
+        "seriesC": "Liderança de mercado e novos produtos"
+      }
+    },
+    "documents": {
+      "title": "Documentos para Investidores",
+      "subtitle": "Acesse nossos relatórios e apresentações oficiais",
+      "deck": {
+        "title": "Apresentação para Investidores",
+        "description": "Visão geral do negócio, mercado e estratégia"
+      },
+      "report2023": {
+        "title": "Relatório Anual 2023",
+        "description": "Performance financeira e operacional completa"
+      },
+      "esg": {
+        "title": "ESG Report",
+        "description": "Responsabilidade social e ambiental"
+      },
+      "download": "Baixar"
+    },
+    "contact": {
+      "title": "Interessado em Investir?",
+      "subtitle": "Entre em contato com nosso time de Relações com Investidores para mais informações sobre oportunidades de investimento e atualizações do mercado.",
+      "emailButton": "investors@fitcouch.com.br",
+      "scheduleButton": "Agendar Reunião"
+    }
   }
 }
