@@ -36,7 +36,7 @@
   },
   "footer": {
     "product": "Produto",
-    "company": "Empresa", 
+    "company": "Empresa",
     "support": "Suporte",
     "legal": "Legal",
     "rights": "Todos os direitos reservados",
@@ -369,7 +369,7 @@
         "description": "Processamento de dados biométricos em milissegundos para otimização imediata"
       },
       "surgicalPrecision": {
-        "title": "Precisão Cirúrgica", 
+        "title": "Precisão Cirúrgica",
         "description": "98% de precisão na personalização de treinos e previsão de resultados"
       },
       "smartCommunity": {
@@ -424,7 +424,7 @@
       "title": "Envie sua Mensagem",
       "description": "Preencha o formulário abaixo.",
       "firstName": "Nome",
-      "lastName": "Sobrenome", 
+      "lastName": "Sobrenome",
       "email": "Email",
       "subjectPlaceholder": "Selecione o Assunto",
       "subjects": {
@@ -500,6 +500,65 @@
       "subtitle": "Somos a maior plataforma de fitness com IA da América Latina, com a missão de democratizar o acesso a treinos personalizados e nutrição inteligente.",
       "teamButton": "Conheça Nossa Equipe",
       "historyButton": "Nossa História"
+    },
+    "stats": {
+      "users": "Usuários Ativos",
+      "workouts": "Treinos Criados",
+      "successRate": "Taxa de Sucesso",
+      "countries": "Países"
+    },
+    "timeline": {
+      "title": "Nossa Jornada",
+      "subtitle": "Como crescemos para nos tornar líderes do mercado",
+      "milestones": {
+        "2020": {
+          "title": "Fundação da FitCoach",
+          "description": "Começamos com a missão de democratizar o acesso a treinos personalizados"
+        },
+        "2021": {
+          "title": "Lançamento da IA",
+          "description": "Primeiro algoritmo de personalização fitness do Brasil"
+        },
+        "2022": {
+          "title": "10 Mil Usuários",
+          "description": "Alcançamos a marca de 10 mil transformações realizadas"
+        },
+        "2023": {
+          "title": "Expansão Internacional",
+          "description": "Lançamento em 5 países da América Latina"
+        },
+        "2024": {
+          "title": "Líder de Mercado",
+          "description": "Maior plataforma de fitness com IA da América Latina"
+        }
+      }
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "subtitle": "Princípios que guiam cada decisão que tomamos",
+      "items": {
+        "innovation": {
+          "title": "Inovação Constante",
+          "description": "Investimos 40% da receita em P&D para manter a liderança tecnológica"
+        },
+        "accessibility": {
+          "title": "Acessibilidade",
+          "description": "Fitness de qualidade deve estar ao alcance de todos, independentemente do nível"
+        },
+        "results": {
+          "title": "Resultados Comprovados",
+          "description": "Cada feature é testada e validada com dados reais de milhares de usuários"
+        },
+        "transparency": {
+          "title": "Transparência Total",
+          "description": "Dados claros, políticas transparentes e comunicação honesta"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para fazer parte da nossa história?",
+      "subtitle": "Junte-se a milhares de pessoas que já transformaram suas vidas com FitCoach",
+      "button": "Comece Agora"
     }
   },
   "terms": {

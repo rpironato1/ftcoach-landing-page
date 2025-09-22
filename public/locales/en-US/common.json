@@ -37,7 +37,7 @@
   "footer": {
     "product": "Product",
     "company": "Company",
-    "support": "Support", 
+    "support": "Support",
     "legal": "Legal",
     "rights": "All rights reserved",
     "description": "Transforming lives through artificial intelligence and advanced fitness personalization.",
@@ -379,7 +379,7 @@
     },
     "stats": {
       "dataProcessed": "Data Processed",
-      "aiPrecision": "AI Precision", 
+      "aiPrecision": "AI Precision",
       "responseTime": "Response Time",
       "usersServed": "Users Served"
     },
@@ -500,6 +500,65 @@
       "subtitle": "We are Latin America's largest AI-powered fitness platform, with the mission of democratizing access to personalized workouts and intelligent nutrition.",
       "teamButton": "Meet Our Team",
       "historyButton": "Our Story"
+    },
+    "stats": {
+      "users": "Active Users",
+      "workouts": "Workouts Created",
+      "successRate": "Success Rate",
+      "countries": "Countries"
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "How we grew to become market leaders",
+      "milestones": {
+        "2020": {
+          "title": "FitCoach Foundation",
+          "description": "We started with the mission to democratize access to personalized workouts"
+        },
+        "2021": {
+          "title": "AI Launch",
+          "description": "Brazil's first fitness personalization algorithm"
+        },
+        "2022": {
+          "title": "10K Users",
+          "description": "We reached the milestone of 10,000 transformations"
+        },
+        "2023": {
+          "title": "International Expansion",
+          "description": "Launched in 5 Latin American countries"
+        },
+        "2024": {
+          "title": "Market Leader",
+          "description": "The largest AI-powered fitness platform in Latin America"
+        }
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "Principles that guide every decision we make",
+      "items": {
+        "innovation": {
+          "title": "Constant Innovation",
+          "description": "We invest 40% of revenue in R&D to maintain technological leadership"
+        },
+        "accessibility": {
+          "title": "Accessibility",
+          "description": "Quality fitness should be within everyone's reach, regardless of their level"
+        },
+        "results": {
+          "title": "Proven Results",
+          "description": "Each feature is tested and validated with real data from thousands of users"
+        },
+        "transparency": {
+          "title": "Total Transparency",
+          "description": "Clear data, transparent policies, and honest communication"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to be part of our story?",
+      "subtitle": "Join thousands of people who have already transformed their lives with FitCoach",
+      "button": "Start Now"
     }
   },
   "terms": {
