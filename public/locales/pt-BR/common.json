@@ -34,12 +34,69 @@
     "save": "Economize",
     "popular": "Mais Popular",
     "features": "Recursos incluídos",
-    "select": "Selecionar Plano"
+    "select": "Selecionar Plano",
+    "contactSales": "Fale Conosco"
   },
   "personalPlans": {
-    "badge": "💰 Economize até 17% com plano anual",
-    "title": "Planos Pessoais",
-    "subtitle": "Escolha entre 9 modalidades perfeitas para sua jornada fitness. Teste gratuito de 7 dias em qualquer plano.",
+    "badge": "🚀 Para Personal Trainers",
+    "title": "Planos para Personal Trainers",
+    "subtitle": "Eleve o nível do seu atendimento com a melhor ferramenta de gestão de alunos e treinos.",
+    "free": {
+      "name": "Plano Free",
+      "price": "15 dias grátis",
+      "features": [
+        "Até 10 alunos",
+        "Funcionalidades totais",
+        "Suporte via chat e email"
+      ],
+      "cta": "Começar Teste Grátis"
+    },
+    "basic": {
+      "name": "Plano Básico",
+      "features": [
+        "Até 20 alunos ativos",
+        "Gestão avançada de treinos",
+        "Gestão nutricional manual",
+        "Suporte e-mail",
+        "Backup automático"
+      ]
+    },
+    "standard": {
+      "name": "Plano Padrão",
+      "features": [
+        "Até 50 alunos ativos",
+        "Acesso completo a IA FocusTraining",
+        "Gestão avançada de treinos",
+        "Gestão avançada nutricional",
+        "Controle de evolução dos alunos",
+        "Relatórios detalhados",
+        "Integração WhatsApp básica",
+        "Suporte prioritário nível 2",
+        "Analytics básico"
+      ]
+    },
+    "premium": {
+      "name": "Plano Premium",
+      "features": [
+        "Até 200 alunos ativos",
+        "Acesso completo a IA FocusTraining",
+        "Gestão avançada de treinos",
+        "Gestão avançada nutricional",
+        "Controle e recomendação avançados",
+        "Integração WhatsApp avançada",
+        "Suporte prioritário nível 1"
+      ]
+    },
+    "enterprise": {
+      "name": "Plano Enterprise",
+      "description": "Soluções sob medida para grandes equipes e academias.",
+      "features": [
+        "Alunos ilimitados",
+        "Soluções White Label",
+        "API para integrações",
+        "Suporte dedicado"
+      ]
+    },
     "cta": {
       "title": "Não sabe qual plano escolher?",
       "subtitle": "Nossos especialistas podem ajudar a encontrar a solução perfeita para seus objetivos.",

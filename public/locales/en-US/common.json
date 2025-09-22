@@ -34,12 +34,69 @@
     "save": "Save",
     "popular": "Most Popular",
     "features": "Features included",
-    "select": "Select Plan"
+    "select": "Select Plan",
+    "contactSales": "Contact Sales"
   },
   "personalPlans": {
-    "badge": "💰 Save up to 17% with an annual plan",
-    "title": "Personal Plans",
-    "subtitle": "Choose from 9 perfect modalities for your fitness journey. 7-day free trial on any plan.",
+    "badge": "🚀 For Personal Trainers",
+    "title": "Plans for Personal Trainers",
+    "subtitle": "Level up your service with the best tool for managing students and workouts.",
+    "free": {
+      "name": "Free Plan",
+      "price": "15 days free",
+      "features": [
+        "Up to 10 students",
+        "Full features",
+        "Chat and email support"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "basic": {
+      "name": "Basic Plan",
+      "features": [
+        "Up to 20 active students",
+        "Advanced workout management",
+        "Manual nutrition management",
+        "Email support",
+        "Automatic backup"
+      ]
+    },
+    "standard": {
+      "name": "Standard Plan",
+      "features": [
+        "Up to 50 active students",
+        "Full access to AI FocusTraining",
+        "Advanced workout management",
+        "Advanced nutrition management",
+        "Student progress tracking",
+        "Detailed reports",
+        "Basic WhatsApp integration",
+        "Priority support level 2",
+        "Basic analytics"
+      ]
+    },
+    "premium": {
+      "name": "Premium Plan",
+      "features": [
+        "Up to 200 active students",
+        "Full access to AI FocusTraining",
+        "Advanced workout management",
+        "Advanced nutrition management",
+        "Advanced control and recommendations",
+        "Advanced WhatsApp integration",
+        "Priority support level 1"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise Plan",
+      "description": "Custom solutions for large teams and gyms.",
+      "features": [
+        "Unlimited students",
+        "White Label solutions",
+        "API for integrations",
+        "Dedicated support"
+      ]
+    },
     "cta": {
       "title": "Not sure which plan to choose?",
       "subtitle": "Our experts can help you find the perfect solution for your goals.",
