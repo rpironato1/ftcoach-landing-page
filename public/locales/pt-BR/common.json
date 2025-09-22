@@ -36,10 +36,16 @@
   },
   "footer": {
     "product": "Produto",
-    "company": "Empresa",
+    "company": "Empresa", 
     "support": "Suporte",
     "legal": "Legal",
-    "rights": "Todos os direitos reservados"
+    "rights": "Todos os direitos reservados",
+    "description": "Transformando vidas através de inteligência artificial e personalização fitness avançada.",
+    "contact": {
+      "email": "contato@fitcouch.com.br",
+      "phone": "+55 (11) 99999-9999",
+      "address": "São Paulo, Brasil"
+    }
   },
   "features": {
     "badge": "Recursos",
@@ -345,6 +351,70 @@
       "subtitle": "Nossa equipe está pronta para ajudar com qualquer dúvida ou problema que você possa ter",
       "contact": "Falar com Suporte",
       "help": "Ver Central de Ajuda"
+    }
+  },
+  "ai": {
+    "badge": "Inteligência Artificial",
+    "title": "IA FocusTraining",
+    "subtitle": "A tecnologia mais avançada em personalização fitness, desenvolvida por especialistas em machine learning e fisiologia do exercício",
+    "demoButton": "Ver Demo da IA",
+    "featuresTitle": "Como Nossa IA Revoluciona Seu Treino",
+    "features": {
+      "machineLearning": {
+        "title": "Machine Learning Avançado",
+        "description": "Algoritmos que aprendem com seu progresso e adaptam os treinos em tempo real"
+      },
+      "instantAnalysis": {
+        "title": "Análise Instantânea",
+        "description": "Processamento de dados biométricos em milissegundos para otimização imediata"
+      },
+      "surgicalPrecision": {
+        "title": "Precisão Cirúrgica", 
+        "description": "98% de precisão na personalização de treinos e previsão de resultados"
+      },
+      "smartCommunity": {
+        "title": "Comunidade Inteligente",
+        "description": "IA que conecta usuários com perfis similares para motivação mútua"
+      }
+    },
+    "stats": {
+      "dataProcessed": "Dados Processados",
+      "aiPrecision": "Precisão da IA",
+      "responseTime": "Tempo de Resposta",
+      "usersServed": "Usuários Atendidos"
+    },
+    "testimonialsTitle": "O Que Dizem os Especialistas",
+    "testimonials": {
+      "anaCostaName": "Dr. Ana Costa",
+      "anaCostaRole": "Pesquisadora em IA",
+      "anaCostaText": "A tecnologia da FitCoach é revolucionária. É como ter um personal trainer com PhD em fisiologia do exercício disponível 24/7.",
+      "carlosSilvaName": "Carlos Silva",
+      "carlosSilvaRole": "Engenheiro de Software",
+      "carlosSilvaText": "Como engenheiro, fiquei impressionado com a sofisticação dos algoritmos. A IA realmente entende minhas necessidades."
+    },
+    "cta": {
+      "title": "Pronto para Experimentar o Futuro do Fitness?",
+      "subtitle": "Junte-se a milhares de pessoas que já estão transformando suas vidas com a tecnologia mais avançada em personalização fitness",
+      "button": "Comece Agora - 7 Dias Grátis"
+    }
+  },
+  "help": {
+    "title": "Central de Ajuda",
+    "subtitle": "Como podemos ajudar?",
+    "searchPlaceholder": "Busque por tópicos...",
+    "topics": {
+      "gettingStarted": {
+        "title": "Primeiros Passos",
+        "description": "Guias para iniciantes"
+      },
+      "videoTutorials": {
+        "title": "Tutoriais em Vídeo",
+        "description": "Aprenda visualmente"
+      },
+      "contactUs": {
+        "title": "Fale Conosco",
+        "description": "Suporte direto"
+      }
     }
   }
 }

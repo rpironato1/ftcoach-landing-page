@@ -2,50 +2,53 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Brain, Zap, Target, Users, TrendingUp, Play } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const AI = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: Brain,
-      title: "Machine Learning Avançado",
-      description: "Algoritmos que aprendem com seu progresso e adaptam os treinos em tempo real"
+      title: t('ai.features.machineLearning.title'),
+      description: t('ai.features.machineLearning.description')
     },
     {
       icon: Zap,
-      title: "Análise Instantânea",
-      description: "Processamento de dados biométricos em milissegundos para otimização imediata"
+      title: t('ai.features.instantAnalysis.title'),
+      description: t('ai.features.instantAnalysis.description')
     },
     {
       icon: Target,
-      title: "Precisão Cirúrgica",
-      description: "98% de precisão na personalização de treinos e previsão de resultados"
+      title: t('ai.features.surgicalPrecision.title'),
+      description: t('ai.features.surgicalPrecision.description')
     },
     {
       icon: Users,
-      title: "Comunidade Inteligente",
-      description: "IA que conecta usuários com perfis similares para motivação mútua"
+      title: t('ai.features.smartCommunity.title'),
+      description: t('ai.features.smartCommunity.description')
     }
   ];
 
   const stats = [
-    { label: "Dados Processados", value: "50M+" },
-    { label: "Precisão da IA", value: "98%" },
-    { label: "Tempo de Resposta", value: "<100ms" },
-    { label: "Usuários Atendidos", value: "500K+" }
+    { label: t('ai.stats.dataProcessed'), value: "50M+" },
+    { label: t('ai.stats.aiPrecision'), value: "98%" },
+    { label: t('ai.stats.responseTime'), value: "<100ms" },
+    { label: t('ai.stats.usersServed'), value: "500K+" }
   ];
 
   const testimonials = [
     {
-      name: "Dr. Ana Costa",
-      role: "Pesquisadora em IA",
+      name: t('ai.testimonials.anaCostaName'),
+      role: t('ai.testimonials.anaCostaRole'),
       image: "/placeholder.svg",
-      text: "A tecnologia da FitCoach é revolucionária. É como ter um personal trainer com PhD em fisiologia do exercício disponível 24/7."
+      text: t('ai.testimonials.anaCostaText')
     },
     {
-      name: "Carlos Silva",
-      role: "Engenheiro de Software",
+      name: t('ai.testimonials.carlosSilvaName'),
+      role: t('ai.testimonials.carlosSilvaRole'),
       image: "/placeholder.svg",
-      text: "Como engenheiro, fiquei impressionado com a sofisticação dos algoritmos. A IA realmente entende minhas necessidades."
+      text: t('ai.testimonials.carlosSilvaText')
     }
   ];
 
@@ -55,18 +58,17 @@ const AI = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <Badge variant="secondary" className="mb-4">
-            Inteligência Artificial
+            {t('ai.badge')}
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            IA FocusTraining
+            {t('ai.title')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            A tecnologia mais avançada em personalização fitness, 
-            desenvolvida por especialistas em machine learning e fisiologia do exercício
+            {t('ai.subtitle')}
           </p>
           <Button size="lg" className="group">
             <Play className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform" />
-            Ver Demo da IA
+            {t('ai.demoButton')}
           </Button>
         </div>
 
@@ -87,7 +89,7 @@ const AI = () => {
         {/* Features */}
         <div className="mb-20">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Como Nossa IA Revoluciona Seu Treino
+            {t('ai.featuresTitle')}
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {features.map((feature, index) => (
@@ -111,7 +113,7 @@ const AI = () => {
         {/* Testimonials */}
         <div className="mb-20">
           <h2 className="text-3xl font-bold text-center mb-12">
-            O Que Dizem os Especialistas
+            {t('ai.testimonialsTitle')}
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {testimonials.map((testimonial, index) => (
@@ -142,14 +144,13 @@ const AI = () => {
         {/* CTA */}
         <div className="text-center bg-primary/5 rounded-lg p-8">
           <h2 className="text-3xl font-bold mb-4">
-            Pronto para Experimentar o Futuro do Fitness?
+            {t('ai.cta.title')}
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Junte-se a milhares de pessoas que já estão transformando suas vidas 
-            com a tecnologia mais avançada em personalização fitness
+            {t('ai.cta.subtitle')}
           </p>
           <Button size="lg">
-            Comece Agora - 7 Dias Grátis
+            {t('ai.cta.button')}
           </Button>
         </div>
       </div>
