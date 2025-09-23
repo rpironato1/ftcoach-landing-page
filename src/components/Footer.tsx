@@ -188,18 +188,6 @@ export const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © 2024 FitCoach. {t('footer.rights')}
           </p>
-          <div className="flex items-center space-x-4">
-            <img
-              src="/placeholder.svg"
-              alt="SSL Secure"
-              className="h-8 w-auto"
-            />
-            <img
-              src="/placeholder.svg"
-              alt="PCI Compliance"
-              className="h-8 w-auto"
-            />
-          </div>
         </div>
       </div>
     </footer>
