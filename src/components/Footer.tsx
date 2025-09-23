@@ -1,207 +1,130 @@
-"use client";
-
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
-import { 
-  Facebook, 
-  Instagram, 
-  Twitter, 
-  Linkedin, 
-  Youtube,
-  Mail,
-  Phone,
-  MapPin
-} from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Instagram, Linkedin } from 'lucide-react';
+import TiktokIcon from '@/components/TiktokIcon';
 
-export const Footer = () => {
+const Footer = () => {
   const { t } = useTranslation();
 
-  const productLinks = [
-    { href: '/personal-plans', label: t('navigation.personalPlans') },
-    { href: '/student-plans', label: t('navigation.studentPlans') },
-    { href: '/ai', label: t('navigation.ai') },
-    { href: '/features', label: t('navigation.features') },
-    { href: '/pricing', label: t('navigation.pricing') },
-  ];
-
-  const companyLinks = [
-    { href: '/about', label: t('navigation.about') },
-    { href: '/team', label: t('navigation.team') },
-    { href: '/investors', label: t('navigation.investors') },
-    { href: '/press', label: t('navigation.press') },
-  ];
-
-  const supportLinks = [
-    { href: '/faq', label: t('navigation.faq') },
-    { href: '/contact', label: t('navigation.contact') },
-    { href: '/help', label: t('navigation.help') },
-    { href: '/support', label: t('navigation.support') },
-  ];
-
-  const legalLinks = [
-    { href: '/privacy', label: t('navigation.privacy') },
-    { href: '/terms', label: t('navigation.terms') },
-    { href: '/refund', label: t('navigation.refund') },
-    { href: '/cookies', label: t('navigation.cookies') },
-    { href: '/accessibility', label: t('navigation.accessibility') },
-  ];
-
   const socialLinks = [
-    { href: 'https://facebook.com', icon: Facebook, label: 'Facebook' },
-    { href: 'https://instagram.com', icon: Instagram, label: 'Instagram' },
-    { href: 'https://twitter.com', icon: Twitter, label: 'Twitter' },
-    { href: 'https://linkedin.com', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://youtube.com', icon: Youtube, label: 'YouTube' },
+    { name: 'Instagram', href: '#', icon: Instagram },
+    { name: 'TikTok', href: '#', icon: TiktokIcon },
+    { name: 'LinkedIn', href: '#', icon: Linkedin },
   ];
+
+  const footerLinks = {
+    product: [
+      { name: t('navigation.features'), href: '/features' },
+      { name: t('navigation.pricing'), href: '/pricing' },
+      { name: t('navigation.ai'), href: '/ai' },
+    ],
+    company: [
+      { name: t('navigation.about'), href: '/about' },
+      { name: t('navigation.team'), href: '/team' },
+      { name: t('navigation.investors'), href: '/investors' },
+      { name: t('navigation.press'), href: '/press' },
+    ],
+    support: [
+      { name: t('navigation.support'), href: '/support' },
+      { name: t('navigation.help'), href: '/help' },
+      { name: t('navigation.contact'), href: '/contact' },
+      { name: t('navigation.faq'), href: '/faq' },
+    ],
+    legal: [
+      { name: t('navigation.terms'), href: '/terms' },
+      { name: t('navigation.privacy'), href: '/privacy' },
+      { name: t('navigation.cookies'), href: '/cookies' },
+      { name: t('navigation.refund'), href: '/refund' },
+      { name: t('navigation.accessibility'), href: '/accessibility' },
+    ],
+  };
 
   return (
-    <footer className="bg-muted/50 border-t">
+    <footer className="bg-background border-t">
       <div className="container mx-auto px-4 py-12">
-        {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
-          {/* Brand Section */}
-          <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">FC</span>
-              </div>
-              <span className="font-bold text-xl">FitCoach</span>
-            </div>
-            <p className="text-sm text-muted-foreground max-w-xs">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+          <div className="md:col-span-2 pr-8">
+            <h3 className="text-xl font-bold">FitCoach</h3>
+            <p className="mt-4 text-muted-foreground">
               {t('footer.description')}
             </p>
-            <div className="flex space-x-2">
-              {socialLinks.map((social) => (
-                <Button
-                  key={social.href}
-                  variant="ghost"
-                  size="icon"
-                  asChild
-                  className="h-8 w-8"
+            <div className="mt-6 flex space-x-4">
+              {socialLinks.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-muted-foreground hover:text-foreground"
                 >
-                  <a
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={social.label}
-                  >
-                    <social.icon className="h-4 w-4" />
-                  </a>
-                </Button>
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                </a>
               ))}
             </div>
           </div>
 
-          {/* Product Links */}
-          <div className="space-y-3">
-            <h3 className="font-semibold text-sm">{t('footer.product')}</h3>
-            <ul className="space-y-2">
-              {productLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.label}
+          <div>
+            <h4 className="font-semibold tracking-wide">{t('footer.product')}</h4>
+            <ul className="mt-4 space-y-2">
+              {footerLinks.product.map((item) => (
+                <li key={item.name}>
+                  <Link to={item.href} className="text-muted-foreground hover:text-foreground">
+                    {item.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Company Links */}
-          <div className="space-y-3">
-            <h3 className="font-semibold text-sm">{t('footer.company')}</h3>
-            <ul className="space-y-2">
-              {companyLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.label}
+          <div>
+            <h4 className="font-semibold tracking-wide">{t('footer.company')}</h4>
+            <ul className="mt-4 space-y-2">
+              {footerLinks.company.map((item) => (
+                <li key={item.name}>
+                  <Link to={item.href} className="text-muted-foreground hover:text-foreground">
+                    {item.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Support Links */}
-          <div className="space-y-3">
-            <h3 className="font-semibold text-sm">{t('footer.support')}</h3>
-            <ul className="space-y-2">
-              {supportLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Legal Links */}
-          <div className="space-y-3">
-            <h3 className="font-semibold text-sm">{t('footer.legal')}</h3>
-            <ul className="space-y-2">
-              {legalLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div className="grid grid-cols-2 gap-8 md:col-span-1 md:grid-cols-1">
+            <div>
+              <h4 className="font-semibold tracking-wide">{t('footer.support')}</h4>
+              <ul className="mt-4 space-y-2">
+                {footerLinks.support.map((item) => (
+                  <li key={item.name}>
+                    <Link to={item.href} className="text-muted-foreground hover:text-foreground">
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="md:mt-8">
+              <h4 className="font-semibold tracking-wide">{t('footer.legal')}</h4>
+              <ul className="mt-4 space-y-2">
+                {footerLinks.legal.map((item) => (
+                  <li key={item.name}>
+                    <Link to={item.href} className="text-muted-foreground hover:text-foreground">
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
 
-        <Separator className="my-8" />
-
-        {/* Contact Info */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-            <Mail className="h-4 w-4" />
-            <span>{t('footer.contact.email')}</span>
-          </div>
-          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-            <Phone className="h-4 w-4" />
-            <span>{t('footer.contact.phone')}</span>
-          </div>
-          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-            <MapPin className="h-4 w-4" />
-            <span>{t('footer.contact.address')}</span>
-          </div>
-        </div>
-
-        <Separator className="mb-8" />
-
-        {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p className="text-sm text-muted-foreground">
-            © 2024 FitCoach. {t('footer.rights')}
-          </p>
-          <div className="flex items-center space-x-4">
-            <img
-              src="/placeholder.svg"
-              alt="SSL Secure"
-              className="h-8 w-auto"
-            />
-            <img
-              src="/placeholder.svg"
-              alt="PCI Compliance"
-              className="h-8 w-auto"
-            />
+        <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row justify-between items-center text-sm text-muted-foreground">
+          <p>&copy; {new Date().getFullYear()} FitCoach. {t('footer.rights')}.</p>
+          <div className="flex items-center gap-4 mt-4 sm:mt-0">
+            {/* Compliance badges removed as they were broken placeholders */}
           </div>
         </div>
       </div>
     </footer>
   );
 };
+
+export default Footer;
